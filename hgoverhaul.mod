@@ -1,5 +1,5 @@
-﻿name="Hecking Gorgeous States"
-path="mod/bsmajor/"
+﻿name="Hecking Gorgeous Overhaul"
+path="mod/hgoverhaul/"
 tags={
 	"Fixes"
 	"Events"
