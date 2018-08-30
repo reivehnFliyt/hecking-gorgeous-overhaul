@@ -811,6 +811,106 @@ LOR = {
        color = rgb { 229 219 39 }
        color_ui = rgb { 229 219 39 }
 }
+LOU= {
+       color = rgb { 42 49 84 }
+       color_ui = rgb { 42 49 84 }
+}
+VER = {
+       color = rgb { 96 145 36 }
+       color_ui = rgb { 96 145 36 }
+}
+FLO = {
+       color = rgb { 196 84 43}
+       color_ui = rgb { 196 84 43}
+}
+ORG = {
+       color = rgb { 229 219 39 }
+       color_ui = rgb { 229 219 39 }
+}
+NEG = {
+       color = rgb { 21 45 12 }
+       color_ui = rgb { 21 45 12 }
+}
+ALA = {
+       color = rgb { 1 11 89}
+       color_ui = rgb { 1 11 89 }
+}
+CSA = {
+       color = rgb { 99 95  94 }
+       color_ui = rgb { 99 95 94 }
+}
+NHM = {
+       color = rgb { 234 137 51 }
+       color_ui = rgb { 234 137 51 }
+}
+ALT = {
+       color = rgb { 89 21 8 }
+       color_ui = rgb { 89 21 8 }
+}
+SAS = {
+       color = rgb { 95 186 80 }
+       color_ui = rgb { 95 186 80 }
+}
+NUN = {
+       color = rgb { 195 89 198 }
+       color_ui = rgb { 195 89 198 }
+}
+NVS = {
+       color = rgb { 104 0 22 }
+       color_ui = rgb { 104 0 22 }
+}
+HAW = {
+       color = rgb { 216 207 4 }
+       color_ui = rgb { 216 207 4 }
+}
+MCH = {
+       color = rgb { 63 170 160 }
+       color_ui = rgb { 63 170 160 }
+}
+GMA = {
+       color = rgb { 47 66 64 }
+       color_ui = rgb { 47 66 64 }
+}
+OLD = {
+       color = rgb { 224 174 116 }
+       color_ui = rgb { 224 174 116 }
+}
+FRN = {
+       color = rgb { 232 220 206 }
+       color_ui = rgb { 232 220 206 }
+}
+BRM = {
+       color = rgb { 243 255 114 }
+       color_ui = rgb { 243 255 114 }
+}
+LUB = {
+       color = rgb { 175 160 178 }
+       color_ui = rgb { 175 160 178 }
+}
+NAP = {
+       color = rgb { 50 75 114 }
+       color_ui = rgb { 50 75 114 }
+}
+SIC = {
+       color = rgb { 146 165 124 }
+       color_ui = rgb { 146 165 124 }
+}
+GNA = {
+       color = rgb { 166 232 2 }
+       color_ui = rgb { 166 232 2 }
+}
+PRM = {
+       color = rgb { 140 73 6 }
+       color_ui = rgb { 140 73 6 }
+}
+MDN = {
+       color = rgb { 132 92 88 }
+       color_ui = rgb { 132 92 88 }
+}
+LCC = {
+       color = rgb { 206 200 117 }
+       color_ui = rgb { 206 200 117 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
