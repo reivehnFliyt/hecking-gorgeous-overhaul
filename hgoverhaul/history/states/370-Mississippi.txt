@@ -9,13 +9,14 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 1
+
 		}
 		add_core_of = USA
 
 	}
 
 	provinces={
-		1615 4510 4565 4650 7464 8110 10410 10449 10753 11717 12328 12429 
+		4510 4565 7464 8110 10410 10753 11717 12328 12429 
 	}
 	manpower=2009820
 	buildings_max_level_factor=1.000

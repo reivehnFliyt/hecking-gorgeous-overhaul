@@ -1,7 +1,8 @@
+
 state={
 	id=1384
 	name="STATE_1384"
-	
+
 	history={
 		owner = GER
 		buildings = {
@@ -11,10 +12,11 @@ state={
 		add_core_of = GER
 		add_core_of = SAX
 		add_claim_by = POL
+
 	}
-	
+
 	provinces={
-		3514 9535 11415 
+		3514 9535 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
