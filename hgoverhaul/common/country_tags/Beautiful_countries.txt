@@ -86,6 +86,7 @@ ROJ = "countries/South Japan.txt"
 PRJ = "countries/North Japan.txt"
 DPK = "countries/North Korea.txt"
 ROK = "countries/South Korea.txt"
+KUR = "countries/Kurdistan.txt"
 
 ##Middle-East##
 HTY = "countries/Hatay.txt"
