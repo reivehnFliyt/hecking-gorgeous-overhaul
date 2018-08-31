@@ -10882,7 +10882,7 @@
 10881;135;168;14;land;false;desert;0
 10882;135;168;164;land;false;desert;0
 10883;135;168;219;land;false;jungle;0
-10884;135;171;79;land;false;desert;0
+10884;135;171;79;land;true;plains;0
 10885;135;171;129;land;false;desert;0
 10886;135;171;184;land;true;plains;0
 10887;135;174;44;land;false;plains;0
