@@ -911,6 +911,10 @@ LCC = {
        color = rgb { 206 200 117 }
        color_ui = rgb { 206 200 117 }
 }
+KUR = {
+	color = rgb { 150 123 182 }
+	color_ui = rgb { 176 123 182 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
