@@ -997,18 +997,25 @@ country_event = {
 				province = 6542
 				level = 5
 			}
+		}
+		1359 = {
 			add_building_construction = {
 				type = bunker
 				province = 3530
 				level = 5
 			}
+			add_building_construction = {
+				type = bunker
+				province = 6568
+				level = 5
+			}
 		}
-		42 = {	
+		1336 = {
 			add_building_construction = {
 				type = bunker
 				province = 3558
 				level = 5
-			}		
+			}
 			add_building_construction = {
 				type = bunker
 				province = 563
@@ -1021,12 +1028,90 @@ country_event = {
 				province = 11531
 				level = 5
 			}
+		}
+		42 = {
 			add_building_construction = {
 				type = bunker
-				province = 9575
+				province = 13311
 				level = 5
 			}
 		}
+		770 = {
+			add_building_construction = {
+				type = bunker
+				province = 11435
+				level = 5
+			}
+		}
+		1117 = {
+			add_building_construction = {
+				type = bunker
+				province = 11470
+				level = 5
+			}
+		}
+		51 = {
+			add_building_construction = {
+				type = bunker
+				province = 3547
+				level = 5
+			}
+		}
+		1340 = {
+			add_building_construction = {
+				type = bunker
+				province = 9522
+				level = 5
+			}
+		}
+		1352 = {
+			add_building_construction = {
+				type = bunker
+				province = 3444
+				level = 5
+			}
+		}
+		1339 = {
+			add_building_construction = {
+				type = bunker
+				province = 3512
+				level = 5
+			}
+		}
+		1341 = {
+			add_building_construction = {
+				type = bunker
+				province = 6622
+				level = 5
+			}
+			add_building_construction = {
+				type = bunker
+				province = 11346
+				level = 5
+			}
+		}
+		1342 = {
+			add_building_construction = {
+				type = bunker
+				province = 9281
+				level = 5
+			}
+		}
+		1345 = {
+			add_building_construction = {
+				type = bunker
+				province = 11264
+				level = 5
+			}
+		}
+		1343 = {
+			add_building_construction = {
+				type = bunker
+				province = 11360
+				level = 5
+			}
+		}
+		
 	}
 }
 
