@@ -9,15 +9,18 @@ state={
 			industrial_complex = 1
 
 		}
+		victory_points = {
+			3696 1
+		}
 		add_core_of = ROM
 
 	}
 	
 	provinces={
-		713 3696 3709 6711 6714 9687 
+		713 3696 3709 9687 
 	}
 	
-	manpower=330748
+	manpower=418355
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category = rural
 }
