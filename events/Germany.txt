@@ -361,6 +361,8 @@ country_event = {
 				owns_state = 787
 				owns_state = 97
 				owns_state = 89
+				owns_state = 1291
+				owns_state = 1292
 			}
 			AND = {
 				POL = { has_capitulated = yes }
@@ -376,6 +378,8 @@ country_event = {
 					controls_state = 787
 					controls_state = 97
 					controls_state = 89
+					controls_state = 1291
+					controls_state = 1292
 				}
 			}
 			OR = {
@@ -396,6 +400,8 @@ country_event = {
 						owns_state = 787
 						owns_state = 97
 						owns_state = 89
+						owns_state = 1291
+						owns_state = 1292
 						AND = {
 							POL = { has_capitulated = yes }
 							OR = {
@@ -410,6 +416,8 @@ country_event = {
 								controls_state = 787
 								controls_state = 97
 								controls_state = 89
+								controls_state = 1291
+								controls_state = 1292
 							}
 						}		
 					}
@@ -601,6 +609,36 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 89 }
+		}
+		if = {
+			limit = {
+				1291 = {
+					OR = {
+						is_controlled_by = GER
+						any_other_country = {
+							controls_state = 1291
+							is_in_faction_with = GER
+							GER = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			SOV = { transfer_state = 1291 }
+		}
+		if = {
+			limit = {
+				1292 = {
+					OR = {
+						is_controlled_by = GER
+						any_other_country = {
+							controls_state = 1292
+							is_in_faction_with = GER
+							GER = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			SOV = { transfer_state = 1292 }
 		}
 		SOV = { country_event = germany.15 }
 	}

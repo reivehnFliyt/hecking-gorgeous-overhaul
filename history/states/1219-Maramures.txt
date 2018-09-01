@@ -1,7 +1,8 @@
+
 state={
 	id=1219
 	name="STATE_1219"
-	
+
 	history={
 		owner = ROM
 		buildings = {
@@ -9,16 +10,14 @@ state={
 			industrial_complex = 1
 
 		}
-
 		add_core_of = ROM
 
 	}
-	
+
 	provinces={
-		727 746 6731 9672 9704 11676 
+		727 746 6714 6731 9672 9704 11676 
 	}
-	
 	manpower=321287
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }

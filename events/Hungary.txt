@@ -32,8 +32,6 @@ country_event = {
 		HUN = { 
 			transfer_state = 76
 			transfer_state = 1219
-			transfer_state = 1217
-			transfer_state = 83
 			transfer_state = 1218
 		}
 		hidden_effect = {
@@ -81,6 +79,8 @@ country_event = {
 	option = {
 		name = hungary.4.a
 		add_state_claim = 76
+		add_state_claim = 1219
+		add_state_claim = 1218
 		hidden_effect = {
 			country_event = { days = 1 id = news.17 }
 		}
@@ -101,6 +101,11 @@ country_event = {
 		add_state_claim = 76
 		add_state_claim = 83
 		add_state_claim = 84
+		add_state_claim = 1219
+		add_state_claim = 1217
+		add_state_claim = 1218
+		add_state_claim = 1216
+		add_state_claim = 82
 		hidden_effect = {
 			country_event = { days = 1 id = news.18 }
 		}
