@@ -1,3 +1,4 @@
+
 state={
 	id=1194
 	name="STATE_1194"
@@ -19,9 +20,9 @@ state={
 	}
 
 	provinces={
-		1104 1200 4186 7105 10018 
+		1104 1200 4186 4205 7105 10018 
 	}
-	manpower=6365874
+	manpower=4365874
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }
