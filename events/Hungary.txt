@@ -31,6 +31,10 @@ country_event = {
 		name = hungary.2.a
 		HUN = { 
 			transfer_state = 76
+			transfer_state = 1219
+			transfer_state = 1217
+			transfer_state = 83
+			transfer_state = 1218
 		}
 		hidden_effect = {
 			country_event = { days = 1 id = news.15 }
@@ -51,7 +55,12 @@ country_event = {
 		name = hungary.2.a
 		HUN = { 
 			transfer_state = 76
+			transfer_state = 1219
+			transfer_state = 1217
 			transfer_state = 83
+			transfer_state = 1218
+			transfer_state = 82
+			transfer_state = 1216
 			transfer_state = 84
 		}
 		hidden_effect = {
@@ -191,6 +200,7 @@ country_event = {
     option = {
         name = hungary.9.a
         transfer_state = 793
+		transfer_state = 1211
         add_opinion_modifier = { target = GER modifier = took_stand_for_us }
     }
 }
