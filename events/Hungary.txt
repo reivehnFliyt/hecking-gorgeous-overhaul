@@ -182,6 +182,7 @@ country_event = {
             add_to_faction = HUN
         }
         transfer_state = 793
+		transfer_state = 1211
     }
     option = { #no, we're good
         name = hungary.8.b

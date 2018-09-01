@@ -3560,6 +3560,8 @@ country_event = {
 			transfer_state = 354
 			transfer_state = 353
 			transfer_state = 352
+			transfer_state = 1191
+			transfer_state = 1139
 		}
 		hidden_effect = {
 			news_event = { hours = 6 id = news.201 }
