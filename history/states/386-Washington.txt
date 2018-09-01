@@ -19,6 +19,7 @@ state={
 			}
 		}
 		add_core_of = USA
+		add_core_of = CSC
 		victory_points = {
 			7315 10 
 		}

@@ -10,6 +10,7 @@ state={
 
 		}
 		add_core_of = USA
+		add_core_of = NEG
 		victory_points = {
 			12459 1 
 		}

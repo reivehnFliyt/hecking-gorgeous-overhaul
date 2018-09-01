@@ -25,6 +25,8 @@ state={
 
         
         add_core_of = USA
+	add_core_of = FLO
+	add_core_of = CSA
         victory_points = {
             1843 5 
         }
