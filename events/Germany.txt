@@ -3697,6 +3697,7 @@ country_event = {
 			}
 			GER = { transfer_state = 85 }
 			GER = { transfer_state = 1009 }
+			GER = { transfer_state = 1463 }
 		}
 	}
 	
@@ -3779,6 +3780,7 @@ country_event = {
 		}
 		transfer_state = 85
 		transfer_state = 1009
+		transfer_state = 1463
 		if = {
 			limit = {
 				ENG = {
@@ -4099,6 +4101,7 @@ country_event = {
 		name = germany.87.a
 		transfer_state = 85
 		transfer_state = 1009
+		transfer_state = 1463
 		remove_state_claim = 86
 		if = {
 			limit = {
@@ -5463,6 +5466,7 @@ country_event = {
 		name = germany.115.a
 		transfer_state = 85
 		transfer_state = 1009
+		transfer_state = 1463
 		remove_state_claim = 86
 	}
 }
