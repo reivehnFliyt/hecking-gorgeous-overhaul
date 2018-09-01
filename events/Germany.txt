@@ -1205,16 +1205,30 @@ country_event = {
 	
 	option = {
 		name = germany.29.a
-		add_state_claim = 4
-		add_state_claim = 152
+		add_state_claim = 1125
+		add_state_claim = 1227
 		add_state_claim = 153
-		add_state_claim = 793
-		add_state_claim = 794
 		add_state_claim = 795
+		add_state_claim = 1228
+		add_state_claim = 1230
+		add_state_claim = 1229
+		add_state_claim = 152
+		add_state_claim = 794
+		add_state_claim = 1111
+		add_state_claim = 793
+		add_state_claim = 1211
+		add_state_claim = 4
+		add_state_claim = 1110
+		add_state_claim = 1112
+		add_state_claim = 1385
+		add_state_claim = 1386
+		add_state_claim = 1387
+		add_state_claim = 1388
+		
 		create_wargoal = {
 			type = take_state_focus
 			target = AUS
-			generator = { 4 152 153 793 794 795 }
+			generator = { 4 152 153 793 794 795 1125 1227 1228 1230 1229 1111 1211 1110 1112 1385 1386 1387 1388 }
 		}
 	}
 }
