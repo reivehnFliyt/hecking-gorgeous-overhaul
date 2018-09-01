@@ -7,13 +7,9 @@ state={
 		buildings = {
 			infrastructure = 5
 		}
-<<<<<<< HEAD:hgoverhaul/history/states/1436-Indian Stream.txt
 		add_core_of = CAN
 		add_core_of = QUE
-=======
 		add_core_of = USA
->>>>>>> 6e253e1e8f6412c80e54569f97a06f58c80b0869:history/states/1436-Indian Stream.txt
-
 	}
 	
 	provinces={
