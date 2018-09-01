@@ -1938,6 +1938,10 @@ country_event = {
 		GER = { transfer_state = 899 }
 		900 = { add_core_of = GER }
 		GER = { transfer_state = 900 }
+		1250 = { add_core_of = GER }
+		GER = { transfer_state = 1250 }
+		1251 = { add_core_of = GER }
+		GER = { transfer_state = 1251 }
 		set_country_flag = sudetenland_acquired
 		add_war_support = 0.1
 		add_stability = 0.05
@@ -1980,7 +1984,12 @@ country_event = {
 	
 	option = {
 		name = germany.51.a
-		HUN = { transfer_state = 664 }
+		HUN = { 
+			transfer_state = 664
+			transfer_state = 1213
+			transfer_state = 1214
+		}
+		
 	}
 }
 
@@ -2250,6 +2259,17 @@ country_event = {
 		}
 		if = {
 			limit = {
+				1333 = {
+					OR = {
+						is_owned_by = CZE
+						is_owned_by = GER
+					}
+				}
+			}
+			SLO = { transfer_state = 1333 }
+		}
+		if = {
+			limit = {
 				154 = { is_owned_by = HUN }
 				HUN = {
 					is_friend_or_potential_friend_of_GER = yes
@@ -2486,6 +2506,7 @@ country_event = {
 		transfer_state = 70
 		transfer_state = 71
 		transfer_state = 73
+		transfer_state = 1333
 		hidden_effect = {
 			GER = {
 				annex_country = { target = CZE }
