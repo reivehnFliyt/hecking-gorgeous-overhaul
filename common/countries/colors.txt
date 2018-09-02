@@ -10,7 +10,7 @@ ENG = {
 	color_ui = rgb { 255 73 121 }
 }
 SOV = {
-	color = rgb { 125 13 24 }
+	color = rgb { 175 13 0 }
 	color_ui = rgb { 163 17 31 }
 }
 SWE = {
@@ -35,19 +35,19 @@ BEL = {
 HOL = {	color = rgb { 203 138 74 }
 		color_ui = rgb { 255 179 96 }
 }
-CZE = {	color = rgb { 54 167 156 }
+CZE = {	color = rgb { 80 110 180 }
 		color_ui = rgb { 70 217 203 }
 }
 POL = {
-	color = rgb { 197 92 106 }
+	color = rgb { 184 103 103 }
 	color_ui = rgb { 255 120 138 }
 }
 AUS = {
-	color = rgb { 194 198 215 }
+	color = rgb { 220 220 220 }
 	color_ui = rgb { 255 255 255 }
 }
 LIT = {
-	color = rgb { 219 219 119 }
+	color = rgb { 154 69 116 }
 	color_ui = rgb { 255 255 155 }
 }
 EST = {
@@ -118,7 +118,7 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
+	color = rgb { 152 85 92 }
 	color_ui = rgb { 255 164 127 }
 }
 AFG = {
@@ -262,7 +262,7 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 237 }
+	color = rgb { 0 76 211 }
 	color_ui = rgb { 87 160 255 }
 }
 MON = {
@@ -630,7 +630,7 @@ EGL = {
     color_ui = rgb { 240  10  29}	
 }
 RUS = {
-	color = rgb { 16  127  163 }
+	color = rgb { 0 127 14 }
     color_ui = rgb { 16  127  163}	
 }
 SUR = {
