@@ -1381,7 +1381,6 @@
  STATE_1382:0 "Ana"
  STATE_1383:0 "Desert"
  STATE_1384:0 "Lusatia"
- STATE_1385:0 "Donaustadt"
  STATE_1385:0 "Vienna"
  STATE_1386:0 "Dobling"
  STATE_1387:0 "Meidling"
@@ -1473,3 +1472,4 @@
  STATE_1473:0 "Ningbo"
  STATE_1474:0 "Shanghai"
  STATE_1475:0 "Nagasaki"
+ STATE_1476:0 "Katerini"
