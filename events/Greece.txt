@@ -333,3 +333,34 @@ country_event = {
 		
 	}
 }
+
+country_event = {
+    id = greece.5
+    title = greece.5.t
+    desc = greece.5.d
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = GRE
+        GRE = {
+            owns_state = 341
+        }
+    }
+
+    option = { #do it fam
+        name = greece.5.a
+        ai_chance = {
+            base = 100
+        }
+        set_province_name = { id = 9833 name = "Constantinopolis"}
+    }
+
+    option = { #nah I'm a smelly t*rk
+        name = greece.5.b
+        ai_chance = {
+            base = 0
+        }
+    }
+
+}
