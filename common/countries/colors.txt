@@ -851,8 +851,8 @@ ALA = {
        color_ui = rgb { 1 11 89 }
 }
 CSA = {
-       color = rgb { 99 95  94 }
-       color_ui = rgb { 99 95 94 }
+       color = rgb { 191 192 193 }
+       color_ui = rgb { 191 192 193 }
 }
 NHM = {
        color = rgb { 234 137 51 }
