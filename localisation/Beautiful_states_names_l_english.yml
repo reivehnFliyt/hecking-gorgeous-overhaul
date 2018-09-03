@@ -830,7 +830,7 @@
  STATE_831:0 "Meurthe et Moselle"
  STATE_832:0 "Haute-Saône"
  STATE_833:0 "Haute Marne"
- STATE_834:0 "Somme"
+ STATE_834:0 "Picardy"
  STATE_835:0 "Haute-Normandie"
  STATE_836:0 "Meuse"
  STATE_837:0 "Haute-Alpes"
@@ -1482,3 +1482,4 @@
  STATE_1483:0 "French Sector"
  STATE_1484:0 "Japanese Sector"
  STATE_1485:0 "Twin Cities"
+ STATE_1486:0 "Loire-Atlantique"
