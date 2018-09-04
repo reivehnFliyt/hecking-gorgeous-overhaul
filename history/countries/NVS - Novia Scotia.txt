@@ -67,9 +67,9 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Frank Finley Merriam"
+	name = "Alexzander Hamilton"
 	desc = ""
-	picture = "Portrait_California_Frank.dds"
+	picture = "gfx/leaders/USA/Portrait_USA_Generic_3.dds"
 	expire = "1950.1.1"
 	ideology = liberalism
 	traits = {

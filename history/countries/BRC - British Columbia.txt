@@ -67,7 +67,7 @@ add_ideas = {
 
 
 create_country_leader = {
-	name = "Arnold Wackol"
+	name = "Adolf Zimmerson"
 	desc = ""
 	picture = "gfx/leaders/USA/Portrait_USA_Generic_3.dds"
 	expire = "1950.1.1"
