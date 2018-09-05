@@ -76,7 +76,7 @@
  STATE_75:0 "Moravia"
  STATE_76:0 "Szeklerland"
  STATE_77:0 "Dobrogea"
- STATE_78:0 "Bessarabia"
+ STATE_78:0 "Basarabia"
  STATE_79:0 "Moldova"
  STATE_80:0 "Bucovina"
  STATE_81:0 "Oltenia"
@@ -764,3 +764,4 @@
  STATE_836:0 "Meuse"
  STATE_1385:0 "Vienna"
  STATE_1461:0 "Wheeling"
+ STATE_1489:0 "Grenzland"

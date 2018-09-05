@@ -14,7 +14,7 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 50 y = 1100 }
+	continuous_focus_position = { x = 50 y = 1500 }
 
 #	focus = {
 #		id = ROM_
@@ -555,21 +555,23 @@ focus_tree = {
 
 		available = {
 			192 = {
-				is_owned_by = SOV
-				is_controlled_by = SOV
+				is_owned_by = GER
+				is_controlled_by = GER
 			}
 			198 = {
-				is_owned_by = SOV
-				is_controlled_by = SOV
+				is_owned_by = GER
+				is_controlled_by = GER
 			}
 						790 = {
-				is_owned_by = SOV
-				is_controlled_by = SOV
+				is_owned_by = GER
+				is_controlled_by = GER
 			}
 		}
 
 		bypass = {
-
+			192 = { is_owned_by = ROM }
+			198 = { is_owned_by = ROM }
+			790 = { is_owned_by = ROM }
 		}
 
 		cancel_if_invalid = yes
@@ -584,7 +586,140 @@ focus_tree = {
 			add_state_claim = 192
 			add_state_claim = 198
 			add_state_claim = 790
+			if = {
+				limit = {
+					NOT = { owns_state = 192
+							owns_state = 790
+							owns_state = 198 }
+				}
+				transfer_state = 192
+				transfer_state = 198
+				transfer_state = 790
+			}
 
+		}
+	}
+
+	focus = {
+		id = ROM_Transnistria_Occupation
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = ROM_demand_transnistria }
+		prerequisite = { focus = ROM_german_romanian_oil_exploitation_company }
+		available = {
+			has_full_control_of_state = 790
+			has_full_control_of_state = 198
+			has_full_control_of_state = 192
+			}
+		
+		cancel_if_invalid = yes
+		x = 3
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_state_core = 192
+			add_state_core = 790
+			add_state_core = 198
+			if = {
+				limit = {
+					NOT = { owns_state = 192
+							owns_state = 790
+							owns_state = 198 }
+				}
+				transfer_state = 192
+				transfer_state = 198
+				transfer_state = 790
+			}
+			198 = { set_state_name = "Moghilau-Balta" }
+			192 = { set_state_name = "Odesa-Golta" }
+			790 = { set_state_name = "Transnistriei" }
+			set_province_name = { id = 11670 name = "Odesa" }
+		}
+	}
+
+	focus = {
+		id = ROM_Transnistria_Development
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = ROM_Transnistria_Occupation }
+		available = {
+			has_full_control_of_state = 790
+			has_full_control_of_state = 198
+			has_full_control_of_state = 192
+			}
+		
+		cancel_if_invalid = yes
+		x = 3
+		y = 8
+		cost = 15
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			192 = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV } 
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 12
+				}
+				add_resource = {
+					type = aluminium
+					amount = 8
+				}
+			}
+			198 = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV } 
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			790 = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV } 
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+			}
 		}
 	}
 
@@ -4676,3 +4811,46 @@ focus_tree = {
 		}
 	}
 }
+
+########Transnistria Stuff#################
+
+	focus = {
+		id = ROM_Transnistria_Occupation
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = ROM_demand_transnistria }
+		prerequisite = { focus = ROM_german_romanian_oil_exploitation_company }
+		available = {
+			is_puppet = no
+			has_full_control_of_state = 790
+			has_full_control_of_state = 198
+			has_full_control_of_state = 192
+			}
+		
+		cancel_if_invalid = yes
+		x = 3
+		y = 7
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		
+		completion_reward = {
+			add_state_core = 192
+			add_state_core = 790
+			add_state_core = 198
+			if = {
+				limit = {
+					NOT = { owns_state = 192
+							owns_state = 790
+							owns_state = 198 }
+				}
+				transfer_state = 192
+				transfer_state = 198
+				transfer_state = 790
+			}
+			198 = { set_state_name = "Moghilau-Balta" }
+			192 = { set_state_name = "Odesa-Golta" }
+			790 = { set_state_name = "Transnistriei" }
+			set_province_name = { id = 11670 name = "Odesa" }
+		}
+	}
