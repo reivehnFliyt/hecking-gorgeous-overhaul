@@ -1,8 +1,7 @@
+
 state={
 	id=870
 	name="STATE_870"
-
-	impassable = yes
 
 	history={
 		owner = FRA
@@ -12,8 +11,6 @@ state={
 		}
 
 	}
-
-
 
 	provinces={
 		1956 4913 7939 8128 10917 

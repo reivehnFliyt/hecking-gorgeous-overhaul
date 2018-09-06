@@ -2,9 +2,8 @@
 state={
 	id=551
 	name="STATE_551"
-
-	resources = {
-		steel=5
+	resources={
+		steel=5.000
 	}
 
 	history={
@@ -23,7 +22,7 @@ state={
 	}
 
 	provinces={
-		2046 2088 4138 4963 7925 7989 8105 10743 10784 12796 12806 12826 12836 12862 12881 
+		12836 4963 4138 8105
 	}
 	manpower=1112404
 	buildings_max_level_factor=1.000

@@ -1,19 +1,23 @@
+
 state={
 	id=1370
 	name="STATE_1370"
-	
+
 	history={
-		owner = IRQ
+		owner = GER
 		buildings = {
 			infrastructure = 4
+
 		}
-		add_core_of = IRQ
+		add_core_of = GER
+		add_core_of = WUR
+
 	}
-	
+
 	provinces={
-		7994 
+		3690 6934 9655 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }
