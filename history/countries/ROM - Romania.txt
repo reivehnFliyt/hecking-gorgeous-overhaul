@@ -226,7 +226,8 @@ set_politics = {
 		expire = "1965.1.1"
 		ideology = fascism_ideology
 		traits = {
-			#
+			dictator
+			anti_communist
 		}
 	}
 }
@@ -238,7 +239,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		#
+		anti_communist
 	}
 }
 
@@ -260,7 +261,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
-		#
+		anti_communist
 	}
 }
 
@@ -278,11 +279,12 @@ create_country_leader = {
 create_country_leader = {
 	name = "Corneliu Zelea Codreanu"
 	desc = "POLITICS_CORNELIU_ZELEA_CODREANU_DESC"
-	picture = "Portrait_Corneliu_Zelea_Codreanu.tga"
+	picture = "Corneliu_Codreanu.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		#
+		dictator
+		anti_communist
 	}
 }
 
@@ -310,7 +312,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Constantin Constantinescu-Claps"
-	portrait_path = "gfx/leaders/ROM/Portrait_Romania_Constantin_Constantinescu_Claps.dds"
+	picture = "Constantin_Constantinescu-Claps.dds"
 	traits = { brilliant_strategist aggressive_assaulter }
 	skill = 3
 	attack_skill = 3
@@ -321,7 +323,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Nicolae Ciuperca"
-	portrait_path = "gfx/leaders/ROM/Portrait_Romania_Nicolae_Ciuperca.dds"
+	picture = "Nicolae_Cuiperca.dds"
 	traits = { career_officer infantry_officer }
 	skill = 2
 	attack_skill = 2
@@ -353,8 +355,30 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Corneliu Dragalia"
+	picture = "Corneliu_Dragalia.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Constantin Sănătescu"
+	picture = "Constantin Sanatescu.dds"
+	traits = { brilliant_strategist defensive_doctrine }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
 	name = "Leonard Mociulschi"
-	portrait_path = "gfx/leaders/ROM/Portrait_Romania_Leonard_Mociulschi.dds"
+	picture = "Leonard_Mociulschi.dds"
 	traits = { infantry_officer trait_mountaineer }
 	skill = 2
 	attack_skill = 1
@@ -365,7 +389,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Constantin Pantazi"
-	portrait_path = "gfx/leaders/ROM/Portrait_Romania_Constantin_Pantazi.tga"
+	picture = "gfx/leaders/ROM/Portrait_Romania_Constantin_Pantazi.tga"
 	traits = { career_officer }
 	skill = 2
 	attack_skill = 2
@@ -376,19 +400,8 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Nicolae Radescu"
-	portrait_path = "gfx/leaders/ROM/Portrait_Romania_Nicolae_Radescu.dds"
+	picture = "Nicolae_Radescu.dds"
 	traits = { cavalry_officer }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Dumitru Popescu"
-	portrait_path = "gfx/leaders/ROM/Portrait_Romania_Dumitru_Popescu.tga"
-	traits = { }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 2
@@ -401,17 +414,6 @@ create_navy_leader = {
 	gfx = "GFX_Portrait_romania_horia_macellariu"
 	traits = { spotter }
 	skill = 2
-}
-
-create_corps_commander = {
-	name = "Corneliu Dragalia"
-	portrait_path = "gfx/leaders/ROM/Portrait_Romania_Leonard_Mociulschi.dds"
-	traits = {  }
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
 }
 
 

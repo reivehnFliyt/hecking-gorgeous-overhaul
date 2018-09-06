@@ -1,4 +1,14 @@
 ﻿l_english:
+
+ ROM_unified:0 "Greater Romania"
+ ROM_unified_democratic:0 "Greater Romania"
+ ROM_unified_democratic_DEF:0 "Greater Romania"
+ ROM_unified_neutrality:0 "Greater Romania"
+ ROM_unified_neutrality_DEF:0 "Greater Romania"
+ ROM_unified_fascism:0 "Greater Romania"
+ ROM_unified_fascism_DEF:0 "Greater Romania"
+ ROM_unified_communism:0 "Greater Romania"
+ ROM_unified_communism_DEF:0 "Greater Romania"
  
  BUR_subject:0 "$OVERLORDADJ$ Burma"
  BUR_UK_subject:0 "$OVERLORDADJ$ Burma"
