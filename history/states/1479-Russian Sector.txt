@@ -3,23 +3,10 @@ state={
 	name="STATE_1479"
 	
 	history={
-		owner = CHI
-		add_core_of = CHI
-		add_core_of = PRC
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			13458= {
-				naval_base = 2
-
-			}
-
-		}
-
 	}
 	
 	provinces={
-		13458		
+		13482		
 	}
 	
 	manpower=1
