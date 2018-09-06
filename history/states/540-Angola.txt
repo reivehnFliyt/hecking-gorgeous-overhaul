@@ -10,14 +10,7 @@ state={
 		owner = POR
 		buildings = {
 			infrastructure = 2
-			8248 = {
-				naval_base = 1
 
-			}
-
-		}
-		victory_points = {
-			8248 1 
 		}
 		victory_points = {
 			10966 1 
@@ -29,7 +22,7 @@ state={
 	provinces={
 		12958 5158 10966
 	}
-	manpower=3225000
+	manpower=1215030
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

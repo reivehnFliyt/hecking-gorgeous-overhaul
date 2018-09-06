@@ -1,9 +1,20 @@
 state={
 	id=1499
 	name="STATE_1499"
+	
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = COG
+
+	}
+	
 	provinces={
 		5117 12925 
 	}
-	manpower=0
+	manpower=291491
 	buildings_max_level_factor=1.000
 }
