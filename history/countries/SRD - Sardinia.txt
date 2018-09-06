@@ -75,15 +75,15 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 2
+			popularity = 0
 		}
 		
-		communism = {
-			popularity = 2
+		neutrality = {
+			popularity = 100
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1935.10.27"
 	election_frequency = 48
 	elections_allowed = yes
