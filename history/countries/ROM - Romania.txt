@@ -367,7 +367,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Constantin Sănătescu"
-	picture = "Constantin Sanatescu.dds"
+	picture = "Constantin_Sanatescu.dds"
 	traits = { brilliant_strategist defensive_doctrine }
 	skill = 3
 	attack_skill = 1
@@ -389,7 +389,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Constantin Pantazi"
-	picture = "gfx/leaders/ROM/Portrait_Romania_Constantin_Pantazi.tga"
+	picture = "Constantin_Pantazi.dds"
 	traits = { career_officer }
 	skill = 2
 	attack_skill = 2
