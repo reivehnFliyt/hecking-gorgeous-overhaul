@@ -59,6 +59,9 @@ GNA = "countries/Genoa.txt"
 PRM = "countries/Parma.txt"
 MDN = "countries/Modena.txt"
 LCC = "countries/Lucca.txt"
+GAL = "countries/Galicia and Lodomeria.txt"
+TRV = "countries/Transylvania.txt"
+DLM = "countries/Dalmatia.txt"
 
 ##Africa##
 ALG = "countries/Algeria.txt"
