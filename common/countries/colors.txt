@@ -960,6 +960,10 @@ DLM = {
 	color = rgb { 205 141 224 }
 	color_ui = rgb { 205 141 224 }
 }
+CRU = {
+	color = rgb { 59 119 229 }
+	color_ui = rgb { 59 119 229 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
