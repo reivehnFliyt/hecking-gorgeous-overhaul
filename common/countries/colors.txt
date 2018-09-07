@@ -948,6 +948,18 @@ CSC = {
 	color = rgb { 63 96 72 }
 	color_ui = rgb { 63 96 72 }
 }
+GAL = {
+	color = rgb { 178 49 73 }
+	color_ui = rgb { 178 49 73 }
+}
+TRV = {
+	color = rgb { 30 8 140 }
+	color_ui = rgb { 30 8 140 }
+}
+DLM = {
+	color = rgb { 205 141 224 }
+	color_ui = rgb { 205 141 224 }
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
