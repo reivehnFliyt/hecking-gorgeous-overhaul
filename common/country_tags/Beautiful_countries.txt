@@ -78,6 +78,7 @@ GHA = "countries/Ghana.txt"
 TSD = "countries/Chad.txt"
 MLW = "countries/Malawi.txt"
 CMR = "countries/Cameroon.txt"
+CRU = "countries/Carpatho-Ukraine.txt"
 
 ##Asia##
 TKM = "countries/Turkmenistan.txt"
