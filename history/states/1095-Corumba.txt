@@ -10,7 +10,7 @@ state={
 		add_core_of = BRA	}
 
 	provinces={
-		2142 
+		2142 13542 13539 13537 13535 13534
 	}
 	manpower=32300
 	buildings_max_level_factor=1.000
