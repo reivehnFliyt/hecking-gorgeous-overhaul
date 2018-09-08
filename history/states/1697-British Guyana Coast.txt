@@ -1,9 +1,21 @@
 state={
 	id=1697
 	name="STATE_1697"
+	
+	history={
+		owner = ENG
+		add_core_of = GUY
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	
 	provinces={
 		13593 13596 
 	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }
