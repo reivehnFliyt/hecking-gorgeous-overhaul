@@ -1,7 +1,8 @@
+
 state={
 	id=1657
 	name="STATE_1657"
-	
+
 	history={
 		owner = BRA
 		buildings = {
@@ -11,11 +12,10 @@ state={
 		add_core_of = BRA
 
 	}
-	
+
 	provinces={
-		4980 13587 13583 13581 13584 13588
+		4980 13581 13583 13587 
 	}
-	
 	manpower=0
 	buildings_max_level_factor=1.000
 }
