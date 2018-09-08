@@ -16,7 +16,7 @@ state={
 		12979 
 	}
 	
-	manpower=0
+	manpower=98238
 	buildings_max_level_factor=1.000
 	state_category = rural
 }
