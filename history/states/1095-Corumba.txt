@@ -1,3 +1,4 @@
+
 state={
 	id=1095
 	name="STATE_1095"
@@ -6,13 +7,16 @@ state={
 		owner = BRA
 		buildings = {
 			infrastructure = 1
+
 		}
-		add_core_of = BRA	}
+		add_core_of = BRA
+
+	}
 
 	provinces={
-		2142 13542 13539 13537 13535 13534
+		13534 13535 13537 
 	}
 	manpower=32300
 	buildings_max_level_factor=1.000
-	state_category = pastoral
+	state_category=pastoral
 }

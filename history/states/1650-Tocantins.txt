@@ -1,8 +1,20 @@
+
 state={
 	id=1650
 	name="STATE_1650"
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BRA
+
+	}
+
 	provinces={
-		2168 5151 5208 12959 13550 13549
+		5151 5208 13549 13550 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
