@@ -1,4 +1,4 @@
-﻿name="Hecking Gorgeous Overhaul"
+﻿name="Hecking Gorgeous Overhaul Development Version"
 path="mod/hgoverhaul/"
 tags={
 	"Fixes"
