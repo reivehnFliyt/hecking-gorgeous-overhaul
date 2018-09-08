@@ -16,6 +16,7 @@ state={
 		2209 13522
 	}
 	
-	manpower=0
+	manpower=92138
 	buildings_max_level_factor=1.000
+	state_category = pastoral
 }
