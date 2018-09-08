@@ -13,9 +13,6 @@ state={
 		owner = FRA
 		buildings = {
 			infrastructure = 2
-			12885 = {
-				naval_base = 1
-			}
 		}
 		victory_points = {
 			12885 1 
