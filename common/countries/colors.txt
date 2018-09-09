@@ -1020,7 +1020,3 @@ D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
 }
-IBRA = {
-	color = rgb { 67 210 17 }
-	color_ui = rgb { 67 210 17 }
-}

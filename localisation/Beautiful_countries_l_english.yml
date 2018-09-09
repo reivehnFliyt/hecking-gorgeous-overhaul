@@ -1442,7 +1442,7 @@
  KUR_neutrality_ADJ:0 "Kurdish"
  KUR_communism_ADJ:0 "Kurdish"
  
-  UTH_fascism:0 "Imperial Union of Utah Nevada"
+ UTH_fascism:0 "Imperial Union of Utah Nevada"
  UTH_fascism_DEF:0 "the Imperial Union of Utah Nevada"
  UTH_democratic:0 "Republic of Utah Nevada"
  UTH_democratic_DEF:0 "Republic of Utah Nevade"
@@ -1557,7 +1557,6 @@
  DLM_fascism_ADJ:0 "Dalmatian"
  DLM_democratic_ADJ:0 "Dalmatian"
  DLM_neutrality_ADJ:0 "Dalmatian"
-<<<<<<< HEAD
  DLM_communism_ADJ:0 "Dalmatian"
  
  CRP_fascism:0 "Free State of Carpatho Ukraine"
@@ -1676,7 +1675,7 @@
  BNT_democratic_ADJ:0 "Banatian"
  BNT_neutrality_ADJ:0 "Banatian"
  BNT_communism_ADJ:0 "Banatian"
-=======
+
  LM_communism_ADJ:0 "Dalmatian"
  
  CRU_fascism:0 "Carpthian State"
@@ -1691,4 +1690,3 @@
  CRU_democratic_ADJ:0 "Carpathian"
  CRU_neutrality_ADJ:0 "Carpathian"
  CRU_communism_ADJ:0 "Carpathian"
->>>>>>> parent of 64bd097... tags
