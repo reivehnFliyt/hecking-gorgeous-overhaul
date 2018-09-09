@@ -1561,8 +1561,8 @@
  
  CRP_fascism:0 "Free State of Carpatho Ukraine"
  CRP_fascism_DEF:0 "the Free State of Carpatho Ukraine"
- CRP_democratic:0 "Republic of Carpatho Ukraine"
- CRP_democratic_DEF:0 "Republic of Carpatho Ukraine"
+ CRP_democratic:0 "Carpatho Ukraine"
+ CRP_democratic_DEF:0 "Carpatho Ukraine"
  CRP_neutrality:1 "Duchy of Carpatho Ukraine"
  CRP_neutrality_DEF:1 "Duchy of Carpatho Ukraine"
  CRP_communism:0 "People's Commune of Carpatho Ukraine"
