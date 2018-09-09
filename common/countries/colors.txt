@@ -598,8 +598,8 @@ MCO = {
     color_ui = rgb { 243  108  122 }	
 }
 ADR = {
-	color = rgb { 246  168  116 }
-    color_ui = rgb { 246  168  116 }	
+	color = rgb { 246 168 116 }
+	color_ui = rgb { 246 168 116 }
 }
 SMR = {
 	color = rgb { 94  182  228 }
