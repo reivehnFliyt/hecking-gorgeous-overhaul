@@ -56,11 +56,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ernst Toller"
+	name = "Prince Ferdinand Pius"
 	desc = ""
-	picture = "Portrait_Bavaria_Ernst.dds"
+	picture = "Portrait_Kingdom of Two Sicilies_Prince Ferdinand Pius.dds"
 	expire = "1960.1.1"
-	ideology = stalinism
+	ideology = fascism_ideology
 	traits = {
 		
 	}

@@ -78,9 +78,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Margrave Berthold"
+	name = "Berthold Friedrich Wilhelm"
 	desc = ""
-	picture = "Portrait_Bavaria_Rupprecht.dds"
+	picture = "Portrait_Berthold_Friedrich_Wilhelm.dds"
 	expire = "1951.1.1"
 	ideology = despotism
 	traits = {
