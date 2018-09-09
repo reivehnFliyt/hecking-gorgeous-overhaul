@@ -214,3 +214,12 @@
  SIL_CZE_democratic_DEF:0 "Czech Silesia"
  SIL_subject:0 "$OVERLORDADJ$ Silesia"
  SIL_subject_DEF:0 "the $OVERLORDADJ$ Silesia"
+ 
+ IBRA_democratic:0 "Republic of Brazil"
+ IBRA_democratic_DEF:0 "Brazilian"
+ IBRA_fascism:0 "Greater Brazilian Empire"
+ IBRA_fascism_DEF:0 "Brazilian"
+ IBRA_communism:0 "Free Commune of Brazil"
+ IBRA_communism_DEF:0 "Brazilian"
+ IBRA_neutrality:0 "Empire of Brazil"
+ IBRA_neutrality_DEF:0 "Brazilian"
