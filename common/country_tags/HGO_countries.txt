@@ -62,6 +62,7 @@ LCC = "countries/Lucca.txt"
 GAL = "countries/Galicia and Lodomeria.txt"
 TRV = "countries/Transylvania.txt"
 DLM = "countries/Dalmatia.txt"
+CRP = "countries/Carpatho Ukraine.txt"
 
 ##Africa##
 ALG = "countries/Algeria.txt"
