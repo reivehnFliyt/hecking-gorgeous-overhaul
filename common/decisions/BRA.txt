@@ -22,9 +22,9 @@ restore_brazilian_monarchy = {
 			ideology = fascism_ideology
 			traits = IMPERIAL_CONNECTIONS
 			}
+		}
 		hidden_effect = {
-				set_global_flag = form_brazil_empire_flag
-			}
+			set_global_flag = form_brazil_empire_flag
 		}
 	}
 }
