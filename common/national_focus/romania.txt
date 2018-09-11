@@ -387,11 +387,11 @@ focus_tree = {
 		id = ROM_license_german_equipment
 		icon = GFX_focus_generic_license_production
 		prerequisite = { focus = ROM_invite_german_advisors }
-		x = 1
+		x = -1
 		y = 3
 		relative_position_id = ROM_trade_treaty_with_germany
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -432,7 +432,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = ROM_trade_treaty_with_germany
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -522,7 +522,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = oil
-					amount = 12
+					amount = 20
 				}
 			}
 			GER = {
@@ -532,7 +532,7 @@ focus_tree = {
 					}
 					add_resource = {
 						type = oil
-						amount = 6
+						amount = 10
 					}
 				}
 			}
@@ -540,17 +540,74 @@ focus_tree = {
 	}
 
 	focus = {
+		id = ROM_claim_transnistria
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_invite_german_advisors }
+		x = 1
+		y = 3
+		relative_position_id = ROM_trade_treaty_with_germany
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			is_in_faction_with = GER
+			GER = {
+				exists = yes
+				is_puppet = no
+			}
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+			192 = { is_owned_by = ROM }
+			198 = { is_owned_by = ROM }
+			790 = { is_owned_by = ROM }
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_state_claim = 192
+			add_state_claim = 198
+			add_state_claim = 790
+		}
+	}
+
+
+	focus = {
 		id = ROM_demand_transnistria
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		prerequisite = { focus = ROM_join_axis }
+		prerequisite = { focus = ROM_claim_transnistria }
 		x = 1
 		y = 5
 		relative_position_id = ROM_trade_treaty_with_germany
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
+		}
+
+		available = {
+			is_in_faction_with = GER
+			GER = {
+				exists = yes
+				is_puppet = no
+			}
 		}
 
 		available = {
@@ -583,11 +640,9 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_state_claim = 192
-			add_state_claim = 198
-			add_state_claim = 790
 			if = {
 				limit = {
+
 					NOT = { owns_state = 192
 							owns_state = 790
 							owns_state = 198 }
@@ -634,7 +689,7 @@ focus_tree = {
 				transfer_state = 790
 			}
 			198 = { set_state_name = "Moghilau-Balta" }
-			192 = { set_state_name = "Odesa-Golta" }
+			192 = { set_state_name = "Odesa-Ananiev" }
 			790 = { set_state_name = "Transnistriei" }
 			set_province_name = { id = 11670 name = "Odesa" }
 		}
@@ -642,7 +697,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_Transnistria_Development
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_goal_generic_construction
 		prerequisite = { focus = ROM_Transnistria_Occupation }
 		available = {
 			has_full_control_of_state = 790
@@ -720,6 +775,43 @@ focus_tree = {
 				}
 				add_extra_state_shared_building_slots = 2
 			}
+		}
+	}
+
+focus = {
+		id = ROM_Greater_Romania
+		icon = GFX_focus_rom_preserve_romania
+		prerequisite = { focus = ROM_Transnistria_Development }
+		x = 0
+		y = 9
+		relative_position_id = ROM_preserve_greater_romania
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_stability = 0.20
+			add_war_support = 0.10 
+			set_cosmetic_tag = ROM_unified
 		}
 	}
 
@@ -1652,7 +1744,7 @@ focus_tree = {
 			46 = {
 				add_resource = {
 					type = oil
-					amount = 24
+					amount = 30
 				}
 			}
 		}
@@ -4425,13 +4517,13 @@ focus_tree = {
 
 		complete_tooltip = {
 			navy_experience = 25
-			random_state = {
+			797 = {
 				limit = {
 					has_state_flag = ROM_expand_the_galati_shipyards_AB
 				}
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 			}
@@ -4439,7 +4531,7 @@ focus_tree = {
 
 		completion_reward = {
 			navy_experience = 25
-			random_owned_controlled_state = {
+			797 = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 					free_building_slots = {
@@ -4448,10 +4540,10 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 2
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
-					level = 2
+					level = 3
 					instant_build = yes
 				}
 				set_state_flag = ROM_expand_the_galati_shipyards_AB
@@ -4811,46 +4903,3 @@ focus_tree = {
 		}
 	}
 }
-
-########Transnistria Stuff#################
-
-	focus = {
-		id = ROM_Transnistria_Occupation
-		icon = GFX_goal_generic_position_armies
-		prerequisite = { focus = ROM_demand_transnistria }
-		prerequisite = { focus = ROM_german_romanian_oil_exploitation_company }
-		available = {
-			is_puppet = no
-			has_full_control_of_state = 790
-			has_full_control_of_state = 198
-			has_full_control_of_state = 192
-			}
-		
-		cancel_if_invalid = yes
-		x = 3
-		y = 7
-		cost = 10
-		ai_will_do = {
-			factor = 10
-		}
-		
-		completion_reward = {
-			add_state_core = 192
-			add_state_core = 790
-			add_state_core = 198
-			if = {
-				limit = {
-					NOT = { owns_state = 192
-							owns_state = 790
-							owns_state = 198 }
-				}
-				transfer_state = 192
-				transfer_state = 198
-				transfer_state = 790
-			}
-			198 = { set_state_name = "Moghilau-Balta" }
-			192 = { set_state_name = "Odesa-Golta" }
-			790 = { set_state_name = "Transnistriei" }
-			set_province_name = { id = 11670 name = "Odesa" }
-		}
-	}
