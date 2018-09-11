@@ -960,9 +960,29 @@ DLM = {
 	color = rgb { 205 141 224 }
 	color_ui = rgb { 205 141 224 }
 }
-CRP = {
-	color = rgb { 59 119 229 }
-	color_ui = rgb { 59 119 229 }
+BNT = {
+	color = rgb { 157 124 163 }
+	color_ui = rgb { 157 124 163 }
+}
+VJD = {
+	color = rgb { 84 131 206 }
+	color_ui = rgb { 84 131 206 }
+}
+SDT = {
+	color = rgb { 82 89 99 }
+	color_ui = rgb { 82 89 99 }
+}
+LMK = {
+	color = rgb { 95 168 110 }
+	color_ui = rgb { 95 168 110 }
+}
+SZK = {
+	color = rgb { 206 179 59 }
+	color_ui = rgb { 206 179 59 }
+}
+TYR = {
+	color = rgb { 206 211 219 }
+	color_ui = rgb { 206 211 219 }
 }
 D01 = {
 	color = rgb { 200 100 31 }

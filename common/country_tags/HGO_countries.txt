@@ -62,7 +62,12 @@ LCC = "countries/Lucca.txt"
 GAL = "countries/Galicia and Lodomeria.txt"
 TRV = "countries/Transylvania.txt"
 DLM = "countries/Dalmatia.txt"
-CRP = "countries/Carpatho-Ukraine.txt"
+BNT = "countries/Banat.txt"
+VJD = "countries/Vojvodina.txt"
+TYR = "countries/Tyrol.txt"
+LMK = "countries/Lemko.txt"
+SZK = "countries/Szeklerland.txt"
+SDT = "countries/Sudetenland.txt"
 
 ##Africa##
 ALG = "countries/Algeria.txt"
@@ -79,6 +84,7 @@ GHA = "countries/Ghana.txt"
 TSD = "countries/Chad.txt"
 MLW = "countries/Malawi.txt"
 CMR = "countries/Cameroon.txt"
+NGR = "countries/Nigeria.txt"
 
 ##Asia##
 TKM = "countries/Turkmenistan.txt"
