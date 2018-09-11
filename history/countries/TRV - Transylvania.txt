@@ -1,4 +1,4 @@
-﻿capital = 790
+﻿capital = 1217
 
 oob = "MDA_1936"
 
