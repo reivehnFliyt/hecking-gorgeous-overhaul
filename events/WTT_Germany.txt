@@ -19,7 +19,7 @@ country_event = {
 				ideology = fascism
 				size = 0.5
 				capital = 64
-				states = { 64 61 52 53 54 60 65 66 67 68 62 63 5 773 774 775 778 1017 5 1019 1018 }
+				states = { 64 61 52 53 54 60 65 66 67 68 62 63 5 773 774 775 778 1017 5 1019 1018 1118 1121 1119 1120 1348 1108 1384 1462 1222 1356 1355 1455 1456 1389 1430}
 			}
 			set_party_name = { ideology = neutrality long_name = GER_neutrality_party_civil_war name = GER_neutrality_party_civil_war }
 			load_oob = "GER_German_Civil_War_neutrality"
