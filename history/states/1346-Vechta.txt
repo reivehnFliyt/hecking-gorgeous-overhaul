@@ -1,7 +1,8 @@
+
 state={
 	id=1346
 	name="STATE_1346"
-	
+
 	history={
 		owner = GER
 		buildings = {
@@ -13,9 +14,9 @@ state={
 		add_core_of = WSF
 
 	}
-	
+
 	provinces={
-		405 6535 9509 11388 
+		405 6535 9509 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
