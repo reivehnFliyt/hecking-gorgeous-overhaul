@@ -42,21 +42,6 @@ set_technology = {
 	transport = 1
 }
 
-
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = DAN
-		autonomous_state = autonomy_integrated_puppet
-	}
-
-	else = {
-		puppet = DAN
-	}
-}
-
 set_variable = { var = wehrmacht_anger value = 0 }
 set_variable = { var = ss_anger value = 0 }
 set_research_slots = 4
