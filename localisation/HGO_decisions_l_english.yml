@@ -41,6 +41,9 @@
  polish_glatz:0 "Integrate Glatz"
  polish_oberschlesien:0 "Integrate Oberschlesien"
  polish_neisse:0 "Integrate Neisse"
+ polish_kiev:0 "Integrate Kiev"
+ polish_minsk:0 "Integrate Minsk"
+ polish_smolensk:0 "Integrate Smolensk"
  
  #Bulgarian
  bulgarian_dobrogea:0 "Integrate Dobrogea"

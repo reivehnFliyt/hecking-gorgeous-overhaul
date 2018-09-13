@@ -383,6 +383,131 @@ BS_rename_states_category = {
 			}
 		}
 	}
+	polish_kiev = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+		    original_tag = POL
+		}
+
+		available = {
+			is_subject = no
+			NOT = { has_global_flag = kiev_renamed_polish }
+			# Like epische grts on Facebook.com
+			controls_state = 202
+		}
+		
+		cost = 10
+
+		visible = {
+			original_tag = POL
+			NOT = { has_global_flag = kiev_renamed_polish }
+			controls_state = 202
+		}
+
+		complete_effect = {
+			202 = { set_state_name = Kijów }
+			set_province_name = { id = 525 name = Kijów }
+			
+			hidden_effect = {
+			    set_global_flag = kiev_renamed_polish
+			
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	polish_minsk = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+		    original_tag = POL
+		}
+
+		available = {
+			is_subject = no
+			NOT = { has_global_flag = minsk_renamed_polish }
+			# Like epische grts on Facebook.com
+			controls_state = 206
+		}
+		
+		cost = 10
+
+		visible = {
+			original_tag = POL
+			NOT = { has_global_flag = minsk_renamed_polish }
+			controls_state = 206
+		}
+
+		complete_effect = {
+			206 = { set_state_name = Mińsk }
+			set_province_name = { id = 11370 name = Mińsk }
+			
+			hidden_effect = {
+			    set_global_flag = minsk_renamed_polish
+			
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	polish_smolensk = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+		    original_tag = POL
+		}
+
+		available = {
+			is_subject = no
+			NOT = { has_global_flag = smolensk_renamed_polish }
+			# Like epische grts on Facebook.com
+			controls_state = 242
+		}
+		
+		cost = 10
+
+		visible = {
+			original_tag = POL
+			NOT = { has_global_flag = smolensk_renamed_polish }
+			controls_state = 242
+		}
+
+		complete_effect = {
+			242 = { set_state_name = Smoleńsku }
+			set_province_name = { id = 306 name = Smoleńsku }
+			
+			hidden_effect = {
+			    set_global_flag = smolensk_renamed_polish
+			
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 	
 	bulgarian_dobrogea = {
 
