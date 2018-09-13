@@ -13,7 +13,7 @@ state={
 		add_core_of = MON
 
 	}
-	manpower=1
+	manpower=30000
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }
