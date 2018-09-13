@@ -1,0 +1,22 @@
+state={
+	id=1790
+	name="STATE_1790"
+	
+	state_category = rural
+
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+		add_core_of = ROM
+		add_claim_by = BUL
+	}
+	
+	provinces={
+		657 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}

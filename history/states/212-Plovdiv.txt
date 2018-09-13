@@ -2,9 +2,8 @@
 state={
 	id=212
 	name="STATE_212"
-
-	resources = {
-		chromium=2
+	resources={
+		chromium=2.000
 	}
 
 	history={
@@ -24,7 +23,7 @@ state={
 	}
 
 	provinces={
-		878 893 3937 6923 9862 11813 
+		893 3937 6923 9862 11813 
 	}
 	manpower=1411000
 	buildings_max_level_factor=1.000
