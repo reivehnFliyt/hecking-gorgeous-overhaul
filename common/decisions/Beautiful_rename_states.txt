@@ -806,5 +806,288 @@ BS_rename_states_category = {
 			}
 		}
 	}
-	
+	czech_gladz = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+		    original_tag = CZE
+		}
+
+		available = {
+			is_subject = no
+			NOT = { has_global_flag = gladz_renamed_czech }
+			# Like epische grts on Facebook.com
+			controls_state = 1017
+		}
+		
+		cost = 10
+
+		visible = {
+			original_tag = CZE
+			NOT = { has_global_flag = gladz_renamed_czech }
+			controls_state = 1017
+		}
+
+		complete_effect = {
+			1017 = { set_state_name = Kladsko }
+			set_province_name = { id = 3485 name = Kladsko }
+			1017 = {add_core_of = CZE}
+			hidden_effect = {
+			    set_global_flag = gladz_renamed_czech
+			
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	czech_oppeln = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+		    original_tag = CZE
+		}
+
+		available = {
+			is_subject = no
+			NOT = { has_global_flag = oppeln_renamed_czech }
+			# Like epische grts on Facebook.com
+			controls_state = 1455
+		}
+		
+		cost = 10
+
+		visible = {
+			original_tag = CZE
+			NOT = { has_global_flag = oppeln_renamed_czech }
+			controls_state = 1455
+		}
+
+		complete_effect = {
+			1455 = { set_state_name = Opolí }
+			set_province_name = { id = 9570 name = Vratislav }
+			1455 = {add_core_of = CZE}
+			hidden_effect = {
+			    set_global_flag = oppeln_renamed_czech
+			
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	czech_neisse = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+		    original_tag = CZE
+		}
+
+		available = {
+			is_subject = no
+			NOT = { has_global_flag = neisse_renamed_czech }
+			# Like epische grts on Facebook.com
+			controls_state = 1018
+		}
+		
+		cost = 10
+
+		visible = {
+			original_tag = CZE
+			NOT = { has_global_flag = neisse_renamed_czech }
+			controls_state = 1018
+		}
+
+		complete_effect = {
+			1018 = { set_state_name = Nisa }
+			1018 = {add_core_of = CZE}
+			hidden_effect = {
+			    set_global_flag = neisse_renamed_czech
+			
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	czech_obserschlesien = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+		    original_tag = CZE
+		}
+
+		available = {
+			is_subject = no
+			NOT = { has_global_flag = obserschlesien_renamed_czech }
+			# Like epische grts on Facebook.com
+			controls_state = 67
+		}
+		
+		cost = 10
+
+		visible = {
+			original_tag = CZE
+			NOT = { has_global_flag = obserschlesien_renamed_czech }
+			controls_state = 67
+		}
+
+		complete_effect = {
+			67 = { set_state_name = "Horní Slezsko" }
+			67 = {add_core_of = CZE}
+			#( ͡° ͜ʖ ͡°)
+
+			hidden_effect = {
+			    set_global_flag = obserschlesien_renamed_czech
+			
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	czech_ostschlensien = { #[sic]
+
+		icon = generic_political_discourse
+
+		allowed = {
+		    original_tag = CZE
+		}
+
+		available = {
+			is_subject = no
+			NOT = { has_global_flag = ostschlensien_renamed_czech }
+			# Like epische grts on Facebook.com
+			controls_state = 1019
+		}
+		
+		cost = 10
+
+		visible = {
+			original_tag = CZE
+			NOT = { has_global_flag = ostschlensien_renamed_czech }
+			controls_state = 1019
+		}
+
+		complete_effect = {
+			1019 = { set_state_name = "Východ Slezko" } #idk if this is right
+			1019 = {add_core_of = CZE}
+			hidden_effect = {
+			    set_global_flag = ostschlensien_renamed_czech
+			
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	czech_oels = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+		    original_tag = CZE
+		}
+
+		available = {
+			is_subject = no
+			NOT = { has_global_flag = oels_renamed_czech }
+			# Like epische grts on Facebook.com
+			controls_state = 1456
+		}
+		
+		cost = 10
+
+		visible = {
+			original_tag = CZE
+			NOT = { has_global_flag = oels_renamed_czech }
+			controls_state = 1456
+		}
+
+		complete_effect = {
+			1456 = { set_state_name = Olešnice }
+			1456 = {add_core_of = CZE}
+			hidden_effect = {
+			    set_global_flag = oels_renamed_czech
+			
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	czech_niederschlesien = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+		    original_tag = CZE
+		}
+
+		available = {
+			is_subject = no
+			NOT = { has_global_flag = niederschlesien_renamed_czec }
+			# Like epische grts on Facebook.com
+			controls_state = 66
+		}
+		
+		cost = 10
+
+		visible = {
+			original_tag = CZE
+			NOT = { has_global_flag = niederschlesien_renamed_czec }
+			controls_state = 66
+		}
+
+		complete_effect = {
+			66 = { set_state_name = "Dolní Slezsko" } #again, dont know if this is right
+			66 = {add_core_of = CZE}
+			hidden_effect = {
+			    set_global_flag = niederschlesien_renamed_czech
+			
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
 }
