@@ -1,7 +1,7 @@
+
 state={
 	id=840
 	name="STATE_840"
-
 
 	history={
 		owner = SWI
@@ -16,7 +16,7 @@ state={
 	}
 
 	provinces={
-		6683 9622 11590 13124 
+		11590 13124 
 	}
 	manpower=611335
 	buildings_max_level_factor=1.000
