@@ -312,8 +312,8 @@ RAJ = {
 }
 
 CRO = {
-	color = rgb { 230  70  180 }
-	color_ui = rgb { 230 255 122 }
+	color = rgb { 0 120 200 }
+	color_ui = rgb { 0 120 200 }
 }
 
 PRC = {
@@ -1023,6 +1023,22 @@ TYU = {
 CHE = {
 	color = rgb { 188 149 41}
 	color_ui = rgb { 188 149 41}	
+}
+SVR = {
+	color = rgb { 91 140 23}
+	color_ui = rgb { 91 140 23}	
+}
+YML = {
+	color = rgb { 204 12, 48}
+	color_ui = rgb { 204 129 48}	
+}
+MSC = {
+	color = rgb { 224 151 103}
+	color_ui = rgb { 224 151 103}	
+}
+KMI = {
+	color = rgb { 186 34 0}
+	color_ui = rgb { 186 34 0}	
 }
 D01 = {
 	color = rgb { 200 100 31 }

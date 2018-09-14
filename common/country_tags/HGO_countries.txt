@@ -106,6 +106,10 @@ TOM = "countries/Tomsk.txt"
 OMS = "countries/Omsk.txt"
 TYU = "countries/Tyumen.txt"
 CHE = "countries/Chelyabinsk.txt"
+SVR = "countries/Sverolovsk.txt"
+YML = "countries/Yamalia.txt"
+MSC = "countries/Moscovy.txt"
+KMI = "countries/Komi.txt"
 
 ##Middle-East##
 HTY = "countries/Hatay.txt"
