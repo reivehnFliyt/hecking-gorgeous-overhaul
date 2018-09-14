@@ -992,6 +992,22 @@ SBR = {
 	color = rgb { 213 239 210 }
 	color_ui = rgb { 213 239 210 }	
 }
+KHA = {
+	color = rgb { 65 96 147}
+	color_ui = rgb { 65 96 147}	
+}
+AMU = {
+	color = rgb { 145 125 110}
+	color_ui = rgb { 145 125 110}	
+}
+ALI = {
+	color = rgb { 29 112 34}
+	color_ui = rgb { 29 112 34}	
+}
+NVO = {
+	color = rgb { 163 35 65}
+	color_ui = rgb { 163 35 65}	
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

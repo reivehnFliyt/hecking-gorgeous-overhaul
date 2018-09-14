@@ -98,6 +98,10 @@ DPK = "countries/North Korea.txt"
 ROK = "countries/South Korea.txt"
 KUR = "countries/Kurdistan.txt"
 SBR = "countries/Siberia.txt"
+KHA = "countries/Khabarovsk.txt"
+AMU = "countries/Amur.txt"
+ALI = "countries/Altai.txt"
+NVO = "countries/Novosibirsk.txt"
 
 ##Middle-East##
 HTY = "countries/Hatay.txt"

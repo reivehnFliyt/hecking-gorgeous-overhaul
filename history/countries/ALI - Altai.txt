@@ -1,4 +1,4 @@
-﻿capital = 229 #Baku
+﻿capital = 1394
 
 oob = "AZR_1936"
 
@@ -60,7 +60,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Mir Jafar Baghirov"
+	name = "Zach Vaughn"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1953.3.1"
@@ -82,7 +82,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gara Garabeyov"
+	name = "Zach Vaughn"
 	desc = ""
 	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
 	expire = "1953.3.1"
