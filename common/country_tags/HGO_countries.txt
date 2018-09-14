@@ -74,6 +74,10 @@ ARH = "countries/Arkhangelsk.txt"
 VLG = "countries/Vologda.txt"
 IVN = "countries/Ivanovo.txt"
 ULA = "countries/Ulyanovsk.txt"
+PNZ = "countries/Penza.txt"
+SRT = "countries/Saratov.txt"
+KZN = "countries/Kazan.txt"
+VLD = "countries/Volgograd.txt"
 
 ##Africa##
 ALG = "countries/Algeria.txt"
