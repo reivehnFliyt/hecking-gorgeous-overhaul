@@ -17,7 +17,7 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = RUS
-		add_core_of = MSC
+		add_core_of = VLD
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

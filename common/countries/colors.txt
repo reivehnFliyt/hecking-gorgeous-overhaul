@@ -1077,6 +1077,7 @@ DKU = {
 	color_ui = rgb { 229 208 45}	
 }
 PTG = {
+	color = rgb { 16 114 5}
 	color_ui = rgb { 16 114 5}	
 }
 MRM = {
@@ -1086,6 +1087,22 @@ MRM = {
 CRM = {
 	color = rgb { 135 28 1}
 	color_ui = rgb { 135 28 1}	
+}
+PRR = {
+	color = rgb { 190 252 75}
+	color_ui = rgb { 190 252 75}	
+}
+ORN = {
+	color = rgb { 10 153 100}
+	color_ui = rgb { 10 153 100}	
+}
+BSH = {
+	color = rgb { 150 91 24}
+	color_ui = rgb { 150 91 24}	
+}
+URL = {
+	color = rgb { 86 135 79}
+	color_ui = rgb { 86 135 79}	
 }
 D01 = {
 	color = rgb { 200 100 31 }

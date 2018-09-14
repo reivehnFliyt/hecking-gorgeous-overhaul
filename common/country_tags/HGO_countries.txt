@@ -82,6 +82,10 @@ DKU = "countries/Don Kuban.txt"
 PTG = "countries/Petrograd.txt"
 MRM = "countries/Murmansk.txt"
 CRM = "countries/Crimea.txt"
+PRR = "countries/Perma.txt"
+ORN = "countries/Orenburg.txt"
+BSH = "countries/Bashkortostan.txt"
+URL = "countries/Urals.txt"
 
 ##Africa##
 ALG = "countries/Algeria.txt"
