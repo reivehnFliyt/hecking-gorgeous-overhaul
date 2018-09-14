@@ -1,4 +1,4 @@
-﻿capital = 580
+﻿capital = 213
 
 oob = "AZR_1936"
 
@@ -82,9 +82,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Peter Vichav"
+	name = "Zach Vaughn"
 	desc = ""
-	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_1.dds"
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
 	expire = "1953.3.1"
 	ideology = moderatism
 	traits = {

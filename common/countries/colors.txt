@@ -1072,6 +1072,21 @@ VLD = {
 	color = rgb { 50 99 58}
 	color_ui = rgb { 50 99 58}	
 }
+DKU = {
+	color = rgb { 229 208 45}
+	color_ui = rgb { 229 208 45}	
+}
+PTG = {
+	color_ui = rgb { 16 114 5}	
+}
+MRM = {
+	color = rgb { 119 88 145}
+	color_ui = rgb { 119 88 145}	
+}
+CRM = {
+	color = rgb { 135 28 1}
+	color_ui = rgb { 135 28 1}	
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

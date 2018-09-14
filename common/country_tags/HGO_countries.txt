@@ -78,6 +78,10 @@ PNZ = "countries/Penza.txt"
 SRT = "countries/Saratov.txt"
 KZN = "countries/Kazan.txt"
 VLD = "countries/Volgograd.txt"
+DKU = "countries/Don Kuban.txt"
+PTG = "countries/Petrograd.txt"
+MRM = "countries/Murmansk.txt"
+CRM = "countries/Crimea.txt"
 
 ##Africa##
 ALG = "countries/Algeria.txt"
@@ -118,7 +122,6 @@ TYU = "countries/Tyumen.txt"
 CHE = "countries/Chelyabinsk.txt"
 SVR = "countries/Sverolovsk.txt"
 YML = "countries/Yamalia.txt"
-
 
 ##Middle-East##
 HTY = "countries/Hatay.txt"
