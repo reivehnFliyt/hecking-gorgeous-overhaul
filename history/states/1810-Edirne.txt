@@ -1,7 +1,6 @@
-
 state={
-	id=828
-	name="STATE_828"
+	id=1810
+	name="STATE_1810"
 
 	history={
 		add_core_of = GRE
@@ -16,9 +15,9 @@ state={
 	}
 
 	provinces={
-		849 3879 6895 
+		3893 13620
 	}
-	manpower=740506
+	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
