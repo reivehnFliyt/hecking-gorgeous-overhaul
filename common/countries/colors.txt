@@ -1008,10 +1008,10 @@ NVO = {
 	color = rgb { 163 35 65}
 	color_ui = rgb { 163 35 65}	
 }
-TMO = {
-	color = rgb { 5 36 178}
-	color_ui = rgb { 5 36 178}	
-}
+#TMO = {
+#	color = rgb { 5 36 178}
+#	color_ui = rgb { 5 36 178}	
+#}
 OMS = {
 	color = rgb { 155 47 20}
 	color_ui = rgb { 155 47 20}	
