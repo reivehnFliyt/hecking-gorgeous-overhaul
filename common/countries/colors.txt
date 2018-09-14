@@ -1008,6 +1008,22 @@ NVO = {
 	color = rgb { 163 35 65}
 	color_ui = rgb { 163 35 65}	
 }
+TMO = {
+	color = rgb { 5 36 178}
+	color_ui = rgb { 5 36 178}	
+}
+OMS = {
+	color = rgb { 155 47 20}
+	color_ui = rgb { 155 47 20}	
+}
+TYU = {
+	color = rgb { 105 135 77}
+	color_ui = rgb { 105 135 77}	
+}
+CHE = {
+	color = rgb { 188 149 41}
+	color_ui = rgb { 188 149 41}	
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

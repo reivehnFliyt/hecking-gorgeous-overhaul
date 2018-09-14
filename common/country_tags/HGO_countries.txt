@@ -102,6 +102,10 @@ KHA = "countries/Khabarovsk.txt"
 AMU = "countries/Amur.txt"
 ALI = "countries/Altai.txt"
 NVO = "countries/Novosibirsk.txt"
+TOM = "countries/Tomsk.txt"
+OMS = "countries/Omsk.txt"
+TYU = "countries/Tyumen.txt"
+CHE = "countries/Chelyabinsk.txt"
 
 ##Middle-East##
 HTY = "countries/Hatay.txt"
