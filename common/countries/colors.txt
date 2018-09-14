@@ -1008,10 +1008,10 @@ NVO = {
 	color = rgb { 163 35 65}
 	color_ui = rgb { 163 35 65}	
 }
-#TMO = {
-#	color = rgb { 5 36 178}
-#	color_ui = rgb { 5 36 178}	
-#}
+TOM = {
+	color = rgb { 5 36 178}
+	color_ui = rgb { 5 36 178}	
+}
 OMS = {
 	color = rgb { 155 47 20}
 	color_ui = rgb { 155 47 20}	
@@ -1055,6 +1055,22 @@ IVN = {
 ULA = {
 	color = rgb { 117 105 114}
 	color_ui = rgb { 117 105 114}	
+}
+PNZ = {
+	color = rgb { 218 229 94}
+	color_ui = rgb { 218 229 94}	
+}
+SRT = {
+	color = rgb { 159 160 141}
+	color_ui = rgb { 159 160 141}	
+}
+KZN = {
+	color = rgb { 6 165 136}
+	color_ui = rgb { 6 165 136}	
+}
+VLD = {
+	color = rgb { 50 99 58}
+	color_ui = rgb { 50 99 58}	
 }
 D01 = {
 	color = rgb { 200 100 31 }
