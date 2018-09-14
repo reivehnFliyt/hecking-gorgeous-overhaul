@@ -60,6 +60,12 @@ country_event = { #Burma seperate from India
 				    BUR = { transfer_state = 1016 }
 				}
 		    }
+		    1151 = {
+				if = {
+					limit = { is_owned_by = RAJ }
+				BUR = { transfer_state = 1151 }
+				}
+			}
 		    if = {
 			    limit = {
 				    has_dlc = "Together for Victory"
