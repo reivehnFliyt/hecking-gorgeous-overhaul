@@ -1,6 +1,6 @@
-﻿capital = 206 #Minsk
+﻿capital = 229 #Baku
 
-oob = "BLR_1936"
+oob = "AZR_1936"
 
 set_research_slots = 3
 
@@ -41,20 +41,16 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 15
-		}
-
-		neutrality = {
-			popularity = 20
+			popularity = 30
 		}
 		
 		communism = {
-			popularity = 60
+			popularity = 40
 		}
-
-		fascism = { 
-			popularity = 5
-		}
+		
+		neutrality = {
+			popularity = 30
+		}		
 	}
 	
 	ruling_party = communism
@@ -64,47 +60,36 @@ set_politics = {
 }
 
 create_country_leader = {
-    name = "Vasil Zacharka"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-    expire = "1965.1.1"
-    ideology = centrism
-    traits = {
-        #
-    }
+	name = "Mir Jafar Baghirov"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1953.3.1"
+	ideology = stalinism
+	traits = {
+		
+	}
 }
 
 create_country_leader = {
-    name = "Radasłaŭ Astroŭski"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-    expire = "1965.1.1"
-    ideology = fascism_ideology
-    traits = {
-        #
-    }
+	name = "Mammad Amin Rasulzade"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1953.3.1"
+	ideology = conservatism
+	traits = {
+		
+	}
 }
 
 create_country_leader = {
-    name = "Panteleimon Ponomarenko"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-    expire = "1965.1.1"
-    ideology = stalinism
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Adam Stankievič"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-    expire = "1965.1.1"
-    ideology = socialism
-    traits = {
-        #
-    }
+	name = "Gara Garabeyov"
+	desc = ""
+	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+	expire = "1953.3.1"
+	ideology = moderatism
+	traits = {
+		
+	}
 }
 
 

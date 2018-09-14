@@ -13,6 +13,7 @@ state= {
 		#add_core_of = JAP
 		#add_claim_by = SOV # Removed because of too much aggression
 		add_core_of = RUS
+		add_claim_by = SBR
 		buildings = {
 			infrastructure = 3
 			12446 = {

@@ -984,12 +984,14 @@ TYR = {
 	color = rgb { 206 211 219 }
 	color_ui = rgb { 206 211 219 }
 }
-
 CRP = {
 	color = rgb { 0  80  230 }
 	color_ui = rgb { 0  80  230 }	
 }
-
+SBR = {
+	color = rgb { 213 239 210 }
+	color_ui = rgb { 213 239 210 }	
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

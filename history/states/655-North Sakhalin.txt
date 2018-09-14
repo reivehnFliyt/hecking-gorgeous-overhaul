@@ -10,6 +10,7 @@ state={
 		add_core_of = SOV
 		add_core_of = RUS
 		add_claim_by = JAP
+		add_claim_by = SBR
 		buildings = {
 			infrastructure = 3
 			air_base = 1
