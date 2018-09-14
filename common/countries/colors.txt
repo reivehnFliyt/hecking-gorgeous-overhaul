@@ -1029,7 +1029,7 @@ SVR = {
 	color_ui = rgb { 91 140 23}	
 }
 YML = {
-	color = rgb { 204 12, 48}
+	color = rgb { 204 12 48}
 	color_ui = rgb { 204 129 48}	
 }
 MSC = {
@@ -1039,6 +1039,22 @@ MSC = {
 KMI = {
 	color = rgb { 186 34 0}
 	color_ui = rgb { 186 34 0}	
+}
+ARH = {
+	color = rgb { 135 29 5}
+	color_ui = rgb { 135 29 5}	
+}
+VLG = {
+	color = rgb { 12 140 8}
+	color_ui = rgb { 12 140 8}	
+}
+IVN = {
+	color = rgb { 168 85 147}
+	color_ui = rgb { 168 85 147}	
+}
+ULA = {
+	color = rgb { 117 105 114}
+	color_ui = rgb { 117 105 114}	
 }
 D01 = {
 	color = rgb { 200 100 31 }

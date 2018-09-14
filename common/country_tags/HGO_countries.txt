@@ -68,6 +68,12 @@ TYR = "countries/Tyrol.txt"
 LMK = "countries/Lemko.txt"
 SZK = "countries/Szeklerland.txt"
 SDT = "countries/Sudetenland.txt"
+MSC = "countries/Moscovy.txt"
+KMI = "countries/Komi.txt"
+ARH = "countries/Arkhangelsk.txt"
+VLG = "countries/Vologda.txt"
+IVN = "countries/Ivanovo.txt"
+ULA = "countries/Ulyanovsk.txt"
 
 ##Africa##
 ALG = "countries/Algeria.txt"
@@ -108,8 +114,7 @@ TYU = "countries/Tyumen.txt"
 CHE = "countries/Chelyabinsk.txt"
 SVR = "countries/Sverolovsk.txt"
 YML = "countries/Yamalia.txt"
-MSC = "countries/Moscovy.txt"
-KMI = "countries/Komi.txt"
+
 
 ##Middle-East##
 HTY = "countries/Hatay.txt"
