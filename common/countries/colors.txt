@@ -1104,6 +1104,18 @@ URL = {
 	color = rgb { 86 135 79}
 	color_ui = rgb { 86 135 79}	
 }
+KSA = {
+	color = rgb { 112 114 107}
+	color_ui = rgb { 10 153 100}	
+}
+KRV = {
+	color = rgb { 183 44 0}
+	color_ui = rgb { 183 44 0}	
+}
+PCR = {
+	color = rgb { 146 170 168}
+	color_ui = rgb { 146 170 168}	
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

@@ -86,6 +86,9 @@ PRR = "countries/Perma.txt"
 ORN = "countries/Orenburg.txt"
 BSH = "countries/Bashkortostan.txt"
 URL = "countries/Urals.txt"
+KSA = "countries/Kostroma.txt"
+KRV = "countries/Kemerovo.txt"
+PCR = "countries/Pechora.txt"
 
 ##Africa##
 ALG = "countries/Algeria.txt"
