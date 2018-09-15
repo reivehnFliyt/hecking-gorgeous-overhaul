@@ -2477,10 +2477,7 @@ focus = {
 		}
 
 		bypass = {
-			custom_trigger_tooltip = {
-				tooltip = ROM_carol_not_leader_trigger
-				NOT = { has_country_leader = { id = 550 } }
-			}
+
 		}
 
 		cancel_if_invalid = yes
@@ -2902,6 +2899,18 @@ focus = {
 
 		completion_reward = {
 			#Removes king carol and makes the most popular party the ruling one
+			
+				create_country_leader = {
+					name = "Armand Calinescu"
+					desc = "POLITICS_ARMAND_CALINESCU_DESC"
+					picture = "gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
+					expire = "1965.1.1"
+					ideology = centrism
+					traits = {
+						anti_communist
+						}
+					}
+
 			if = {
 				limit = { has_country_leader = { id = 550 } }
 				retire_country_leader = yes
