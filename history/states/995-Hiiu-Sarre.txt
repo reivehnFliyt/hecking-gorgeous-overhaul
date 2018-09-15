@@ -12,7 +12,7 @@ state={
 
 		}
 		add_core_of = EST
-
+		add_core_of = LIV
 	}
 
 	provinces={

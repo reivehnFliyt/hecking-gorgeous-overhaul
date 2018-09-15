@@ -1116,6 +1116,14 @@ PCR = {
 	color = rgb { 146 170 168}
 	color_ui = rgb { 146 170 168}	
 }
+LIV = {
+	color = rgb { 125  30  100 }
+	color_ui = rgb { 125  30  100 }
+}
+COU = {
+	color = rgb { 78  65  15 }
+	color_ui = rgb { 78  65  15 }	
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
