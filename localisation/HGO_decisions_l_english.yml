@@ -78,3 +78,7 @@
  czech_ostschlensien:0 "Integrate Ostschlesien"
  czech_oels:0 "Integrate Oels"
  czech_niederschlesien:0 "Integrate Niederschlesien"
+
+ #Commie Cities
+ stalingrad_rename:0 "Rename Stalingrad"
+ leningrad_rename:0 "Rename Leningrad"
