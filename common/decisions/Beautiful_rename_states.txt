@@ -491,8 +491,8 @@ BS_rename_states_category = {
 		}
 
 		complete_effect = {
-			242 = { set_state_name = Smoleńsku }
-			set_province_name = { id = 306 name = Smoleńsku }
+			242 = { set_state_name = Smoleńsk }
+			set_province_name = { id = 306 name = Smoleńsk }
 			
 			hidden_effect = {
 			    set_global_flag = smolensk_renamed_polish
