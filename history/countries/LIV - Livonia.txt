@@ -1,4 +1,4 @@
-capital = 1135
+﻿capital = 190
 
 #oob = "LAT_1936"
 
