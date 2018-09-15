@@ -2896,6 +2896,7 @@ focus = {
 		completion_reward = {
 			#Removes king carol and makes the most popular party the ruling one
 			
+<<<<<<< HEAD
 			create_country_leader = {
 				name = "Armand Calinescu"
 				desc = "POLITICS_ARMAND_CALINESCU_DESC"
@@ -2906,6 +2907,18 @@ focus = {
 					anti_communist
 					}
 				}
+=======
+				create_country_leader = {
+					name = "Armand Calinescu"
+					desc = "POLITICS_ARMAND_CALINESCU_DESC"
+					picture = "gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
+					expire = "1965.1.1"
+					ideology = centrism
+					traits = {
+						anti_communist
+						}
+					}
+>>>>>>> 5d3bbff053dc138cf894882f6840ef3da4b468cf
 
 			if = {
 				limit = { has_country_leader = { id = 550 } }
