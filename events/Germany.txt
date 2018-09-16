@@ -2283,7 +2283,6 @@ country_event = {
 				country_exists = HUN 
 			}
 			HUN = { transfer_state = 73 }
-			HUN = { transfer_state = 1477 }
 		}
 
 		

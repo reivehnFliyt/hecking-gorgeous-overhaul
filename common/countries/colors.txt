@@ -1124,10 +1124,6 @@ COU = {
 	color = rgb { 78  65  15 }
 	color_ui = rgb { 78  65  15 }	
 }
-CRN = {
-	color = rgb { 250 10  29 }
-    color_ui = rgb { 240  10  29}	
-}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

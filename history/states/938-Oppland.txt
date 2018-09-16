@@ -11,9 +11,6 @@ state={
 
 		}
 		add_core_of = NOR
-		victory_points = {
-			10 5 
-		}
 
 	}
 
