@@ -1,19 +1,19 @@
 state={
-	id=1521
-	name="STATE_1521"
-	
+	id=1854
+	name="STATE_1854"
+
 	history={
-		owner = ENG
+		owner = BEL
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 
 		}
-		add_core_of = KEN
+		add_core_of = COG
 
 	}
-	
+
 	provinces={
-		2176 10988 
+		1731 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
