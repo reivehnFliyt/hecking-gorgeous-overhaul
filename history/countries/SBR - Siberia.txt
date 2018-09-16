@@ -45,22 +45,22 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 100
 		}
 		
 		neutrality = {
-			popularity = 100
+			popularity = 0
 		}		
 	}
 	
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Mir Jafar Baghirov"
+	name = "Ola Vionev"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1953.3.1"

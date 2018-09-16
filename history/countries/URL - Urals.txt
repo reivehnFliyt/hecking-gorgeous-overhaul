@@ -45,11 +45,11 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 100
 		}
 		
 		neutrality = {
-			popularity = 100
+			popularity = 0
 		}		
 	}
 	
@@ -60,7 +60,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Zach Vaughn"
+	name = "Johg Gorbechin"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1953.3.1"
