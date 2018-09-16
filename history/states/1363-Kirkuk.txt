@@ -1,7 +1,8 @@
+
 state={
 	id=1363
 	name="STATE_1363"
-	
+
 	history={
 		owner = IRQ
 		buildings = {
@@ -11,11 +12,11 @@ state={
 		add_core_of = IRQ
 
 	}
-	
+
 	provinces={
-		8123 13416
+		6826 8123 10793 13415 13416 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }
