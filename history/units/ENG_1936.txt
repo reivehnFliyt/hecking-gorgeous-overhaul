@@ -888,7 +888,7 @@ air_wings = {
 			amount = 48
 		}
 	}
-	126 = { 
+	1837 = { 
 		### No. 3 Bomber Command, Suffolk area -- HP Heyford, Harrows, AW Whitleys
 		tac_bomber_equipment_0 = {
 			owner = "ENG" 
@@ -902,7 +902,7 @@ air_wings = {
 			amount = 80
 		}
 	}
-	128 = { 
+	1837 = { 
 		### No. 5 Bomber Command, Lincoln area -- Fairey Gordons, Battles
 		CAS_equipment_1 = {
 			owner = "ENG" 

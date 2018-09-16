@@ -14,7 +14,7 @@ state={
 		owner = IRE
 		buildings = {
 			infrastructure = 7
-			industrial_complex = 5
+			industrial_complex = 4
 			air_base = 3
 		}
 		add_core_of = IRE
