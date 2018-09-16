@@ -15,7 +15,12 @@ state={
 				naval_base = 1
 
 			}
-			dockyard = 1
+			9635 = {
+				naval_base = 8
+
+			}
+			dockyard = 3
+			industrial_complex = 1
 
 		}
 		add_core_of = ROM
@@ -25,7 +30,7 @@ state={
 	provinces={
 		687 3076 9635 
 	}
-	manpower=311100
+	manpower=611100
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 }

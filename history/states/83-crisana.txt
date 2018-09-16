@@ -5,10 +5,10 @@ state={
 	manpower = 632900
 
 	resources = {
-		aluminium=2
+		aluminium=8
 	}
 	
-	state_category = town
+	state_category = rural
 
 	history={
 		owner = ROM

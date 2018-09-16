@@ -387,11 +387,11 @@ focus_tree = {
 		id = ROM_license_german_equipment
 		icon = GFX_focus_generic_license_production
 		prerequisite = { focus = ROM_invite_german_advisors }
-		x = 1
+		x = -1
 		y = 3
 		relative_position_id = ROM_trade_treaty_with_germany
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -432,7 +432,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = ROM_trade_treaty_with_germany
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -522,7 +522,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = oil
-					amount = 12
+					amount = 20
 				}
 			}
 			GER = {
@@ -532,7 +532,7 @@ focus_tree = {
 					}
 					add_resource = {
 						type = oil
-						amount = 6
+						amount = 10
 					}
 				}
 			}
@@ -540,14 +540,63 @@ focus_tree = {
 	}
 
 	focus = {
+		id = ROM_claim_transnistria
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = ROM_invite_german_advisors }
+		x = 1
+		y = 3
+		relative_position_id = ROM_trade_treaty_with_germany
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			is_in_faction_with = GER
+			GER = {
+				exists = yes
+				is_puppet = no
+			}
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+			192 = { is_owned_by = ROM }
+			198 = { is_owned_by = ROM }
+			790 = { is_owned_by = ROM }
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_state_claim = 192
+			add_state_claim = 198
+			add_state_claim = 790
+		}
+	}
+
+
+	focus = {
 		id = ROM_demand_transnistria
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		prerequisite = { focus = ROM_join_axis }
+		prerequisite = { focus = ROM_claim_transnistria }
 		x = 1
 		y = 5
 		relative_position_id = ROM_trade_treaty_with_germany
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -591,9 +640,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_state_claim = 192
-			add_state_claim = 198
-			add_state_claim = 790
 			if = {
 				limit = {
 
@@ -669,14 +715,12 @@ focus_tree = {
 		
 		completion_reward = {
 			192 = {
-				if = {
-					limit = {
-						ROOT = { has_full_control_of_state = PREV } 
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
+				limit = {
+					ROOT = { has_full_control_of_state = PREV } 
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 2
@@ -700,40 +744,36 @@ focus_tree = {
 				}
 			}
 			198 = {
-				if = {
-					limit = {
-						ROOT = { has_full_control_of_state = PREV } 
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
+				limit = {
+					ROOT = { has_full_control_of_state = PREV } 
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
 					}
-					add_extra_state_shared_building_slots = 2
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-						instant_build = yes
-					}
-					add_building_construction = {
-						type = arms_factory
-						level = 1
-						instant_build = yes
-					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
 				}
 			}
 			790 = {
-				if = {
-					limit = {
-						ROOT = { has_full_control_of_state = PREV } 
-						free_building_slots = {
-							building = industrial_complex
-							size > 1
-							include_locked = yes
-						}
+				limit = {
+					ROOT = { has_full_control_of_state = PREV } 
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
 					}
-					add_extra_state_shared_building_slots = 2
 				}
+				add_extra_state_shared_building_slots = 2
 			}
 		}
 	}
@@ -1573,7 +1613,7 @@ focus = {
 				}
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 16
 				}
 			}
 		}
@@ -1599,7 +1639,7 @@ focus = {
 				set_state_flag = ROM_hunedoara_steel_works_IC
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 16
 				}
 			}
 		}
@@ -2147,7 +2187,7 @@ focus = {
 		}
 
 		bypass = {
-
+			is_subject = yes
 		}
 
 		cancel_if_invalid = yes
@@ -2450,10 +2490,6 @@ focus = {
 
 		completion_reward = {
 			
-			set_politics = {
-				ruling_party = neutrality
-				elections_allowed = no
-			}
 			add_country_leader_trait = camarilla_leader
 			add_ideas = ROM_the_sentinel_of_the_motherland
 		}
@@ -2859,6 +2895,19 @@ focus = {
 
 		completion_reward = {
 			#Removes king carol and makes the most popular party the ruling one
+			
+			create_country_leader = {
+				name = "Armand Calinescu"
+				desc = "POLITICS_ARMAND_CALINESCU_DESC"
+				picture = "gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
+				expire = "1965.1.1"
+				ideology = centrism
+				traits = {
+					anti_communist
+					}
+				}
+
+
 			if = {
 				limit = { has_country_leader = { id = 550 } }
 				retire_country_leader = yes
@@ -3154,7 +3203,7 @@ focus = {
 
 		completion_reward = {
 			air_experience = 25
-			random_owned_controlled_state = {
+			82 = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 					free_building_slots = {
@@ -3169,7 +3218,7 @@ focus = {
 				}
 				set_state_flag = ROM_expand_the_air_force_AB
 			}
-			random_owned_controlled_state = {
+			1217 = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 					free_building_slots = {
@@ -4475,15 +4524,13 @@ focus = {
 		complete_tooltip = {
 			navy_experience = 25
 			797 = {
-				if = {
-					limit = {
-						has_state_flag = ROM_expand_the_galati_shipyards_AB
-					}
-					add_building_construction = {
-						type = dockyard
-						level = 3
-						instant_build = yes
-					}
+				limit = {
+					has_state_flag = ROM_expand_the_galati_shipyards_AB
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 3
+					instant_build = yes
 				}
 			}
 		}
@@ -4491,14 +4538,12 @@ focus = {
 		completion_reward = {
 			navy_experience = 25
 			797 = {
-				if = {
-					limit = {
-						ROOT = { has_full_control_of_state = PREV }
-						free_building_slots = {
-							building = dockyard
-							size > 1
-							include_locked = yes
-						}
+				limit = {
+					ROOT = { has_full_control_of_state = PREV }
+					free_building_slots = {
+						building = dockyard
+						size > 1
+						include_locked = yes
 					}
 				}
 				add_extra_state_shared_building_slots = 3

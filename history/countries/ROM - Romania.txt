@@ -291,7 +291,7 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Petre Dumitrescu"
 	gfx = GFX_Portrait_romania_petre_dumitrescu
-	traits = { offensive_doctrine logistics_wizard war_hero }
+	traits = { war_hero offensive_doctrine logistics_wizard }
 	skill = 4
 	attack_skill = 4
 	defense_skill = 4
@@ -302,7 +302,7 @@ create_field_marshal = {
 create_field_marshal = {
 	name = "Ion Antonescu"
 	picture = "Portrait_Romania_Ion_Antonescu.dds"
-	traits = { offensive_doctrine war_hero media_personality }
+	traits = { offensive_doctrine }
 	skill = 4
 	attack_skill = 4
 	defense_skill = 4
@@ -335,12 +335,23 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Ioan Mihail Racovita"
 	gfx = GFX_Portrait_romania_ioan_mihail_racovita
-	traits = { hill_fighter trickster trait_engineer }
-	skill = 3
-	attack_skill = 4
+	traits = { hill_fighter trickster }
+	skill = 4
+	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Constantin Sănătescu"
+	picture = "Constantin_Sanatescu.dds"
+	traits = { brilliant_strategist defensive_doctrine trickster }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -350,30 +361,8 @@ create_corps_commander = {
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
-	planning_skill = 4
+	planning_skill = 2
 	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Corneliu Dragalia"
-	picture = "Corneliu_Dragalia.dds"
-	traits = { trait_reckless panzer_leader armor_officer media_personality }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Constantin Sănătescu"
-	picture = "Constantin_Sanatescu.dds"
-	traits = { brilliant_strategist infantry_officer trait_engineer }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 5
-	planning_skill = 3
-	logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -381,15 +370,37 @@ create_corps_commander = {
 	picture = "Leonard_Mociulschi.dds"
 	traits = { infantry_officer trait_mountaineer }
 	skill = 2
-	attack_skill = 1
+	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 2
-	logistics_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Emanoil Bârzotescu"
+	picture = "cbowv-jtcj8.dds"
+	traits = { infantry_leader ranger }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Corneliu Dragalia"
+	picture = "Corneliu_Dragalia.dds"
+	traits = { armor_officer panzer_leader  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Constantin Pantazi"
-	picture = "Constantin_Pantazi.dds"
+	picture = "Constantin_Pantazi.tga"
 	traits = { career_officer }
 	skill = 2
 	attack_skill = 2
@@ -405,7 +416,7 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 2
-	planning_skill = 3
+	planning_skill = 1
 	logistics_skill = 1
 }
 
@@ -415,7 +426,6 @@ create_navy_leader = {
 	traits = { spotter }
 	skill = 3
 }
-
 
 ### Ship Variants ###
 
