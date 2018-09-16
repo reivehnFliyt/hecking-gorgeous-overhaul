@@ -15,16 +15,25 @@ state={
 		1938.10.25 = {
 			if = {
 				limit = {
-					NOT = { has_dlc = "Waking the Tiger" }
+					NOT = {
+						has_dlc = Waking
+						the Tiger 
+					}
+
 				}
-				CHI = { transfer_state = PREV }
+				CHI = {
+					transfer_state = PREV
+
+				}
+
 			}
+
 		}
 
 	}
 
 	provinces={
-		3742 7511 8081 8127 10724 
+		1630 5057 7511 8127 10724 
 	}
 	manpower=2077600
 	buildings_max_level_factor=1.000
