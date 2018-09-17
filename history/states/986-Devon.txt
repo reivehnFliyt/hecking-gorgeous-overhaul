@@ -10,6 +10,10 @@ state={
 		}
 		buildings = {
 			infrastructure = 7
+			540 = {
+				naval_base = 8
+
+			}
 
 		}
 		add_core_of = ENG
