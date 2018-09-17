@@ -8,7 +8,10 @@ state={
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 5
+			3900 = {
+				naval_base = 2
 
+			}
 		}
 
 	}

@@ -1124,6 +1124,10 @@ COU = {
 	color = rgb { 78  65  15 }
 	color_ui = rgb { 78  65  15 }	
 }
+TGR = {
+	color = rgb { 173 48 83 }
+    color_ui = rgb { 127 63 91 }	
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }
