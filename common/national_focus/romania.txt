@@ -715,6 +715,7 @@ focus_tree = {
 		
 		completion_reward = {
 			192 = {
+				if = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV } 
 					free_building_slots = {
@@ -742,8 +743,10 @@ focus_tree = {
 					type = aluminium
 					amount = 8
 				}
+				}
 			}
 			198 = {
+				if = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV } 
 					free_building_slots = {
@@ -763,8 +766,10 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
+				}
 			}
 			790 = {
+				if = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV } 
 					free_building_slots = {
@@ -774,11 +779,12 @@ focus_tree = {
 					}
 				}
 				add_extra_state_shared_building_slots = 2
+				}
 			}
 		}
 	}
 
-focus = {
+	focus = {
 		id = ROM_Greater_Romania
 		icon = GFX_focus_rom_preserve_romania
 		prerequisite = { focus = ROM_Transnistria_Development }
@@ -3190,6 +3196,7 @@ focus = {
 				}
 			}
 			random_state = {
+				if = {
 				limit = {
 					has_state_flag = ROM_expand_the_air_force_AB_2
 				}
@@ -3198,12 +3205,14 @@ focus = {
 					level = 3
 					instant_build = yes
 				}
+				}
 			}
 		}
 
 		completion_reward = {
 			air_experience = 25
 			82 = {
+				if = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 					free_building_slots = {
@@ -3217,8 +3226,10 @@ focus = {
 					instant_build = yes
 				}
 				set_state_flag = ROM_expand_the_air_force_AB
+				}
 			}
 			1217 = {
+				if = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 					free_building_slots = {
@@ -3232,6 +3243,7 @@ focus = {
 					instant_build = yes
 				}
 				set_state_flag = ROM_expand_the_air_force_AB_2
+				}
 			}
 		}
 	}
@@ -4524,6 +4536,7 @@ focus = {
 		complete_tooltip = {
 			navy_experience = 25
 			797 = {
+				if = {
 				limit = {
 					has_state_flag = ROM_expand_the_galati_shipyards_AB
 				}
@@ -4532,12 +4545,14 @@ focus = {
 					level = 3
 					instant_build = yes
 				}
+				}
 			}
 		}
 
 		completion_reward = {
 			navy_experience = 25
 			797 = {
+				if = {
 				limit = {
 					ROOT = { has_full_control_of_state = PREV }
 					free_building_slots = {
@@ -4553,6 +4568,7 @@ focus = {
 					instant_build = yes
 				}
 				set_state_flag = ROM_expand_the_galati_shipyards_AB
+				}
 			}
 		}
 	}
