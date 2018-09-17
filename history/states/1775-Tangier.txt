@@ -11,7 +11,9 @@ state={
 
 		}
 		add_core_of = TGR
-
+		set_demilitarized_zone = yes
+		add_claim_by = FRA
+		add_claim_by = SPR
 	}
 	
 	provinces={
