@@ -1,0 +1,22 @@
+state={
+	id=1912
+	name="STATE_1912"
+	
+	state_category=metropolis
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 8
+
+		}
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		13631 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+}
