@@ -10,11 +10,11 @@ state={
 
 		}
 		add_core_of = TUR
-
+		add_claim_by = KUR
 	}
 
 	provinces={
-		652 7470 11853 11880 13121 
+		652 7470 11853 11880 
 	}
 	manpower=223325
 	buildings_max_level_factor=1.000
