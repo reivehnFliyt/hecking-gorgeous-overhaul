@@ -1,22 +1,22 @@
 
 state={
-	id=1124
-	name="STATE_1124"
+	id=837
+	name="STATE_837"
 
 	history={
-		owner = SWI
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = SWI
 
 	}
 
 	provinces={
-		6666 13124 
+		764 3764 9736 
 	}
-	manpower=198979
+	manpower=103200
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 }

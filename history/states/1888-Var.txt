@@ -1,6 +1,7 @@
+
 state={
-	id=837
-	name="STATE_837"
+	id=1888
+	name="STATE_1888"
 
 	history={
 		owner = FRA
@@ -13,9 +14,9 @@ state={
 	}
 
 	provinces={
-		764 3764 3961 6975 9736 13397
+		911 956 3928 
 	}
-	manpower=103200
+	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 }
