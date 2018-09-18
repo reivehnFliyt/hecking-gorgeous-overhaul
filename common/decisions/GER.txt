@@ -342,6 +342,9 @@ GER_reichskommissariats = {
 			controls_state = 938
 			controls_state = 939
 			controls_state = 940
+			controls_state = 1272
+			controls_state = 1239
+			controls_state = 1243
 		}
 
 		cost = 0
@@ -373,6 +376,9 @@ GER_reichskommissariats = {
 				        set_state_controller = 938
 				        set_state_controller = 939
 				        set_state_controller = 940
+				        set_state_controller = 1272
+						set_state_controller = 1239
+						set_state_controller = 1243
 					}
 				}
 				NOR = {
@@ -391,6 +397,9 @@ GER_reichskommissariats = {
 				    transfer_state = 938
 				    transfer_state = 939
 				    transfer_state = 940
+				    transfer_state = 1272
+					transfer_state = 1239
+					transfer_state = 1243
 					GER = {
 						puppet = PREV
 						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
@@ -417,6 +426,9 @@ GER_reichskommissariats = {
 				    transfer_state = 938
 				    transfer_state = 939
 				    transfer_state = 940
+				    transfer_state = 1272
+					transfer_state = 1239
+					transfer_state = 1243
 					set_cosmetic_tag = NOR_reichskommissariat
 					create_country_leader = {
 						name = "Josef Terboven"
@@ -448,6 +460,7 @@ GER_reichskommissariats = {
 			controls_state = 784
 			controls_state = 785
 			controls_state = 786
+			controls_state = 1257
 		}
 
 		cost = 0
@@ -480,6 +493,7 @@ GER_reichskommissariats = {
 				        set_state_controller = 784
 				        set_state_controller = 785
 				        set_state_controller = 786
+				        set_state_controller = 1257
 					}
 				}
 				HOL = {
@@ -498,6 +512,7 @@ GER_reichskommissariats = {
 				    transfer_state = 784
 				    transfer_state = 785
 				    transfer_state = 786
+				    transfer_state = 1257
 					GER = {
 						puppet = PREV
 						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
@@ -525,6 +540,7 @@ GER_reichskommissariats = {
 				    transfer_state = 784
 				    transfer_state = 785
 				    transfer_state = 786
+				    transfer_state = 1257
 					set_cosmetic_tag = HOL_reichskommissariat
 					create_country_leader = {
 						name = "Arthur Seyss-Inquart"
@@ -554,6 +570,10 @@ GER_reichskommissariats = {
 			controls_state = 780
 		    controls_state = 781
 			controls_state = 1036
+			controls_state = 1358
+			controls_state = 1747
+			controls_state = 1744
+			controls_state = 1746
 		}
 
 		cost = 0
@@ -583,6 +603,10 @@ GER_reichskommissariats = {
 			            set_state_controller = 780
 		                set_state_controller = 781
 						set_state_controller = 1036
+						set_state_controller = 1358
+						set_state_controller = 1744
+						set_state_controller = 1746
+						set_state_controller = 1747
 					}
 				}
 				BEL = {
@@ -599,9 +623,14 @@ GER_reichskommissariats = {
 			        transfer_state = 780
 		            transfer_state = 781
 					transfer_state = 1036
+					transfer_state = 1358
+					transfer_state = 1744
+					transfer_state = 1746
+					transfer_state = 1747
 					GER = {
 						puppet = PREV
 						set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
+						transfer_state = 779
 					}
 					set_cosmetic_tag = BEL_reichskommissariat
 					create_country_leader = {
@@ -626,6 +655,10 @@ GER_reichskommissariats = {
 					transfer_state = 780
 		            transfer_state = 781
 					transfer_state = 1036
+					transfer_state = 1358
+					transfer_state = 1744
+					transfer_state = 1746
+					transfer_state = 1747
 					set_cosmetic_tag = BEL_reichskommissariat
 					create_country_leader = {
 						name = "Josef Grohe"
@@ -667,12 +700,21 @@ GER_reichskommissariats = {
 			controls_state = 190
 			controls_state = 13
 			controls_state = 191
-			controls_state = 1080
 			controls_state = 1081
 			controls_state = 830
 			controls_state = 788
 			controls_state = 241
 			controls_state = 1103
+			#
+			controls_state = 1135
+			controls_state = 1293
+			controls_state = 1765
+			controls_state = 1763
+			controls_state = 1325
+			controls_state = 1284
+			controls_state = 1285
+			controls_state = 1008
+			controls_state = 1294
 		}
 
 		cost = 0
@@ -704,7 +746,6 @@ GER_reichskommissariats = {
 				set_state_controller = 190
 				set_state_controller = 13
 				set_state_controller = 191
-				set_state_controller = 1080
 				set_state_controller = 1081
 				set_state_controller = 95
 				set_state_controller = 96
@@ -716,6 +757,15 @@ GER_reichskommissariats = {
 				set_state_controller = 788
 				set_state_controller = 241
 				set_state_controller = 1103
+				set_state_controller = 1135
+				set_state_controller = 1293
+				set_state_controller = 1765
+				set_state_controller = 1763
+				set_state_controller = 1325
+				set_state_controller = 1284
+				set_state_controller = 1285
+				set_state_controller = 1008
+				set_state_controller = 1294
 				
 				transfer_state = 11
 				transfer_state = 189
@@ -729,7 +779,6 @@ GER_reichskommissariats = {
 				transfer_state = 190
 				transfer_state = 13
 				transfer_state = 191
-				transfer_state = 1080
 				transfer_state = 1081
 				transfer_state = 95
 				transfer_state = 96
@@ -741,6 +790,15 @@ GER_reichskommissariats = {
 				transfer_state = 788
 				transfer_state = 241
 				transfer_state = 1103
+				transfer_state = 1135
+				transfer_state = 1293
+				transfer_state = 1765
+				transfer_state = 1763
+				transfer_state = 1325
+				transfer_state = 1284
+				transfer_state = 1285
+				transfer_state = 1008
+				transfer_state = 1294
 				
 				set_capital = 12
 				GER = {
@@ -771,10 +829,18 @@ GER_reichskommissariats = {
 					190 = { add_core_of = PREV }
 					13 = { add_core_of = PREV }
 					191 = { add_core_of = PREV }
-					1080 = { add_core_of = PREV }
 					1081 = { add_core_of = PREV }
 					830 = { add_core_of = PREV }
 					1103 = { add_core_of = PREV }
+					1135 = { add_core_of = PREV }
+					1293 = { add_core_of = PREV }
+					1765 = { add_core_of = PREV }
+					1763 = { add_core_of = PREV }
+					1325 = { add_core_of = PREV }
+					1284 = { add_core_of = PREV }
+					1285 = { add_core_of = PREV }
+					1008 = { add_core_of = PREV }
+					1294 = { add_core_of = PREV }
 				}
 			}
 		}
@@ -807,6 +873,12 @@ GER_reichskommissariats = {
 			controls_state = 94
 			controls_state = 194
 			controls_state = 1011
+
+			controls_state = 1292
+			controls_state = 1291
+			controls_state = 1826
+			controls_state = 1289
+			controls_state = 1290
 		}
 
 		cost = 0
@@ -844,7 +916,12 @@ GER_reichskommissariats = {
 				set_state_controller = 94
 				set_state_controller = 194
 				set_state_controller = 1011
-				
+				set_state_controller = 1292
+				set_state_controller = 1291
+				set_state_controller = 1826
+				set_state_controller = 1289
+				set_state_controller = 1290
+
 				transfer_state = 93
 				transfer_state = 199
 				transfer_state = 201
@@ -863,6 +940,11 @@ GER_reichskommissariats = {
 				transfer_state = 94
 				transfer_state = 194
 				transfer_state = 1011
+				transfer_state = 1292
+				transfer_state = 1291
+				transfer_state = 1826
+				transfer_state = 1289
+				transfer_state = 1290
 				GER = {
 					puppet = PREV
 					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
@@ -881,6 +963,11 @@ GER_reichskommissariats = {
 					94 = { add_core_of = PREV }
 					194 = { add_core_of = PREV }
 					1011 = { add_core_of = PREV }
+					1292 = { add_core_of = PREV }
+					1291 = { add_core_of = PREV }
+					1826 = { add_core_of = PREV }
+					1289 = { add_core_of = PREV }
+					1290 = { add_core_of = PREV }
 				}
 			}
 		}
@@ -912,6 +999,21 @@ GER_reichskommissariats = {
 			controls_state = 590
 			controls_state = 588
 			controls_state = 586
+
+			controls_state = 1394
+			controls_state = 1393
+			controls_state = 1364
+			controls_state = 1371
+			controls_state = 1381
+			controls_state = 1372
+			controls_state = 1382
+			controls_state = 1365
+			controls_state = 1378
+			controls_state = 1380
+			controls_state = 1189
+			controls_state = 1392
+			controls_state = 1452
+			controls_state = 1397
 		}
 
 		cost = 0
@@ -952,6 +1054,20 @@ GER_reichskommissariats = {
 			    set_state_controller = 590
 			    set_state_controller = 588
 				set_state_controller = 586
+				set_state_controller = 1394
+				set_state_controller = 1393
+				set_state_controller = 1364
+				set_state_controller = 1371
+				set_state_controller = 1381
+				set_state_controller = 1372
+				set_state_controller = 1382
+				set_state_controller = 1365
+				set_state_controller = 1378
+				set_state_controller = 1380
+				set_state_controller = 1189
+				set_state_controller = 1392
+				set_state_controller = 1452
+				set_state_controller = 1397
 				
 				transfer_state = 407
 			    transfer_state = 406
@@ -973,6 +1089,20 @@ GER_reichskommissariats = {
 			    transfer_state = 590
 			    transfer_state = 588
 				transfer_state = 586
+				transfer_state = 1394
+				transfer_state = 1393
+				transfer_state = 1364
+				transfer_state = 1371
+				transfer_state = 1381
+				transfer_state = 1372
+				transfer_state = 1382
+				transfer_state = 1365
+				transfer_state = 1378
+				transfer_state = 1380
+				transfer_state = 1189
+				transfer_state = 1392
+				transfer_state = 1452
+				transfer_state = 1397
 				GER = {
 					puppet = PREV
 					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
@@ -998,6 +1128,26 @@ GER_reichskommissariats = {
 					732 = { add_core_of = PREV }
 					405 = { add_core_of = PREV }
 					586 = { add_core_of = PREV }
+					1394 = { add_core_of = PREV }
+					1393 = { add_core_of = PREV }
+					1364 = { add_core_of = PREV }
+					1371 = { add_core_of = PREV }
+					1381 = { add_core_of = PREV }
+					1372 = { add_core_of = PREV }
+					1382 = { add_core_of = PREV }
+					1365 = { add_core_of = PREV }
+					1378 = { add_core_of = PREV }
+					1380 = { add_core_of = PREV }
+					1189 = { add_core_of = PREV }
+					1392 = { add_core_of = PREV }
+					1452 = { add_core_of = PREV }
+					1397 = { add_core_of = PREV }
+					618 = { add_core_of = PREV }
+					617 = { add_core_of = PREV }
+					760 = { add_core_of = PREV }
+					759 = { add_core_of = PREV }
+					287 = { add_core_of = PREV }
+					619 = { add_core_of = PREV }
 				}
 			}
 		}
@@ -1024,6 +1174,17 @@ GER_reichskommissariats = {
 			controls_state = 237
 			controls_state = 238
 			controls_state = 1035
+
+			controls_state = 1740
+			controls_state = 1745
+			controls_state = 1862
+			controls_state = 1861
+			controls_state = 1860
+			controls_state = 1885
+			controls_state = 1859
+			controls_state = 1858
+			controls_state = 1154
+			controls_state = 1814
 		}
 
 		cost = 0
@@ -1059,6 +1220,16 @@ GER_reichskommissariats = {
 			set_state_controller = 237
 			set_state_controller = 238
 			set_state_controller = 1035
+			set_state_controller = 1740
+			set_state_controller = 1745
+			set_state_controller = 1862
+			set_state_controller = 1861
+			set_state_controller = 1860
+			set_state_controller = 1885
+			set_state_controller = 1859
+			set_state_controller = 1858
+			set_state_controller = 1154
+			set_state_controller = 1814
 				
 			transfer_state = 229
 			transfer_state = 230
@@ -1075,6 +1246,16 @@ GER_reichskommissariats = {
 			transfer_state = 237
 			transfer_state = 238
 			transfer_state = 1035
+			transfer_state = 1740
+			transfer_state = 1745
+			transfer_state = 1862
+			transfer_state = 1861
+			transfer_state = 1860
+			transfer_state = 1885
+			transfer_state = 1859
+			transfer_state = 1858
+			transfer_state = 1154
+			transfer_state = 1814
 				GER = {
 					puppet = PREV
 					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }
@@ -1106,6 +1287,16 @@ GER_reichskommissariats = {
 					237 = { add_core_of = PREV }
 					238 = { add_core_of = PREV }
 					1035 = { add_core_of = PREV }
+					1740 = { add_core_of = PREV }
+					1745 = { add_core_of = PREV }
+					1862 = { add_core_of = PREV }
+					1861 = { add_core_of = PREV }
+					1860 = { add_core_of = PREV }
+					1885 = { add_core_of = PREV }
+					1859 = { add_core_of = PREV }
+					1858 = { add_core_of = PREV }
+					1154 = { add_core_of = PREV }
+					1814 = { add_core_of = PREV }
 				}
 			}
 		}
@@ -1129,7 +1320,6 @@ GER_reichskommissariats = {
 			controls_state = 1082
 			controls_state = 208
 			controls_state = 209
-			controls_state = 1008
 			controls_state = 210
 			controls_state = 263
 			controls_state = 246
@@ -1172,6 +1362,30 @@ GER_reichskommissariats = {
 			controls_state = 988
 			controls_state = 1096
 			controls_state = 213
+
+			controls_state = 1080
+			controls_state = 1287
+			controls_state = 1288
+			controls_state = 1721
+			controls_state = 1286
+			controls_state = 1326
+			controls_state = 1327
+			controls_state = 1330
+			controls_state = 1329
+			controls_state = 1728
+			controls_state = 1725
+			controls_state = 1722
+			controls_state = 1723
+			controls_state = 1724
+			controls_state = 1726
+			controls_state = 1727
+			controls_state = 1717
+			controls_state = 1718
+			controls_state = 1719
+			controls_state = 1720
+			controls_state = 1328
+			controls_state = 1241
+			controls_state = 1240
 		}
 
 		cost = 0
@@ -1203,7 +1417,6 @@ GER_reichskommissariats = {
 			set_state_controller = 1082
 			set_state_controller = 208
 			set_state_controller = 209
-			set_state_controller = 1008
 			set_state_controller = 210
 			set_state_controller = 263
 			set_state_controller = 246
@@ -1246,6 +1459,29 @@ GER_reichskommissariats = {
 			set_state_controller = 988
 			set_state_controller = 213
 			set_state_controller = 1096
+			set_state_controller = 1080
+			set_state_controller = 1287
+			set_state_controller = 1288
+			set_state_controller = 1721
+			set_state_controller = 1286
+			set_state_controller = 1326
+			set_state_controller = 1327
+			set_state_controller = 1330
+			set_state_controller = 1329
+			set_state_controller = 1728
+			set_state_controller = 1725
+			set_state_controller = 1722
+			set_state_controller = 1723
+			set_state_controller = 1724
+			set_state_controller = 1726
+			set_state_controller = 1727
+			set_state_controller = 1717
+			set_state_controller = 1718
+			set_state_controller = 1719
+			set_state_controller = 1720
+			set_state_controller = 1328
+			set_state_controller = 1241
+			set_state_controller = 1240
 			
 			transfer_state = 214
 			transfer_state = 262
@@ -1259,7 +1495,6 @@ GER_reichskommissariats = {
 			transfer_state = 1082
 			transfer_state = 208
 			transfer_state = 209
-			transfer_state = 1008
 			transfer_state = 210
 			transfer_state = 263
 			transfer_state = 246
@@ -1302,6 +1537,29 @@ GER_reichskommissariats = {
 			transfer_state = 988
 			transfer_state = 1096
 			transfer_state = 213
+			transfer_state = 1080
+			transfer_state = 1287
+			transfer_state = 1288
+			transfer_state = 1721
+			transfer_state = 1286
+			transfer_state = 1326
+			transfer_state = 1327
+			transfer_state = 1330
+			transfer_state = 1329
+			transfer_state = 1728
+			transfer_state = 1725
+			transfer_state = 1722
+			transfer_state = 1723
+			transfer_state = 1724
+			transfer_state = 1726
+			transfer_state = 1727
+			transfer_state = 1717
+			transfer_state = 1718
+			transfer_state = 1719
+			transfer_state = 1720
+			transfer_state = 1328
+			transfer_state = 1241
+			transfer_state = 1240
 
 				GER = {
 					puppet = PREV
@@ -1438,12 +1696,12 @@ GER_reichsprotektorat = {
 				hidden_effect = {
 					POL = {
 						set_state_controller = 10
-			set_state_controller = 90
-			set_state_controller = 92
-			set_state_controller = 88
-			set_state_controller = 91
-			set_state_controller = 787
-			set_state_controller = 89
+						set_state_controller = 90
+						set_state_controller = 92
+						set_state_controller = 88
+						set_state_controller = 91
+						set_state_controller = 787
+						set_state_controller = 89
 					}
 				}
 				POL = {
@@ -1455,12 +1713,21 @@ GER_reichsprotektorat = {
 						has_government = fascism
 					}
 					transfer_state = 10
-			transfer_state = 90
-			transfer_state = 92
-			transfer_state = 88
-			transfer_state = 91
-			transfer_state = 787
-			transfer_state = 89
+						transfer_state = 90
+						transfer_state = 92
+						transfer_state = 88
+						transfer_state = 91
+						transfer_state = 787
+						transfer_state = 89
+						transfer_state = 1737
+						transfer_state = 1736
+						transfer_state = 1331
+						transfer_state = 1782
+						transfer_state = 1742
+						transfer_state = 1743
+						transfer_state = 1332
+						transfer_state = 1739
+						transfer_state = 1741
 					GER = {
 						puppet = PREV
 						set_autonomy = { target = PREV autonomy_state = autonomy_reichsprotectorate }
@@ -1524,11 +1791,17 @@ GER_french_question = {
 		cost = 0
 
 		ai_will_do = {
-			factor = 5
+			factor = 0
 		}
 
 		visible = {
 		    NOT = { has_global_flag = FRA_vichy_france_formed }
+		    if = {
+		    	limit = { 
+		    	GER = { has_war_with = ENG }
+		    	}
+		    	has_global_flag = FRA_no_vichy
+		    }
 			has_government = fascism
 			controls_state = 834
 			controls_state = 985
@@ -1537,14 +1810,6 @@ GER_french_question = {
 			controls_state = 27
 			controls_state = 17
 			controls_state = 20
-			FRA = {
-			    NOT = { 
-				    OR = {
-					    has_cosmetic_tag = FRA_FREE
-						has_cosmetic_tag = FRA_UK
-					}
-				}
-			}
 		}
 
 		complete_effect = {
@@ -1593,35 +1858,36 @@ GER_french_question = {
 		    NOT = { has_global_flag = FRA_vichy_france_formed }
 			has_government = fascism
 			controls_state = 14
+			controls_state = 1761
 		}
 
 		cost = 0
 
 		ai_will_do = {
-			factor = 5
+			factor = 0
 		}
 
 		visible = {
 		    NOT = { has_global_flag = FRA_vichy_france_formed }
+		    if = {
+		    	limit = { 
+		    	GER = { has_war_with = ENG }
+		    	}
+		    	has_global_flag = FRA_no_vichy
+		    }
 			has_government = fascism
 			controls_state = 14
-			FRA = {
-			    NOT = { 
-				    OR = {
-					    has_cosmetic_tag = FRA_FREE
-						has_cosmetic_tag = FRA_UK
-					}
-				}
-			}
+			controls_state = 1761
 		}
 
 		complete_effect = {
 			release = BRT
 			BRT = {
 				transfer_state = 14
-				
+				transfer_state = 1761
 				hidden_effect = {
 				    14 = { add_core_of = PREV }
+				    1761 = { add_core_of = PREV }
 				}
 				create_country_leader = {
 	                name = "Heinrich Himmler"

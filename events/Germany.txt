@@ -51,6 +51,90 @@ country_event = {
 				add_core_of = GER
 			}
 		}
+		1110 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		1112 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		1211 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		1385 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		1387 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		1388 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		1386 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		1230 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		1229 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		1791 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		1228 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		1125 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		1227 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
+		1111 = {
+			if = {
+				limit = { is_owned_by = AUS }
+				add_core_of = GER
+			}
+		}
 		AUS = {
 			every_unit_leader = {
 				set_nationality = GER
@@ -639,6 +723,66 @@ country_event = {
 				}
 			}
 			SOV = { transfer_state = 1292 }
+		}
+		if = {
+			limit = {
+				1816 = {
+					OR = {
+						is_controlled_by = GER
+						any_other_country = {
+							controls_state = 1816
+							is_in_faction_with = GER
+							GER = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			SOV = { transfer_state = 1816 }
+		}
+		if = {
+			limit = {
+				1729 = {
+					OR = {
+						is_controlled_by = GER
+						any_other_country = {
+							controls_state = 1729
+							is_in_faction_with = GER
+							GER = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			SOV = { transfer_state = 1729 }
+		}
+		if = {
+			limit = {
+				1763 = {
+					OR = {
+						is_controlled_by = GER
+						any_other_country = {
+							controls_state = 1763
+							is_in_faction_with = GER
+							GER = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			SOV = { transfer_state = 1763 }
+		}
+		if = {
+			limit = {
+				1765 = {
+					OR = {
+						is_controlled_by = GER
+						any_other_country = {
+							controls_state = 1765
+							is_in_faction_with = GER
+							GER = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			SOV = { transfer_state = 1765 }
 		}
 		SOV = { country_event = germany.15 }
 	}
@@ -2302,9 +2446,16 @@ country_event = {
 						is_owned_by = GER
 					}
 				}
+				1477 = {
+					OR = {
+						is_owned_by = CZE
+						is_owned_by = GER
+					}
+				}
 				country_exists = HUN 
 			}
 			HUN = { transfer_state = 73 }
+			HUN = { transfer_state = 1477 }
 		}
 
 		

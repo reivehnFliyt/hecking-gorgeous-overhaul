@@ -484,9 +484,73 @@ country_event = {
 						owner = { original_tag = FRA }
 						is_controlled_by = ITA
 					}
+					1890 = { 
+						owner = { original_tag = FRA }
+						is_controlled_by = ITA
+					}
+					1889 = { 
+						owner = { original_tag = FRA }
+						is_controlled_by = ITA
+					}
+					1888 = { 
+						owner = { original_tag = FRA }
+						is_controlled_by = ITA
+					}
+					1892 = { 
+						owner = { original_tag = FRA }
+						is_controlled_by = ITA
+					}
+					1887 = { 
+						owner = { original_tag = FRA }
+						is_controlled_by = ITA
+					}
 				}
 			}
 			ITA = { transfer_state = 32 }
+		}
+		if = {
+			limit = {
+				AND = {
+					1887 = {
+						owner = { original_tag = FRA }
+						is_controlled_by = ITA
+					}
+				}
+			}
+			ITA = { transfer_state = 21 }
+		}
+		if = {
+			limit = {
+				AND = {
+					1888 = {
+						owner = { original_tag = FRA }
+						is_controlled_by = ITA
+					}
+				}
+			}
+			ITA = { transfer_state = 21 }
+		}
+		if = {
+			limit = {
+				AND = {
+					1890 = { 
+						owner = { original_tag = FRA }
+						is_controlled_by = ITA
+					}
+				}
+			}
+			ITA = { transfer_state = 21 }
+		}
+		if = {
+			limit = {
+				AND = {
+					1889 = {
+						owner = { original_tag = FRA }
+						is_controlled_by = ITA
+					}
+				}
+			}
+			ITA = { transfer_state = 21 }
 		}
 		if = {
 			limit = {
@@ -715,7 +779,7 @@ country_event = {
 				ideology = fascism
 				size = 0.9
 				capital = 26
-				states = { 26 21 22 31 906 25 20 32 33 1 735 837 838 677 680 554 458 462 461 513 459 460 665 855 852 553 272 866 865 864 556 867 868 869 870 883 543 706 708 713 268 557 863 514 515 876 }
+				states = { 26 21 22 31 906 25 20 32 33 1 735 837 838 677 680 554 458 462 461 513 459 460 665 855 852 553 272 866 865 864 556 867 868 869 870 883 543 706 708 713 268 557 863 514 515 876 851 1458 1459 1457 1840 1841 1842 1634 1843 1581 1580 1579 1573 1578 1575 1574 1577 1596 1602 1597 1599 1600 1601 1576}
 				states_filter = {
 					owner = { original_tag = FRA }
 					OR = {		
@@ -1125,7 +1189,7 @@ country_event = {
 				ideology = neutrality
 				size = 0.5
 				capital = 26
-				states = { 26 21 22 31 906 25 20 32 33 1 735 837 838 677 680 554 458 462 461 513 459 460 665 855 852 553 272 866 865 864 556 867 868 869 870 883 543 706 708 713 268 557 863 514 515 876 }
+				states = { 26 21 22 31 906 25 20 32 33 1 735 837 838 677 680 554 458 462 461 513 459 460 665 855 852 553 272 866 865 864 556 867 868 869 870 883 543 706 708 713 268 557 863 514 515 876 1766 1256 1772 1770 1767 1891 1887 1758 1759 1890 1888 1889 1892}
 				states_filter = {
 					owner = { original_tag = FRA }
 					OR = {		
@@ -1217,6 +1281,7 @@ country_event = {
 	
 	option = {
 		name = france.15.a
+		set_global_flag = FRA_no_vichy
 	}
 }
 
