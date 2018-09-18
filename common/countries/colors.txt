@@ -1128,6 +1128,10 @@ TGR = {
 	color = rgb { 173 48 83 }
     color_ui = rgb { 127 63 91 }	
 }
+CRN = {
+	color = rgb { 250 10  29 }
+    color_ui = rgb { 240  10  29}	
+}
 D01 = {
 	color = rgb { 200 100 31 }
 	color_ui = rgb { 245 123 38 }

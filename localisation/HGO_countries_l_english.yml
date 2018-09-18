@@ -1,4 +1,17 @@
 ﻿l_english:
+ CRN_fascism:0 "Cornish Union"
+ CRN_fascism_DEF:0 "The Cornish Union"
+ CRN_democratic:0 "Cornish Republic"
+ CRN_democratic_DEF:0 "The Cornish Republic"
+ CRN_neutrality:1 "Cornwall"
+ CRN_neutrality_DEF:1 "The Kingdom of Cornwall"
+ CRN_communism:0 "Revolutionary Republic of Cornwall"
+ CRN_communism_DEF:0 "The Revolutionary Republic of Cornwall"
+ CRN_fascism_ADJ:0 "Cornish"
+ CRN_democratic_ADJ:0 "Cornish"
+ CRN_neutrality_ADJ:0 "Cornish"
+ CRN_communism_ADJ:0 "Cornish"
+ 
  ALG_fascism:0 "Kingdom of Algeria"
  ALG_fascism_DEF:0 "The Kingdom of Algeria"
  ALG_democratic:0 "Algeria"
