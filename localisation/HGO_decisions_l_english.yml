@@ -82,3 +82,6 @@
  #Commie Cities
  stalingrad_rename:0 "Rename Stalingrad"
  leningrad_rename:0 "Rename Leningrad"
+
+ #Monaco
+ occupy_monaco:0 "Occupy Monaco"
