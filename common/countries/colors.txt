@@ -69,7 +69,7 @@ ITA = {
 	color_ui = rgb { 87 165 82 }
 }
 ROM = {
-	color = rgb { 203 180 46 }
+	color = rgb { 215 196 72 }
 	color_ui = rgb { 255 255 120 }
 }
 YUG = {
@@ -262,7 +262,7 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 0 131 193 }
+	color = rgb { 0 76 211 }
 	color_ui = rgb { 87 160 255 }
 }
 MON = {
