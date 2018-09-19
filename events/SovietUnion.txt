@@ -183,6 +183,7 @@ country_event = {
 			transfer_state = 791
 			transfer_state = 799
 			transfer_state = 80
+			transfer_state = 1487
 		}
 		hidden_effect = {
 			SOV = {
@@ -200,6 +201,9 @@ country_event = {
 			799 = {
 		        add_core_of = MDA
 		    }
+			1487 = {
+				add_core_of = MDA
+			}
 			news_event = { id = news.199 }
 		}
 	}
