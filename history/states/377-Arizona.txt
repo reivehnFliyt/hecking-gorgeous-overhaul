@@ -7,9 +7,9 @@ state={
 	state_category = rural
 	
 	resources={
-		steel=20 # was: 40
-		oil=5 # was: 10
-		aluminium=8 # was: 16
+		steel=10 # was: 40
+		oil=3 # was: 10
+		aluminium=6 # was: 16
 	}
 
 	history={
@@ -20,14 +20,10 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = ARZ
-		add_claim_by = CSA
-		victory_points = {
-			853 3 
-		}
 
 	}
 
 	provinces={
-		850 853 1793 4796 7747 8115 11814
+		850 1793 11814
 	}
 }
