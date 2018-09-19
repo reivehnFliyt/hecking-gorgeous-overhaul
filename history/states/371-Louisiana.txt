@@ -13,7 +13,9 @@ state={
 			industrial_complex = 1
 			7552 = {
 				naval_base = 5
-			}		
+
+			}
+
 		}
 		add_core_of = USA
 		add_core_of = LOU
@@ -21,10 +23,11 @@ state={
 		victory_points = {
 			7552 10 
 		}
+
 	}
 
 	provinces={
-		1559 4522 4535 7552 7555 7599 12398
+		4535 7552 12398 
 	}
 	manpower=1301272
 	buildings_max_level_factor=1.000

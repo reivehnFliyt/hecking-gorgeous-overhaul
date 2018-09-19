@@ -1,21 +1,22 @@
+
 state={
 	id=1164
 	name="STATE_1164"
 
-	history = {
+	history={
 		owner = USA
 		add_core_of = USA
 		add_claim_by = TEX
 		add_core_of = ARZ
-
 		buildings = {
-			infrastructure = 4 
-	}
+			infrastructure = 4
+
+		}
 
 	}
 
 	provinces={
-		2102 12684 
+		2102 
 	}
 	manpower=16742
 	buildings_max_level_factor=1.000
