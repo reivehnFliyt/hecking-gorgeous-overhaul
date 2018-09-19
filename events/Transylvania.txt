@@ -1,0 +1,27 @@
+###########################
+# Transylvania Events
+###########################
+
+add_namespace = transylvania
+
+# Transylvanian Independence
+country_event = {
+	id = transylvania.1
+	title = transylvania.1.t
+	desc = transylvania.1.d
+	picture = GFX_report_event_romanian_soldiers
+	
+	trigger = {
+		tag = TRV
+		country_exists = TRV
+		owns_state = 1217
+	}
+
+	fire_only_once = yes
+	
+	option = { # Independence
+		name = transylvania.1.a
+		ai_chance = { factor = 100 }
+		load_oob = "TRV"
+		add_political_power = 200
+}
