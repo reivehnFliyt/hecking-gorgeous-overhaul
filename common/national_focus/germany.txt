@@ -4492,6 +4492,7 @@ focus_tree = {
 			is_puppet = no
 			has_full_control_of_state = 8
 			has_full_control_of_state = 28
+			has_full_control_of_state = 1107
 			OR = {
 				FRA = { has_capitulated = yes }
 				FRA = { is_subject_of = GER }
@@ -4527,11 +4528,18 @@ focus_tree = {
 		completion_reward = {
 			add_state_core = 8
 			add_state_core = 28
+			add_state_core = 1107
 			if = {
 				limit = {
 					NOT = { owns_state = 28 }
 				}
 				transfer_state = 28
+			}
+			if = {
+				limit = {
+					NOT = { owns_state = 1107 }
+				}
+				transfer_state = 1107
 			}
 			28 = { set_state_name = "Elsass" }
 			set_province_name = { id = 9503 name = "Strassburg" }
