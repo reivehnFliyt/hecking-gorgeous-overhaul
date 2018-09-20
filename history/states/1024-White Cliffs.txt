@@ -2,7 +2,6 @@ state={
 	id=1024
 	name="STATE_1024"
 
-	impassable = yes
 
 	history={
 		owner = AST
@@ -15,7 +14,7 @@ state={
 	}
 
 	provinces={
-		2114 8249 10991 12934 12968 
+		2205 5211 5225 10925 12918 12924 1773 13171
 	}
 	manpower=310100
 	buildings_max_level_factor=1.000

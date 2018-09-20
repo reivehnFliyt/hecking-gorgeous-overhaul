@@ -2,12 +2,10 @@ state={
 	id=903
 	name="STATE_903"
 
-	impassable = yes
-
 	history={
 		owner = AST
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 
 		}
 		add_core_of = AST
@@ -15,7 +13,7 @@ state={
 	}
 
 	provinces={
-		2223 8237 10979 11013 12915 12936 12992 
+		2223 10979 12936 12992
 	}
 	manpower=5000
 	buildings_max_level_factor=1.000
