@@ -812,59 +812,7 @@ ALC = {
 LOR = {
        color = rgb { 229 219 39 }
        color_ui = rgb { 229 219 39 }
-}
-LOU= {
-       color = rgb { 42 49 84 }
-       color_ui = rgb { 42 49 84 }
-}
-VER = {
-       color = rgb { 96 145 36 }
-       color_ui = rgb { 96 145 36 }
-}
-FLO = {
-       color = rgb { 196 84 43}
-       color_ui = rgb { 196 84 43}
-}
-ORG = {
-       color = rgb { 229 219 39 }
-       color_ui = rgb { 229 219 39 }
-}
-NEG = {
-       color = rgb { 0 117 28 }
-       color_ui = rgb { 0 117 28 }
-}
-ALA = {
-       color = rgb { 1 11 89}
-       color_ui = rgb { 1 11 89 }
-}
-CSA = {
-       color = rgb { 191 192 193 }
-       color_ui = rgb { 191 192 193 }
-}
-NHM = {
-       color = rgb { 234 137 51 }
-       color_ui = rgb { 234 137 51 }
-}
-ALT = {
-       color = rgb { 89 21 8 }
-       color_ui = rgb { 89 21 8 }
-}
-SAS = {
-       color = rgb { 95 186 80 }
-       color_ui = rgb { 95 186 80 }
-}
-NUN = {
-       color = rgb { 195 89 198 }
-       color_ui = rgb { 195 89 198 }
-}
-NVS = {
-       color = rgb { 104 0 22 }
-       color_ui = rgb { 104 0 22 }
-}
-HAW = {
-       color = rgb { 216 207 4 }
-       color_ui = rgb { 216 207 4 }
-}
+
 MCH = {
        color = rgb { 63 170 160 }
        color_ui = rgb { 63 170 160 }
@@ -911,26 +859,6 @@ KUR = {
 	color = rgb { 150 123 182 }
 	color_ui = rgb { 176 123 182 }
 }
-ARZ = {
-	color = rgb { 104 34 28 }
-	color_ui = rgb { 104 34 28 }
-}
-NWY = {
-	color = rgb { 239 165 112 }
-	color_ui = rgb { 239 165 112 }
-}
-UTH = {
-	color = rgb { 126 169 186 }
-	color_ui = rgb { 126 169 186 }
-}
-BRC = {
-	color = rgb { 216 202 136 }
-	color_ui = rgb {216 202 136 }
-}
-CSC = {
-	color = rgb { 63 96 72 }
-	color_ui = rgb { 63 96 72 }
-}
 GAL = {
 	color = rgb { 178 49 73 }
 	color_ui = rgb { 178 49 73 }
@@ -939,29 +867,81 @@ TRV = {
 	color = rgb { 30 8 140 }
 	color_ui = rgb { 30 8 140 }
 }
+LOU= {
+       color = rgb { 42 49 84}
+       color_ui = rgb { 42 49 84}
+}
+VER = {
+       color = rgb { 96 145 36}
+       color_ui = rgb { 96 145 36}
+}
+FLO = {
+       color = rgb { 196 84 43}
+       color_ui = rgb { 196 84 43}
+}
+ORG = {
+       color = rgb { 229 219 39}
+       color_ui = rgb { 229 219 39}
+}
+NEG = {
+       color = rgb { 0 117 28}
+       color_ui = rgb { 0 117 28}
+}
+ALA = {
+       color = rgb { 1 11 89}
+       color_ui = rgb { 1 11 89}
+}
+CSA = {
+       color = rgb { 191 192 193}
+       color_ui = rgb { 191 192 193}
+}
+NHM = {
+       color = rgb { 234 137 51 }
+       color_ui = rgb { 234 137 51 }
+}
+ALT = {
+       color = rgb { 89 21 8}
+       color_ui = rgb { 89 21 8}
+}
+SAS = {
+       color = rgb { 95 186 80}
+       color_ui = rgb { 95 186 80}
+}
+NUN = {
+       color = rgb { 195 89 198}
+       color_ui = rgb { 195 89 198}
+}
+NVS = {
+       color = rgb { 104 0 22}
+       color_ui = rgb { 104 0 22}
+}
+HAW = {
+       color = rgb { 216 207 4}
+       color_ui = rgb { 216 207 4}
+}
 DLM = {
-	color = rgb { 205 141 224 }
-	color_ui = rgb { 205 141 224 }
+	color = rgb { 205 141 224}
+	color_ui = rgb { 205 141 224}
 }
 BNT = {
-	color = rgb { 157 124 163 }
-	color_ui = rgb { 157 124 163 }
+	color = rgb { 157 124 163}
+	color_ui = rgb { 157 124 163}
 }
 VJD = {
-	color = rgb { 84 131 206 }
-	color_ui = rgb { 84 131 206 }
+	color = rgb { 84 131 206}
+	color_ui = rgb { 84 131 206}
 }
 SDT = {
-	color = rgb { 82 89 99 }
-	color_ui = rgb { 82 89 99 }
+	color = rgb { 82 89 99}
+	color_ui = rgb { 82 89 99}
 }
 LMK = {
-	color = rgb { 95 168 110 }
-	color_ui = rgb { 95 168 110 }
+	color = rgb { 95 168 110}
+	color_ui = rgb { 95 168 110}
 }
 SZK = {
-	color = rgb { 206 179 59 }
-	color_ui = rgb { 206 179 59 }
+	color = rgb { 206 179 59}
+	color_ui = rgb { 206 179 59}
 }
 TYR = {
 	color = rgb { 206 211 219 }
@@ -1046,9 +1026,6 @@ D14 = {
 D15 = {
 	color = rgb { 194 140 86 }
 	color_ui = rgb { 252 182 112 }
-}
-
-######################################
 }
 SBR = {
 	color = rgb { 213 239 210 }
@@ -1193,4 +1170,24 @@ LCC = {
 TRI = {
        color = rgb { 107 142 35 }
        color_ui = rgb { 107 142 35 }
+}
+ARZ = {
+	color = rgb { 104 34 28 }
+	color_ui = rgb { 104 34 28 }
+}
+NWY = {
+	color = rgb { 239 165 112 }
+	color_ui = rgb { 239 165 112 }
+}
+UTH = {
+	color = rgb { 126 169 186 }
+	color_ui = rgb { 126 169 186 }
+}
+BRC = {
+	color = rgb { 216 202 136 }
+	color_ui = rgb {216 202 136 }
+}
+CSC = {
+	color = rgb { 63 96 72 }
+	color_ui = rgb { 63 96 72 }
 }
