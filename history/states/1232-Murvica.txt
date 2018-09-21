@@ -20,7 +20,8 @@ state={
 		add_core_of = YUG
 		add_core_of = CRO
 
-	}
+
+		add_core_of = DLM	}
 	
 	provinces={
 		3924 13370 13373 13374 
