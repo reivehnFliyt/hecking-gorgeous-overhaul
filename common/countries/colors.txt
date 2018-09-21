@@ -812,7 +812,7 @@ ALC = {
 LOR = {
        color = rgb { 229 219 39 }
        color_ui = rgb { 229 219 39 }
-
+}
 MCH = {
        color = rgb { 63 170 160 }
        color_ui = rgb { 63 170 160 }
@@ -1190,4 +1190,8 @@ BRC = {
 CSC = {
 	color = rgb { 63 96 72 }
 	color_ui = rgb { 63 96 72 }
+}
+LOU= {
+       color = rgb { 42 49 84}
+       color_ui = rgb { 42 49 84}
 }
