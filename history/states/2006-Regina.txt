@@ -1,6 +1,6 @@
 state={
-	id=2008
-	name="STATE_2008"
+	id=2006
+	name="STATE_2006"
 	
 	state_category=rural
 	
@@ -13,7 +13,7 @@ state={
 	}
 
 	provinces={
-		1873 4426 
+		1788 3769 10552 10611 12603 
 	}
-	manpower=4510	buildings_max_level_factor=1.000
+	manpower=45320	buildings_max_level_factor=1.000
 }
