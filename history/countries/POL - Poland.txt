@@ -22,7 +22,7 @@ set_technology = {
 	early_submarine = 1	
 	trench_warfare = 1
 }
-
+give_military_access = DAN
 1939.1.1 = {
 	
 	if = {

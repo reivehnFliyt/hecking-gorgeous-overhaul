@@ -9,7 +9,7 @@ set_technology = {
 	infantry_weapons1 = 1
 }
 
-give_military_access = POL
+
 
 1939.1.1 = {
 
