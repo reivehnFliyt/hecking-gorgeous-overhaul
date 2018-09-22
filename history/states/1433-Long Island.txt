@@ -7,7 +7,7 @@ state={
 		owner = USA
 		buildings = {
 			infrastructure = 8
-			dockyard = 3
+			dockyard = 7
 			3878 = {
 				naval_base = 6
 

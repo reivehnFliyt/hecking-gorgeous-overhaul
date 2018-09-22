@@ -12,10 +12,14 @@ state={
 			infrastructure = 3
 			industrial_complex = 1
 			air_base = 1
-
+			12910 = {
+				naval_base = 2
+			}
 		}
 		add_core_of = AST
-
+		victory_points = {
+			12910 5 
+		}
 	}
 
 	provinces={

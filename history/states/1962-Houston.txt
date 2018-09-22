@@ -9,8 +9,15 @@ state={
 		add_core_of = USA
 		add_core_of = TEX
 		add_core_of = CSA
+		victory_points = {
+			10337 10 
+		}
 		buildings = {
 			infrastructure = 4
+			10337 = {
+				naval_base = 3
+
+			}
 		}
 	}
 

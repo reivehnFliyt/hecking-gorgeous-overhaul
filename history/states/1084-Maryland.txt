@@ -5,21 +5,13 @@ state={
 
 	history={
 		owner = USA
-		victory_points = {
-			6984 5 
-		}
+		
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 2
 			dockyard = 1
-			6984 = {
-				naval_base = 2
-
-			}
-			11892 = {
-				naval_base = 1
-
-			}
+			
+			
 
 		}
 		add_core_of = USA

@@ -73,10 +73,28 @@ country_event = {
 					106 = { is_owned_by = GER }
 					815 = { is_owned_by = YUG }
 					815 = { is_owned_by = GER }
+					1231 = { is_owned_by = YUG }
+					1238 = { is_owned_by = YUG }
+					1237 = { is_owned_by = YUG }
+					1236 = { is_owned_by = YUG }
+					1796 = { is_owned_by = YUG }
+					1202 = { is_owned_by = YUG }
+					1231 = { is_owned_by = GER }
+					1238 = { is_owned_by = GER }
+					1237 = { is_owned_by = GER }
+					1236 = { is_owned_by = GER }
+					1796 = { is_owned_by = GER }
+					1202 = { is_owned_by = GER }
 				}
 			}
 			transfer_state = 106
 			transfer_state = 815
+			transfer_state = 1231
+			transfer_state = 1238
+			transfer_state = 1237
+			transfer_state = 1796
+			transfer_state = 1202
+			transfer_state = 1236
 		}
 	}
 }
