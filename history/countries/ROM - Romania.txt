@@ -296,6 +296,7 @@ create_field_marshal = {
 	gfx = GFX_Portrait_romania_petre_dumitrescu
 	traits = { war_hero offensive_doctrine logistics_wizard }
 	skill = 4
+	id = 100
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 2
@@ -307,6 +308,7 @@ create_field_marshal = {
 	picture = "Portrait_Romania_Ion_Antonescu.dds"
 	traits = { offensive_doctrine }
 	skill = 4
+	id = 101
 	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 2
@@ -318,9 +320,22 @@ create_field_marshal = {
 	picture = "Constantin_Constantinescu-Claps.dds"
 	traits = { brilliant_strategist aggressive_assaulter }
 	skill = 3
+	id = 102
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Orasanu Alexandru"
+	gfx = "Orasanu_Alexandru.dds"
+	traits = { war_hero logistics_wizard }
+	skill = 3
+	id = 103
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
 	logistics_skill = 3
 }
 
@@ -329,6 +344,7 @@ create_field_marshal = {
 	picture = "Nicolae_Cuiperca.dds"
 	traits = { career_officer infantry_officer defensive_doctrine }
 	skill = 2
+	id = 104
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 1
@@ -340,6 +356,7 @@ create_corps_commander = {
 	gfx = GFX_Portrait_romania_ioan_mihail_racovita
 	traits = { hill_fighter trickster trait_engineer }
 	skill = 4
+	id = 105
 	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 3
@@ -351,6 +368,7 @@ create_corps_commander = {
 	picture = "Constantin_Sanatescu.dds"
 	traits = { brilliant_strategist defensive_doctrine trickster guerilla_fighter }
 	skill = 3
+	id = 106
 	attack_skill = 1
 	defense_skill = 5
 	planning_skill = 3
@@ -358,10 +376,23 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Vasile Atanasiu"
+	picture = "Vasile_Atanasiu.dds"
+	traits = { ranger trait_mountaineer }
+	skill = 3
+	id = 107
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
 	name = "Gheorghe Avramescu"
 	gfx = GFX_Portrait_romania_gheorghe_avramescu
 	traits = { }
 	skill = 3
+	id = 108
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 2
@@ -373,6 +404,7 @@ create_corps_commander = {
 	picture = "Leonard_Mociulschi.dds"
 	traits = { infantry_officer trait_mountaineer }
 	skill = 2
+	id = 109
 	attack_skill = 3
 	defense_skill = 2
 	planning_skill = 2
@@ -384,6 +416,7 @@ create_corps_commander = {
 	picture = "cbowv-jtcj8.dds"
 	traits = { infantry_leader ranger }
 	skill = 2
+	id = 110
 	attack_skill = 3
 	defense_skill = 1
 	planning_skill = 3
@@ -395,8 +428,33 @@ create_corps_commander = {
 	picture = "Corneliu_Dragalia.dds"
 	traits = { armor_officer panzer_leader  }
 	skill = 2
+	id = 111
 	attack_skill = 3
 	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Eftimiu Constantin"
+	picture = "Eftimiu_Constantin.dds"
+	traits = { infantry_leader ranger }
+	skill = 2
+	id = 112
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Aldea Aurel"
+	picture = "Aldea_Aurel.dds"
+	traits = { infantry_officer trait_mountaineer }
+	skill = 2
+	id = 113
+	attack_skill = 3
+	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 1
 }
@@ -406,6 +464,7 @@ create_corps_commander = {
 	picture = "Constantin_Pantazi.tga"
 	traits = { career_officer }
 	skill = 2
+	id = 114
 	attack_skill = 2
 	defense_skill = 1
 	planning_skill = 1
@@ -417,9 +476,22 @@ create_corps_commander = {
 	picture = "Nicolae_Radescu.dds"
 	traits = { cavalry_officer }
 	skill = 1
+	id = 115
 	attack_skill = 1
 	defense_skill = 2
 	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Opris Stefan"
+	picture = "Opris_Stefan.dds"
+	traits = { infantry_officer }
+	skill = 1
+	id = 116
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
 	logistics_skill = 1
 }
 

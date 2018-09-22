@@ -69,3 +69,12 @@
  WLL_democratic_party_long:0 "Walloon Movement"
  WLL_neutrality_party:0 "Royal Party"
  WLL_neutrality_party_long:0 "Royal Party"
+
+ TRV_fascism_party:0 "LRS"
+ TRV_fascism_party_long:0 "Legionara Rezistenta Subterana"
+ TRV_communism_party:0 "UMdT"
+ TRV_communism_party_long:0 "Uniunea Muncitorilor din Transilvania"
+ TRV_democratic_party:0 "PLT"
+ TRV_democratic_party_long:0 "Partidul Liberal Transilvan"
+ TRV_neutrality_party:0 "MMS"
+ TRV_neutrality_party_long:0 "Miscarea Monarhica Subterana"

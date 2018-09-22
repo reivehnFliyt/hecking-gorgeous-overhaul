@@ -327,3 +327,67 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = romania.8
+	title = romania.8.t
+	desc = romania.8.d
+	picture = GFX_report_event_romanian_soldiers
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		country_exists = TRV
+		TRV = { has_country_flag = transilvania_defiant }
+	}
+
+	option = {
+	name = romania.8.a
+	ai_chance = { factor = 75 }
+		create_wargoal = {
+		type = annex_everything
+		target = TRV
+		}
+	hidden_effect =  {
+		84 = { add_core_of = ROM }
+		76 = { add_core_of = ROM }
+		1219 = { add_core_of = ROM }
+		82 = { add_core_of = ROM }
+		83 = { add_core_of = ROM }
+		1218 = { add_core_of = ROM }
+		1490 = { add_core_of = ROM }
+		1217 = { add_core_of = ROM }
+		}
+	}
+
+	option = {
+	name = romania.8.b
+	ai_chance = { factor = 25 }
+	add_political_power = -200
+	}
+}
+
+country_event = {
+	id = romania.9
+	title = romania.9.t
+	desc = romania.9.d
+	picture = GFX_report_event_romanian_soldiers
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = ROM
+		country_exists = TRV
+	}
+
+	option = {
+	name = romania.9.a
+	ai_chance = { factor = 100 }
+	remove_unit_leader = 116
+	remove_unit_leader = 113
+	remove_unit_leader = 112
+	remove_unit_leader = 107
+	remove_unit_leader = 103
+	}
+}

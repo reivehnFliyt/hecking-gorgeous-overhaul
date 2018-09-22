@@ -95,11 +95,30 @@
  bs_ger.8.d:0 "Germany have occupied East Karelia, and Germany decided to cede Transnitria to us."
  bs_ger.8.a:0 "What a great news!"
  
-#Codreanu is dead
+#Romania stuff
  romania.7.t:0 "Supression of the Legion"
  romania.7.d:0 "The founder and charismatic leader of the Iron Guard grew into an important figure within the Romanian political stage during the early 30's, coming into conflict with the political establishment and democratic forces, and often the guard resorted to terrorism. The Legionnaires traditionally referred to Codreanu as the Captain, and he held absolute authority over the organization until his death in the Jilava prison in 1938. \n\nHe registered his main electoral success during the 1937 suffrage, but was stopped by King Carol II and the Romanian Government. The rivalry between Codreanu and moderate politicians like Nicolae Iorga ended with Codreanu's imprisonment at Jilava and assassination at the hands of the military police force. This will upset the Legionarries, but for the safety of all Romanian peoples it was a needed sacrifice."
  romania.7.a:0 "This won't be the end of the Iron Guard."
  
+ romania.8.t:0 "A Transilvanian Oppurtunity"
+ romania.8.d:0 "The MMS, an underground resistance movement funded by us, has finally built up enough strength to demand a referendum in the Transilvanian state. The government has rejected the ultimatum though and demanded that we keep out of Transilvanian affairs. What shall we do?"
+ romania.8.a:0 "Treceti batalioane române Carpatii!"
+ romania.8.b:0 "We shall listen to their requests..."
+
+ romania.9.t:0 "Transilvanian Independence"
+ romania.9.d:0 "With Transilvania declaring itself independent, many skilled generals and political figureheads have left to join Transilvania as an independent nation. This has severely affected the countries trust in the government and also made some question just how loyal they should be to the regime of the Romanian government."
+ romania.9.a:0 "Damn those Transilvanians..."
+
+#Transilvanian Stuff
+transylvania.1.t:0 "Transilvania is Independent!"
+transylvania.1.d:0 "We have finally gained our independence after much time, however both of our former rulers aren't too happy with our independence and the Hungarians to the North-West still claim the region to this day. We must defend our borders, to the last man."
+transylvania.1.a:0 "To Transilvania!"
+
+transylvania.2.t:0 "Romanian Sympathisers Demand Unification"
+transylvania.2.d:0 "The MMS has demanded that we be reintegrated into Romania, and they have the backing of the Romanian government, who has sent an ultimatum to us demanding annexation due to the Romanian majority within out borders."
+transylvania.2.a:0 "We have no choice..."
+transylvania.2.b:0 "Over my dead corpse!"
+
 #Greece stuff
  greece.5.t:0 "Instanbul is ours!"
  greece.5.d:0 "Now that we have taken the city of the world's desire back, should we rename it back to its original name to completely remove the Turkish influence?"
