@@ -18,15 +18,7 @@ state={
 		}
 		add_core_of = GER
 		add_core_of = SAX
-		1939.1.1 = {
-			buildings = {
-				synthetic_refinery = 2
-				arms_factory = 3
-				industrial_complex = 7
-
-			}
-
-		}
+		
 
 	}
 
