@@ -30,11 +30,7 @@ state={
 		add_core_of = SOV
 		add_core_of = RUS
 		add_core_of = CRM
-		1939.1.1 = {
-			buildings = {
-				dockyard = 2
-			}
-		}
+		
 	}
 
 	provinces={

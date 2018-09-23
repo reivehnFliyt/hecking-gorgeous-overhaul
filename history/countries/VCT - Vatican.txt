@@ -46,30 +46,4 @@ create_country_leader = {
 	}
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			neutrality = { 
-				popularity = 100
-			}
-		}
-		
-		ruling_party = neutrality
-		last_election = "1939.2.10"
-		election_frequency = 60
-		elections_allowed = yes
-	}
-
-	create_country_leader = {
-		name = "Pope Pius XII"
-		desc = ""
-		picture = "Portrait_Vatican_PiusXII.dds"
-		expire = "1985.10.9"
-		ideology = despotism
-		traits = {
-			#
-		}
-	}
-}
 

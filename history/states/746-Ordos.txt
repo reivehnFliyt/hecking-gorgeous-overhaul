@@ -22,12 +22,7 @@ state={
 			controller = JAP
 		}
 		
-		1939.1.1 = {
-			
-			owner = PRC
-			controller = MEN
-
-		}
+		
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000
