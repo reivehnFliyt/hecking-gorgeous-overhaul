@@ -1,6 +1,6 @@
 state={
 	id=692
-	name="STATE_692"
+	name="STATE_692" #THIS IS NOW BARBADOS
 	manpower=76485
 	state_category = small_island
 
@@ -15,6 +15,6 @@ state={
 	}
 	
 	provinces={
-		379 11106 11350 13009 
+		11350 
 	}
 }
