@@ -1,7 +1,7 @@
 
 state={
-	id=184
-	name="STATE_184"
+	id=2046
+	name="STATE_2046"
 	resources={
 		chromium=11.000
 	}
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		11774 
+		11905 
 	}
 	manpower=191300
 	buildings_max_level_factor=1.000
