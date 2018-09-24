@@ -626,9 +626,9 @@ focus_tree = {
 		}
 
 		bypass = {
-			192 = { is_owned_by = ROM }
-			198 = { is_owned_by = ROM }
-			790 = { is_owned_by = ROM }
+			ROM = { controls_state = 192 }
+			ROM = { controls_state = 198 }
+			ROM = { controls_state = 790 }
 		}
 
 		cancel_if_invalid = yes
@@ -1478,21 +1478,6 @@ focus_tree = {
 				}
 				set_state_flag = ROM_danubian_transport_network_Inf_3
 			}
-			random_owned_controlled_state = {
-				prioritize = { 1790 }
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-				set_state_flag = ROM_danubian_transport_network_Inf_3
-			}
 		}
 	}
 
@@ -1555,6 +1540,22 @@ focus_tree = {
 					instant_build = yes
 				}
 				set_state_flag = ROM_malaxa_IC
+			}
+		}
+			random_owned_controlled_state = {
+				prioritize = { 1790 }
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = ROM_danubian_transport_network_Inf_3
 			}
 		}
 	}
