@@ -1,16 +1,12 @@
-
 state={
-	id=378
-	name="STATE_378"
-	resources={
-		oil=100.000
-	}
+	id=2057
+	name="STATE_2057"
+
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 6
-			air_base = 4
+			infrastructure = 4
 
 		}
 		add_core_of = USA
@@ -20,9 +16,9 @@ state={
 	}
 
 	provinces={
-		986 3784 3840 6861
+		677 768 6681 6772 6745 6757 9730 11658 
 	}
-	manpower=200452
+	manpower=534564
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
