@@ -1137,149 +1137,6 @@ ideas = {
 		}		
 	}
 
-	naval_manufacturer = {		
-		
-		designer = yes
-		
-		constanta_shipyard = {
-			
-			picture = generic_naval_manufacturer_2
-
-			
-			allowed = {
-				original_tag = ROM
-			}
-			
-			research_bonus = {
-				naval_equipment = 0.10
-			}
-			
-			traits = { naval_manufacturer }
-			
-			modifier = {
-			}
-
-		equipment_bonus = {
-			destroyer = {
-				sub_detection = 0.1
-				naval_speed = 0.1
-				surface_visibility = -0.1
-				build_cost_ic = -0.20
-				instant = yes
-			}
-			submarine = {
-				surface_visibility = -0.1
-				sub_visibility = -0.1
-				naval_speed = 0.05
-				build_cost_ic = -0.20
-				instant = yes
-			}
-			light_cruiser = {
-				armor_value = 0.02
-				attack = 0.02
-				build_cost_ic = -0.20
-				instant = yes
-			}
-			heavy_cruiser = {
-				attack = 0.1
-				fire_range = 0.1
-				naval_range = 0.1
-				build_cost_ic = -0.20
-				instant = yes
-			}
-		}
-	}
-
-		ROM_coastal_defense_navy_designer = {
-			
-			picture = generic_coastal_navy
-
-			cost = 75
-
-			allowed = {
-				original_tag = ROM
-			}
-
-			available = {
-				has_completed_focus = ROM_coastal_defense_navy
-			}
-			
-			research_bonus = {
-				naval_equipment = 0.10
-			}
-			
-			equipment_bonus = {
-				destroyer = {
-					attack = 0.1
-					naval_range = -0.5
-					build_cost_ic = -0.20
-				}
-				light_cruiser = {
-					attack = 0.1
-					naval_range = -0.5
-					build_cost_ic = -0.20
-				}
-				heavy_cruiser = {					
-					shore_bombardment = 0.1
-				}
-				battle_cruiser = {					
-					shore_bombardment = 0.1
-				}
-				battleship = { 					
-					shore_bombardment = 0.1
-				}
-			}
-			
-			traits = { naval_manufacturer }
-			
-			modifier = {
-			}
-		}
-
-		ROM_black_sea_dominance_designer = {
-			
-			picture = generic_sea_focused_navy
-
-			cost = 75
-
-			allowed = {		
-				original_tag = ROM
-			}
-
-			available = {
-				has_completed_focus = ROM_black_sea_dominance
-			}
-			
-			research_bonus = {
-				naval_equipment = 0.10
-			}
-			
-			equipment_bonus = {
-				heavy_cruiser = {
-					attack = 0.2
-					naval_range = -0.5
-					armor_value = 0.2
-				}
-				battle_cruiser = {
-					attack = 0.2
-					naval_range = -0.5
-					armor_value = 0.2
-				}
-				battleship = {
-					attack = 0.2
-					naval_range = -0.5
-					armor_value = 0.2
-				}
-			}
-			
-			traits = { naval_manufacturer }
-			
-			modifier = {
-			}
-		}
-	}
-}
-
 	materiel_manufacturer = {
 		
 		designer = yes
@@ -1570,6 +1427,148 @@ ideas = {
 			
 			ai_will_do = {
 				factor = 1
+			}
+		}
+	}
+
+	naval_manufacturer = {
+		
+		designer = yes
+		
+		constanta_shipyard = {
+			
+			picture = generic_naval_manufacturer_2
+
+			
+			allowed = {
+				original_tag = ROM
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			traits = { naval_manufacturer }
+			
+			modifier = {
+			}
+
+		equipment_bonus = {
+			destroyer = {
+				sub_detection = 0.1
+				naval_speed = 0.1
+				surface_visibility = -0.1
+				build_cost_ic = -0.20
+				instant = yes
+			}
+			submarine = {
+				surface_visibility = -0.1
+				sub_visibility = -0.1
+				naval_speed = 0.05
+				build_cost_ic = -0.20
+				instant = yes
+			}
+			light_cruiser = {
+				armor_value = 0.02
+				attack = 0.02
+				build_cost_ic = -0.20
+				instant = yes
+			}
+			heavy_cruiser = {
+				attack = 0.1
+				fire_range = 0.1
+				naval_range = 0.1
+				build_cost_ic = -0.20
+				instant = yes
+			}
+		}
+	}
+
+		ROM_coastal_defense_navy_designer = {
+			
+			picture = generic_coastal_navy
+
+			cost = 75
+
+			allowed = {
+				original_tag = ROM
+			}
+
+			available = {
+				has_completed_focus = ROM_coastal_defense_navy
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				destroyer = {
+					attack = 0.1
+					naval_range = -0.5
+					build_cost_ic = -0.20
+				}
+				light_cruiser = {
+					attack = 0.1
+					naval_range = -0.5
+					build_cost_ic = -0.20
+				}
+				heavy_cruiser = {					
+					shore_bombardment = 0.1
+				}
+				battle_cruiser = {					
+					shore_bombardment = 0.1
+				}
+				battleship = { 					
+					shore_bombardment = 0.1
+				}
+			}
+			
+			traits = { naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		ROM_black_sea_dominance_designer = {
+			
+			picture = generic_sea_focused_navy
+
+			cost = 75
+
+			allowed = {		
+				original_tag = ROM
+			}
+
+			available = {
+				has_completed_focus = ROM_black_sea_dominance
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.10
+			}
+			
+			equipment_bonus = {
+				heavy_cruiser = {
+					attack = 0.2
+					naval_range = -0.5
+					armor_value = 0.2
+				}
+				battle_cruiser = {
+					attack = 0.2
+					naval_range = -0.5
+					armor_value = 0.2
+				}
+				battleship = {
+					attack = 0.2
+					naval_range = -0.5
+					armor_value = 0.2
+				}
+			}
+			
+			traits = { naval_manufacturer }
+			
+			modifier = {
 			}
 		}
 	}
