@@ -78,9 +78,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Ernest Louis"
+	name = "Friedrich Franz IV"
 	desc = ""
-	picture = "Portrait_Bavaria_Rupprecht.dds"
+	picture = "Friedrich_Franz_IV.dds"
 	expire = "1951.1.1"
 	ideology = despotism
 	traits = {

@@ -223,6 +223,15 @@
  IBRA_communism_DEF:0 "Brazilian"
  IBRA_neutrality:0 "Empire of Brazil"
  IBRA_neutrality_DEF:0 "Brazilian"
+ 
+ FRB_democratic:0 "French Republic"
+ FRB_democratic_DEF:0 "French"
+ FRB_fascism:0 "National State of France"
+ FRB_fascism_DEF:0 "French"
+ FRB_communism:0 "French Commune"
+ FRB_communism_DEF:0 "French"
+ FRB_neutrality:0 "Kingdom of France"
+ FRB_neutrality_DEF:0 "French"
 
  LIV_GER_fascism:0 "Reichskommissariat Livland"
  LIV_GER_neutrality:0 "United Baltic Duchy"
