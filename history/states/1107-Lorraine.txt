@@ -1,7 +1,7 @@
 state={
 	id=1107
 	name="STATE_1107" # Alsace-Lorraine
-	manpower = 556521
+	manpower = 300000
 	
 	state_category = large_town
 	resources={
@@ -10,7 +10,6 @@ state={
 
 	history={
 		owner = FRA
-		victory_points = { 9559 10 }
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -18,11 +17,6 @@ state={
 			3629 = {
 				bunker = 10
 				}
-			
-			9559 = {
-				bunker = 10
-
-			}
 			11502 = {
 				bunker = 10
 
@@ -37,6 +31,6 @@ state={
 	}
 
 	provinces={
-		3629 9559 11502 
+		3629 11502 
 	}
 }
