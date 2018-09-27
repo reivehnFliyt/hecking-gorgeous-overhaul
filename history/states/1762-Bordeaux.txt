@@ -1,9 +1,8 @@
+
 state={
 	id=1762
 	name="STATE_1762"
-	
-	state_category=town
-	
+
 	history={
 		owner = FRA
 		victory_points = {
@@ -16,14 +15,16 @@ state={
 				coastal_bunker = 1
 
 			}
+
 		}
 		add_core_of = FRA
 
 	}
-	
+
 	provinces={
-		9737 
+		9737 11565 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }
