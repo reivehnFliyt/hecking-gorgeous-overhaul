@@ -1,3 +1,4 @@
+
 state={
 	id=1841
 	name="STATE_1841"
@@ -13,10 +14,9 @@ state={
 	}
 
 	provinces={
-		10749 12839 13493 
+		10749 13493 
 	}
 	manpower=1
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	impassable = yes
 }

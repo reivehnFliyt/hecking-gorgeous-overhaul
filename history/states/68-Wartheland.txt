@@ -20,9 +20,9 @@ state={
 	}
 
 	provinces={
-		444 537 3473 6236 9387 11478 
+		444 537 3473 6236 9387 
 	}
-	manpower=1250840
+	manpower=1200000
 	buildings_max_level_factor=1.000
 	state_category=city
 }
