@@ -1,22 +1,21 @@
-
 state={
-	id=678
-	name="STATE_678"
+	id=2144
+	name="STATE_2144"
 
 	history={
-		owner = SAU
+		owner = SPR
 		buildings = {
-			infrastructure = 0
+			infrastructure = 1
 
 		}
-		add_core_of = SAU
+		add_core_of = MAR
 
 	}
 
 	provinces={
-		5081 8118 10870 12768 
+		7979 
 	}
-	manpower=88
+	manpower=11000
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

@@ -1,8 +1,9 @@
-
 state={
-	id=851
-	name="STATE_851"
+	id=2143
+	name="STATE_2143"
 
+	state_category=rural
+	
 	history={
 		owner = FRA
 		buildings = {
@@ -14,9 +15,8 @@ state={
 	}
 
 	provinces={
-		989 1111 4154 7116 7958 
+		1194 4097 10013 
 	}
-	manpower=420019
+	manpower=100000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

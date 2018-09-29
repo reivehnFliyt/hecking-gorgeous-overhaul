@@ -1,17 +1,14 @@
 
 state={
-	id=461
-	name="STATE_461"
+	id=2142
+	name="STATE_2142"
 
+	state_category=rural
+	
 	history={
 		owner = FRA
-		victory_points = {
-			10070 15 
-		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-			air_base = 4
 
 		}
 		add_core_of = MAR
@@ -19,9 +16,8 @@ state={
 	}
 
 	provinces={
-		10070 
+		7100 7173 11987 12042 
 	}
-	manpower=200000
+	manpower=77700
 	buildings_max_level_factor=1.000
-	state_category=rural
 }
