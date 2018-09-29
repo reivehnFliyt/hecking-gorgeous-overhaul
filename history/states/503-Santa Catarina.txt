@@ -12,13 +12,13 @@ state={
 		}
 		add_core_of = BRA
 		victory_points = {
-			10405 15
+			10405 15 
 		}
 
 	}
 
 	provinces={
-		1529 4533 4548 10405 12466 13504 
+		1529 4533 4548 10405 13504 
 	}
 	manpower=1922700
 	buildings_max_level_factor=1.000
