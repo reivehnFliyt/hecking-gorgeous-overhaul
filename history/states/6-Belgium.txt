@@ -21,6 +21,7 @@ state={
 			air_base = 3
 			6598 = {
 				naval_base = 7
+
 			}
 
 		}
@@ -31,9 +32,9 @@ state={
 	}
 
 	provinces={
-		516 6598 9574 11419 13068 
+		516 
 	}
-	manpower=2723300
+	manpower=1000000
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }
