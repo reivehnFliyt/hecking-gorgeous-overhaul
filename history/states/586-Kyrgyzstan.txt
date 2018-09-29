@@ -21,12 +21,11 @@ state={
 		}
 		add_core_of = SOV
 		add_core_of = KGZ
-		
 
 	}
 
 	provinces={
-		1825 12583 13147 13277 
+		1825 12583 13277 
 	}
 	manpower=2563404
 	buildings_max_level_factor=1.000

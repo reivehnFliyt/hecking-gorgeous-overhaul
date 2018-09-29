@@ -18,11 +18,12 @@ state={
 		}
 		add_core_of = LAT
 		add_core_of = LIV
+
 	}
 
 	provinces={
-		9340 9240
-		}
+		9240 9340 
+	}
 	manpower=252341
 	buildings_max_level_factor=1.000
 	state_category=small_town

@@ -1,10 +1,10 @@
+
 state={
 	id=1099
 	name="STATE_1099"
 
 	history={
 		owner = FIN
-
 		buildings = {
 			infrastructure = 4
 
@@ -14,7 +14,7 @@ state={
 	}
 
 	provinces={
-		67 3137 6047 6163 9056 9073 9160 9163 9167 11066 11138 11172 13100 13102 13103 13106 13107 
+		67 3137 6047 6163 9056 9073 9160 9163 9167 11066 11138 11172 
 	}
 	manpower=220030
 	buildings_max_level_factor=1.000

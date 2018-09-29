@@ -28,6 +28,7 @@ state={
 				limit = {
 					NOT = {
 						has_dlc = "Waking the Tiger"
+
 					}
 
 				}
@@ -43,7 +44,7 @@ state={
 	}
 
 	provinces={
-		1469 1625 4028 4077 4085 4628 4656 7650 10459 
+		1625 4028 4077 4085 4628 7650 10459 
 	}
 	manpower=8685200
 	buildings_max_level_factor=1.000

@@ -17,12 +17,13 @@ state={
 		}
 		add_core_of = LAT
 		add_core_of = LIV
+
 	}
 
 	provinces={
-		3298 3388 7482 9317 9501 10323 10493 11222 11302 
+		3298 3388 7482 10323 10493 11222 11302 
 	}
-	manpower=657959
+	manpower=600000
 	buildings_max_level_factor=1.000
 	state_category=city
 }
