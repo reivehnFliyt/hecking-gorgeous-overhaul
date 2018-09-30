@@ -1,7 +1,9 @@
 state={
 	id=2110
 	name="STATE_2110"
-
+	
+	state_category=pastoral
+	
 	history={
 		owner = COL
 		buildings = {
