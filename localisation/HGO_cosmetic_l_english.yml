@@ -232,6 +232,15 @@
  FRB_communism_DEF:0 "French"
  FRB_neutrality:0 "Kingdom of France"
  FRB_neutrality_DEF:0 "French"
+ 
+ NFR_democratic:0 "French Republic"
+ NFR_democratic_DEF:0 "French"
+ NFR_fascism:0 "French State"
+ NFR_fascism_DEF:0 "French"
+ NFR_communism:0 "French Commune"
+ NFR_communism_DEF:0 "French"
+ NFR_neutrality:0 "Third French Empire"
+ NFR_neutrality_DEF:0 "French"
 
  LIV_GER_fascism:0 "Reichskommissariat Livland"
  LIV_GER_neutrality:0 "United Baltic Duchy"

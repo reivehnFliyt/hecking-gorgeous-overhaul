@@ -97,3 +97,14 @@ create_country_leader = {
 		
 	}
 }
+
+create_country_leader = {
+	name = "Kirill Vladimirovich"
+	desc = ""
+	picture = "gfx/leaders/RUS/Kirill_Vladimirovich.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}

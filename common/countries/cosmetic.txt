@@ -191,3 +191,8 @@ LIV_GER = {
 	color = rgb { 115 115 115 }
 	color_ui = rgb { 122 145 93 }
 }
+
+NFR = {
+	color = rgb { 13 59 132 }
+	color_ui = rgb { 13 59 132 }
+}

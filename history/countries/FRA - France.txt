@@ -124,17 +124,6 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Prince Louis Napoleon"
-	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
-	picture = "Prince_Louis_Napoleon.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		
-	}
-}
-
 create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"
 	picture = "Portrait_France_Jean_de_Lattre_de_Tassigny.dds"
