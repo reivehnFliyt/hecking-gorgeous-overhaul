@@ -2,9 +2,8 @@
 state={
 	id=679
 	name="STATE_679"
-
-	resources = {
-		steel = 11
+	resources={
+		steel=11.000
 	}
 
 	history={
@@ -25,7 +24,7 @@ state={
 	}
 
 	provinces={
-		1923 2033 5037 8073 12883 
+		1923 2033 5037 10786 12883 
 	}
 	manpower=1005000
 	buildings_max_level_factor=1.000
