@@ -177,3 +177,9 @@ TRI = "countries/Trieste.txt"
 HAM = "countries/Hamburg.txt"
 BER = "countries/Berlin.txt"
 LCC = "countries/Lucca.txt"
+
+##France##
+NND = "countries/Normandy.txt"
+PAS = "countries/Paris.txt"
+ORL = "countries/Orleans.txt"
+PVC = "countries/Province.txt"
