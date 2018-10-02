@@ -287,6 +287,7 @@
  ROM_institute_royal_dictatorship_desc:0 "The time has come to further increase the King's already-extensive powers, bringing political stability to the nation and enabling it to focus on threats from outside."
  ROM_fortify_the_borders:0 "Fortify the Borders"
  ROM_fortify_the_borders_desc:0 "Now that the domestic situation is under control, we must look at improving the defence of our borders from outside threats."
+ ROM_fortify_the_borders_tt:0 "§A line of forts will appear in Basarabia along the Soviet border.§"
  ROM_flexible_foreign_policy:0 "Flexible Foreign Policy"
  ROM_flexible_foreign_policy_desc:0 "We must abandon our principles and forge relations with whoever it would be more practical to do so with. Our survival depends on it."
  ROM_his_majestys_loyal_government:0 "His Majesty's Loyal Government"
