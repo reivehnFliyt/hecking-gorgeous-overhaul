@@ -1,3 +1,4 @@
+
 state={
 	id=800
 	name="STATE_800"
@@ -20,7 +21,7 @@ state={
 	}
 
 	provinces={
-		682 3670 3680 6685 9624 9643 11610 
+		682 3670 3680 6685 9624 9643 11610 13700 13701 13702 
 	}
 	manpower=1103305
 	buildings_max_level_factor=1.000

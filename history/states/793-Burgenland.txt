@@ -1,7 +1,7 @@
+
 state={
 	id=793
 	name="STATE_793"
-
 
 	history={
 		owner = AUS
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		9661 11630 
+		3700 9661 11630 
 	}
 	manpower=41231
 	buildings_max_level_factor=1.000

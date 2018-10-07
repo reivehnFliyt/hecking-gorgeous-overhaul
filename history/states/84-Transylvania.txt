@@ -2,10 +2,9 @@
 state={
 	id=84
 	name="STATE_84"
-
 	resources={
-		steel=6
-		aluminium=4
+		steel=6.000
+		aluminium=4.000
 	}
 
 	history={
@@ -25,7 +24,7 @@ state={
 	}
 
 	provinces={
-		676 690 3676 6679 6709 11639 
+		676 690 3665 3676 6679 6709 11639 
 	}
 	manpower=862000
 	buildings_max_level_factor=1.000

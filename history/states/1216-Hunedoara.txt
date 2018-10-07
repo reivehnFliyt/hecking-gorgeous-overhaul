@@ -1,12 +1,12 @@
+
 state={
 	id=1216
 	name="STATE_1216"
-	
 	resources={
 		steel=15.000
 		tungsten=6.000
 	}
-	
+
 	history={
 		owner = ROM
 		buildings = {
@@ -21,12 +21,11 @@ state={
 		add_core_of = TRV
 
 	}
-	
+
 	provinces={
-		3665 9619
+		13693 13694 13695 13696 13697 13698 13699 13704 13708 13711 13718 
 	}
-	
 	manpower=334123
 	buildings_max_level_factor=1.000
-	state_category = town
+	state_category=town
 }
