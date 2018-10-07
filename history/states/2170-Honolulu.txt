@@ -1,9 +1,19 @@
 state={
 	id=2170
 	name="STATE_2170"
+	
+	state_category=town
+
+	history={
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+	}
 	provinces={
 		4180 
 	}
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
 }
