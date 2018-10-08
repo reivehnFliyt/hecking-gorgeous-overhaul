@@ -11,7 +11,7 @@ state={
 
 		}
 		victory_points = {
-			13649 1 
+			746 1 
 		}
 		add_core_of = ROM
 		add_core_of = TRV
@@ -19,7 +19,7 @@ state={
 	}
 
 	provinces={
-		746 9704 13646 13647 13648 13649 13715 13717 
+		746 9704 13715 13717 
 	}
 	manpower=279277
 	buildings_max_level_factor=1.000

@@ -175,7 +175,7 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Orasanu Alexandru"
-	gfx = "Orasanu_Alexandru.dds"
+	picture = "Orasanu_Alexandru.dds"
 	traits = { war_hero logistics_wizard }
 	skill = 3
 	id = 103
@@ -258,8 +258,32 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Radu Korne"
+	picture = "Radu_Korne.dds"
+	traits = { cavalry_officer }
+	skill = 2
+	id = 109
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Mihail Lăscar"
+	picture = "Mihail_Lascar.dds"
+	traits = { }
+	skill = 2
+	id = 109
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
 	name = "Emanoil Bârzotescu"
-	picture = "cbowv-jtcj8.dds"
+	picture = "Emanoil_Barzotescu.dds"
 	traits = { infantry_leader ranger }
 	skill = 2
 	id = 110
@@ -270,9 +294,21 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Gheorghe Manoliu"
+	picture = "Gheorghe_Manoliu.dds"
+	traits = { armor_officer panzer_leader  }
+	skill = 2
+	id = 117
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
 	name = "Corneliu Dragalia"
 	picture = "Corneliu_Dragalia.dds"
-	traits = { armor_officer panzer_leader  }
+	traits = {  }
 	skill = 2
 	id = 111
 	attack_skill = 3

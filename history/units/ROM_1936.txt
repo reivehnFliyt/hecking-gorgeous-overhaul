@@ -470,6 +470,13 @@ air_wings = {
 			owner = "ROM" 
 			amount = 52
 		}
+		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
+			modifier="fighter_genius"
+			name="Constantin"
+			surname="Cantacuzino"
+			callsign="Bâzu"
+			portrait = ROM_ace_Constantin_Cantacuzino
+		}
 	}
 	79 = {
 		# Grup 2 Avion de Vanatoare -- Hawker Hurricane
@@ -477,12 +484,26 @@ air_wings = {
 			owner = "ROM" 
 			amount = 25
 		}
+		ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
+			modifier="fighter_genius"
+			name="Ioan"
+			surname="Dicezare"
+			callsign="Arici"
+			portrait = ROM_ace_Ioan_Dicezare
+		}
 	}
 	1217 = {
 		# Grup 2 Avion de Vanatoare -- IAR 14 fighters
 		fighter_equipment_0 = {
 			owner = "ROM" 
 			amount = 30
+		}
+				ace={ # Order is important. Ace will be assigned to the wing above (fighter_equipment_0).
+			modifier="fighter_genius"
+			name="Alexandru"
+			surname="Serbanescu"
+			callsign="Alecu"
+			portrait = ROM_ace_Alexandru_Serbanescu
 		}
 	}
 }
