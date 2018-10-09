@@ -16,12 +16,13 @@ state={
 		add_core_of = CRO
 
 
-		add_core_of = DLM	}
+		add_core_of = DLM
+		}
 
 	provinces={
 		984 3974 11816 13372 
 	}
-	manpower=512500
+	manpower=412500
 	buildings_max_level_factor=1.000
 	state_category=town
 }

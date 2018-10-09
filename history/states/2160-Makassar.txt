@@ -7,8 +7,15 @@ state={
 	history={
 		owner = INS
 		add_core_of = INS
+		victory_points = {
+			10263 3 
+		}
 		buildings = {
 			infrastructure = 3
+			10263 = {
+				naval_base = 3
+
+			}
 		}
 	}
 	provinces={
