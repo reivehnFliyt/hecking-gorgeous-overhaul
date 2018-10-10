@@ -78,6 +78,13 @@ MLW = "countries/Malawi.txt"
 CMR = "countries/Cameroon.txt"
 NGR = "countries/Nigeria.txt"
 TGR = "countries/Tangier.txt"
+#MAD = "countries/Madagascar.txt"
+#LES = "countries/Lesotho.txt"
+#SWZ = "countries/Swaziland.txt"
+#DJI = "countries/Djibouti.txt"
+#IVC = "countries/Ivory Coast.txt"
+#BNI = "countries/Benin.txt"
+#TGO = "countries/Togo.txt"
 
 ##Asia##
 TKM = "countries/Turkmenistan.txt"
@@ -89,13 +96,17 @@ ROJ = "countries/South Japan.txt"
 PRJ = "countries/North Japan.txt"
 DPK = "countries/North Korea.txt"
 ROK = "countries/South Korea.txt"
-KUR = "countries/Kurdistan.txt"
-
 
 ##Middle-East##
 HTY = "countries/Hatay.txt"
+KUR = "countries/Kurdistan.txt"
 #UAE = "countries/United Arab Emirates.txt"
 #CYP = "countries/Cyprus.txt"
+#HJZ = "countries/Hejaz.txt"
+#JBL = "countries/Jabal Shammar.txt"
+#QUA = "countries/Qatar.txt"
+#KUW = "countries/Kuwait.txt"
+#BAH = "countries/Bahrain.txt"
 
 ##America##
 GRL = "countries/Greenland.txt"
