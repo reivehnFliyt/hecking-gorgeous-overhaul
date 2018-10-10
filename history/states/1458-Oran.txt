@@ -2,7 +2,7 @@
 state={
 	id=1458
 	name="STATE_1458" # Oran
-	manpower = 1
+	manpower = 2924482
 	state_category = town
 
 	history={
