@@ -11,14 +11,14 @@ state={
 		}
 		add_core_of = YUG
 		add_core_of = CRO
-		add_core_of = DLM
+
 
 	}
 
 	provinces={
 		3627 6647 9595 
 	}
-	manpower=100000
+	manpower=99345
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
