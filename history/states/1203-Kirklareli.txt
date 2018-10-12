@@ -4,12 +4,13 @@ state={
 	name="STATE_1203"
 
 	history={
-		owner = TUR
+		owner = BUL
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
 
 		}
+		add_core_of = BUL
 		add_core_of = TUR
 
 		set_demilitarized_zone = yes
