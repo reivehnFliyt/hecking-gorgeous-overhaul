@@ -1,8 +1,7 @@
-
 state={
-	id=332
-	name="STATE_332"
-
+	id=2229
+	name="STATE_2229"
+	
 	history={
 		owner = ENG
 		buildings = {
@@ -13,11 +12,12 @@ state={
 		add_core_of = CAN
 
 	}
-
+	
 	provinces={
-		1785 4787 13764 
+		4720 
 	}
-	manpower=22179
+	
+	manpower=3019
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category = pastoral
 }
