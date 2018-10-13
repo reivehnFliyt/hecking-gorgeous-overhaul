@@ -2,9 +2,6 @@
 state={
 	id=1219
 	name="STATE_1219"
-	resources={
-		steel=5
-	}
 
 	history={
 		owner = ROM
@@ -19,7 +16,7 @@ state={
 	}
 
 	provinces={
-		727 3709 6714 6731 9672 9687 9685 11676 
+		727 3709 6714 6731 9672 9687 11676 
 	}
 	manpower=400768
 	buildings_max_level_factor=1.000

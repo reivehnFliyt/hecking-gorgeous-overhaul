@@ -541,7 +541,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_claim_transnistria
-		icon = GFX_focus_ger_bulwark_against_bolshevism
+		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = { focus = ROM_invite_german_advisors }
 		x = 1
 		y = 3
@@ -589,7 +589,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_demand_transnistria
-		icon = GFX_goal_generic_dangerous_deal
+		icon = GFX_goal_generic_occupy_states_ongoing_war
 		prerequisite = { focus = ROM_join_axis }
 		prerequisite = { focus = ROM_claim_transnistria }
 		x = 1
@@ -1489,20 +1489,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-			random_owned_controlled_state = {
-				prioritize = { 796 }
-				limit = {
-					free_building_slots = {
-						building = infrastructure
-						size > 0
-					}
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-			}
 		}
 	}
 
@@ -1664,85 +1650,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ROM_apuseni_steel_works
-		icon = GFX_goal_generic_positive_trade_relations
+		id = ROM_invest_in_the_iar
+		icon = GFX_goal_generic_construct_military
 		prerequisite = { focus = ROM_invite_foreign_motor_companies focus = ROM_malaxa }
 		x = 2
 		y = 4
-		relative_position_id = ROM_civil_works
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-			random_state = {
-				limit = {
-					has_state_flag = ROM_hunedoara_steel_works_IC
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_resource = {
-					type = steel
-					amount = 16
-				}
-			}
-		}
-	
-
-		completion_reward = {
-			random_owned_controlled_state = {
-				prioritize = { 1490 }
-				limit = {
-					ROOT = { has_full_control_of_state = PREV } 
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_resource = {
-					type = steel
-					amount = 10
-				}
-				add_resource = {
-					type = aluminium
-					amount = 10
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = ROM_invest_in_the_iar
-		icon = GFX_goal_generic_construct_military
-		prerequisite = { focus = ROM_apuseni_steel_works }
-		x = 2
-		y = 5
 		relative_position_id = ROM_civil_works
 
 		cost = 10
@@ -1802,48 +1714,12 @@ focus_tree = {
 	}
 
 	focus = {
-		id = ROM_mobile_tank_destroyers
-		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = ROM_hunedoara_steel_works }
-		x = 0
-		y = 5
-		relative_position_id = ROM_civil_works
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 9
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = ROM_leonidas_works
-		}
-	}
-
-	focus = {
 		id = ROM_expand_ploiesti_oil_production
 		icon = GFX_goal_generic_oil_refinery
 		prerequisite = { focus = ROM_invest_in_the_iar }
-		prerequisite = { focus = ROM_mobile_tank_destroyers }
+		prerequisite = { focus = ROM_hunedoara_steel_works }
 		x = 1
-		y = 6
+		y = 5
 		relative_position_id = ROM_civil_works
 
 		cost = 10
@@ -1922,7 +1798,7 @@ focus_tree = {
 		icon = GFX_focus_research
 		prerequisite = { focus = ROM_expand_ploiesti_oil_production }
 		x = 1
-		y = 7
+		y = 6
 		relative_position_id = ROM_civil_works
 
 		cost = 10
@@ -1957,7 +1833,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = ROM_expand_the_university_of_bucharest }
 		x = 1
-		y = 8
+		y = 7
 		relative_position_id = ROM_civil_works
 
 		cost = 10
@@ -2668,7 +2544,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_revise_the_constitution
-		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = { focus = ROM_institute_royal_dictatorship }
 		x = 0
 		y = 1
@@ -4228,6 +4104,7 @@ focus_tree = {
 		id = ROM_modern_at_guns
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = { focus = ROM_artillery_modernization }
+		mutually_exclusive = { focus = ROM_mobile_tank_destroyers }
 		x = 1
 		y = 2
 		relative_position_id = ROM_the_zb_53
@@ -4260,47 +4137,6 @@ focus_tree = {
 				bonus = 0.5
 				uses = 2
 				category = cat_anti_tank
-			}
-		}
-	}
-
-	focus = {
-		id = ROM_the_maresal
-		icon = GFX_goal_generic_army_tanks
-		prerequisite = { focus = ROM_acquire_modern_tanks }
-		x = 1
-		y = 2
-		relative_position_id = ROM_reserve_divisions
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		complete_tooltip = {
-
-		}
-
-		completion_reward = {
-			add_tech_bonus = {
-				name = ROM_the_maresal
-				bonus = 0.5
-				ahead_reduction = 1
-				uses = 1
-				category = cat_heavy_armor
 			}
 		}
 	}
@@ -4665,6 +4501,85 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = ROM_acquire_modern_tanks
+		}
+	}
+
+	focus = {
+		id = ROM_mobile_tank_destroyers
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = ROM_acquire_modern_tanks }
+		prerequisite = { focus = ROM_artillery_modernization }
+		mutually_exclusive = { focus = ROM_modern_at_guns }
+		x = 0
+		y = 1
+		relative_position_id = ROM_acquire_modern_tanks
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 9
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = ROM_leonidas_works
+		}
+	}
+
+	focus = {
+		id = ROM_the_maresal
+		icon = GFX_goal_generic_army_tanks
+		prerequisite = { focus = ROM_mobile_tank_destroyers }
+		x = 1
+		y = 3
+		relative_position_id = ROM_reserve_divisions
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		complete_tooltip = {
+
+		}
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = ROM_the_maresal
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				category = cat_heavy_armor
+			}
 		}
 	}
 

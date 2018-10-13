@@ -2,9 +2,6 @@
 state={
 	id=1490
 	name="STATE_1490"
-	resources={
-		steel=11
-	}
 
 	history={
 		owner = ROM
