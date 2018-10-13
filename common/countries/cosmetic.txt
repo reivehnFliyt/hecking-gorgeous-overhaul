@@ -196,8 +196,3 @@ NFR = {
 	color = rgb { 13 59 132 }
 	color_ui = rgb { 13 59 132 }
 }
-
-RUPBA = {
-	color = rgb { 0 147 175 }
-	color_ui = rgb { 0 147 175 }
-}
