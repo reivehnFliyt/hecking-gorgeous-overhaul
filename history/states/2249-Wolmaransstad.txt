@@ -1,11 +1,11 @@
 state={
-	id=2247
-	name="STATE_2247"
+	id=2249
+	name="STATE_2249"
 	
 	history={
 		owner = SAF
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 
 		}
 		add_core_of = SAF
@@ -13,10 +13,10 @@ state={
 	}
 	
 	provinces={
-		13795 
+		13781 13786 
 	}
 	
-	manpower=12437
+	manpower=101928
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 }
