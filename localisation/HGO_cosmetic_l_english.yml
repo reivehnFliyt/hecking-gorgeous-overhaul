@@ -244,3 +244,6 @@
 
  LIV_GER_fascism:0 "Reichskommissariat Livland"
  LIV_GER_neutrality:0 "United Baltic Duchy"
+ 
+ RUPBA_neutrality:0 "United Kingdom of Portugal, Brazil and the Algarves"
+ RUPBA_neutrality_DEF:0 "Portugese"
