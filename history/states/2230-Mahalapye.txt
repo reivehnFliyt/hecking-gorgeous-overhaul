@@ -1,6 +1,6 @@
 state={
-	id=1626
-	name="STATE_1626"
+	id=2230
+	name="STATE_2230"
 	
 	history={
 		owner = ENG
@@ -13,9 +13,10 @@ state={
 	}
 	
 	provinces={
-		8214 12940 
+		13796 13797 13800 
 	}
-	manpower=129478
+	
+	manpower=218741
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category = rural
 }
