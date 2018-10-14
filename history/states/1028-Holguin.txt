@@ -1,3 +1,4 @@
+
 state={
 	id=1028
 	name="STATE_1028"
@@ -13,10 +14,11 @@ state={
 
 		}
 		add_core_of = CUB
+
 	}
 
 	provinces={
-		1550 
+		1550 12347 
 	}
 	manpower=200000
 	buildings_max_level_factor=1.000
