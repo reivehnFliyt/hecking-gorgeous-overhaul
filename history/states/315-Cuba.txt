@@ -18,6 +18,7 @@ state={
 				naval_base = 3
 
 			}
+
 		}
 		add_core_of = CUB
 		victory_points = {
@@ -27,7 +28,7 @@ state={
 	}
 
 	provinces={
-		4600 7622 
+		13848 
 	}
 	manpower=1501006
 	buildings_max_level_factor=1.000
