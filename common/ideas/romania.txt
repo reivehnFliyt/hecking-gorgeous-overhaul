@@ -340,6 +340,8 @@ ideas = {
 
 		ROM_iron_guard = {
 
+			picture = GFX_idea_Iron_Guard_Shield
+
 			removal_cost = -1
 			
 			allowed = {

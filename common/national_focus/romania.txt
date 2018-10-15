@@ -569,6 +569,9 @@ focus_tree = {
 			192 = { is_owned_by = ROM }
 			198 = { is_owned_by = ROM }
 			790 = { is_owned_by = ROM }
+			2076 = { is_owned_by = ROM }
+			2252 = { is_owned_by = ROM }
+			2251 = { is_owned_by = ROM }
 		}
 
 		cancel_if_invalid = yes
@@ -583,6 +586,9 @@ focus_tree = {
 			add_state_claim = 192
 			add_state_claim = 198
 			add_state_claim = 790
+			add_state_claim = 2076
+			add_state_claim = 2251
+			add_state_claim = 2252
 		}
 	}
 
@@ -623,12 +629,27 @@ focus_tree = {
 				is_owned_by = GER
 				is_controlled_by = GER
 			}
+						2076 = {
+				is_owned_by = GER
+				is_controlled_by = GER
+			}
+						2251 = {
+				is_owned_by = GER
+				is_controlled_by = GER
+			}
+						2252 = {
+				is_owned_by = GER
+				is_controlled_by = GER
+			}
 		}
 
 		bypass = {
 			ROM = { controls_state = 192 }
 			ROM = { controls_state = 198 }
 			ROM = { controls_state = 790 }
+			ROM = { controls_state = 2076 }
+			ROM = { controls_state = 2251 }
+			ROM = { controls_state = 2252 }
 		}
 
 		cancel_if_invalid = yes
@@ -645,11 +666,17 @@ focus_tree = {
 
 					NOT = { owns_state = 192
 							owns_state = 790
-							owns_state = 198 }
+							owns_state = 198
+							owns_state = 2076
+							owns_state = 2251
+							owns_state = 2252 }
 				}
 				transfer_state = 192
 				transfer_state = 198
 				transfer_state = 790
+				transfer_state = 2076
+				transfer_state = 2251
+				transfer_state = 2252
 			}
 
 		}
@@ -678,20 +705,25 @@ focus_tree = {
 			add_state_core = 192
 			add_state_core = 790
 			add_state_core = 198
+			add_state_core = 2076
+			add_state_core = 2251
+			add_state_core = 2252
 			if = {
 				limit = {
 					NOT = { owns_state = 192
 							owns_state = 790
-							owns_state = 198 }
+							owns_state = 198
+							owns_state = 2076 }
 				}
-				transfer_state = 192
-				transfer_state = 198
-				transfer_state = 790
 			}
-			198 = { set_state_name = "Moghilau-Vinnitea" }
-			192 = { set_state_name = "Odesa-Ananiev" }
+			198 = { set_state_name = "Vinnitea" }
+			192 = { set_state_name = "Odesa" }
 			790 = { set_state_name = "Transnistriei" }
+			2076 = { set_state_name = "Nova Usitea" }
+			2251 = { set_state_name = "Moghilau" }
+			2252 = { set_state_name = "Ananiev" }
 			set_province_name = { id = 11670 name = "Odesa" }
+			set_province_name = { id = 476 name = "Vinnîţea" }
 		}
 	}
 
@@ -765,7 +797,7 @@ focus_tree = {
 					type = arms_factory
 					level = 1
 					instant_build = yes
-				}
+					}
 				}
 			}
 			790 = {
@@ -781,12 +813,25 @@ focus_tree = {
 				add_extra_state_shared_building_slots = 2
 				}
 			}
+			2076 = {
+				if = {
+				limit = {
+					ROOT = { has_full_control_of_state = PREV } 
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				}
+			}
 		}
 	}
 
 	focus = {
 		id = ROM_Greater_Romania
-		icon = GFX_focus_rom_preserve_romania
+		icon = GFX_goal_iron_guard_flag
 		prerequisite = { focus = ROM_Transnistria_Development }
 		x = 0
 		y = 9
@@ -1295,7 +1340,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_agrarian_reform
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_farms_romania
 		prerequisite = { focus = ROM_civil_works focus = ROM_national_defense_industry }
 		x = 1
 		y = 1
@@ -1594,7 +1639,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_hunedoara_steel_works
-		icon = GFX_goal_generic_construct_civilian
+		icon = GFX_goal_steel
 		prerequisite = { focus = ROM_invite_foreign_motor_companies focus = ROM_malaxa }
 		x = 0
 		y = 4
@@ -1665,7 +1710,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_apuseni_steel_works
-		icon = GFX_goal_generic_positive_trade_relations
+		icon = GFX_goal_aluminium
 		prerequisite = { focus = ROM_invite_foreign_motor_companies focus = ROM_malaxa }
 		x = 2
 		y = 4
@@ -1739,7 +1784,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_invest_in_the_iar
-		icon = GFX_goal_generic_construct_military
+		icon = GFX_goal_IAR
 		prerequisite = { focus = ROM_apuseni_steel_works }
 		x = 2
 		y = 5
@@ -2776,7 +2821,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_appoint_soviet_friendly_government
-		icon = GFX_goal_support_communism
+		icon = GFX_goal_PRC_shield
 		prerequisite = { focus = ROM_flexible_foreign_policy }
 		x = -1
 		y = 1
@@ -2851,7 +2896,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_securitate
-		icon = GFX_focus_generic_support_the_left_right
+		icon = GFX_goal_Peoples_Republic
 		prerequisite = { focus = ROM_appoint_soviet_friendly_government }
 		x = 0
 		y = 1
@@ -2904,7 +2949,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_appoint_german_friendly_government
-		icon = GFX_goal_support_fascism
+		icon = GFX_goal_iron_guard_shield
 		prerequisite = { focus = ROM_flexible_foreign_policy }
 		x = 1
 		y = 1
@@ -3003,7 +3048,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_iron_guard
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_iron_guard_flag
 		prerequisite = { focus = ROM_appoint_german_friendly_government }
 		x = 0
 		y = 1
@@ -3170,7 +3215,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_appoint_allied_friendly_government
-		icon = GFX_goal_support_democracy
+		icon = GFX_goal_ROM_shield
 		prerequisite = { focus = ROM_flexible_foreign_policy }
 		x = 3
 		y = 1
@@ -3245,7 +3290,7 @@ focus_tree = {
 
 	focus = {
 		id = ROM_constitutional_guarantees
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_ROM_flag
 		prerequisite = { focus = ROM_appoint_allied_friendly_government }
 		x = 0
 		y = 1
