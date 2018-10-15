@@ -1115,6 +1115,18 @@ DKU = {
 	color = rgb { 229 208 45}
 	color_ui = rgb { 229 208 45}	
 }
+TKI = {
+	color = rgb { 229 208 45}
+	color_ui = rgb { 229 208 45}
+}
+SRW = {
+	color = rgb { 130 145 114}
+	color_ui = rgb { 130 145 114}
+}
+BEI = {
+	color = rgb { 120 158 144}
+	color_ui = rgb { 120 158 144}
+}
 PTG = {
 	color = rgb { 16 114 5}
 	color_ui = rgb { 16 114 5}	

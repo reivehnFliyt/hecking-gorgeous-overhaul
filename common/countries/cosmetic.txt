@@ -201,3 +201,32 @@ RUPBA = {
 	color = rgb { 0 147 175 }
 	color_ui = rgb { 0 147 175 }
 }
+BRI_SRW = {
+    color = rgb { 180 54 54 }
+    color_ui = rgb { 180 54 54 }
+}
+
+BRI_BEI = {
+    color = rgb { 180 54 54 }
+    color_ui = rgb { 180 54 54 }
+}
+
+FRA_LAO = {
+    color = rgb { 84 133 182 }
+    color_ui = rgb { 84 133 182 }
+}
+
+FRA_VIN = {
+    color = rgb { 84 133 182 }
+    color_ui = rgb { 84 133 182 }
+}
+
+FRA_CAM = {
+    color = rgb { 84 133 182 }
+    color_ui = rgb { 84 133 182 }
+}
+
+FRA_TKI = {
+    color = rgb { 84 133 182 }
+    color_ui = rgb { 84 133 182 }
+}

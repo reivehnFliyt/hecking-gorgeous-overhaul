@@ -245,5 +245,23 @@
  LIV_GER_fascism:0 "Reichskommissariat Livland"
  LIV_GER_neutrality:0 "United Baltic Duchy"
  
- RUPBA_neutrality:0 "United Kingdom of Portugal, Brazil and the Algarves"
- RUPBA_neutrality_DEF:0 "Portugese"
+ BRI_OMA_democratic:0 "Protectorate of Muscat and Oman"
+ BRI_OMA_democratic_DEF:0 "the Protectorate of Muscat and Oman"
+ 
+ BRI_BEI_democratic:0 "Protectorate of Brunei"
+ BRI_BEI_democratic_DEF:0 "the Protectorate of Brunei"
+
+ BRI_SRW_democratic:0 "Protectorate of Sarawak"
+ BRI_SRW_democratic_DEF:0 "the Protectorate of Sarawak"
+ 
+ FRA_LAO_democratic:0 "Protectorate of Laos"
+ FRA_LAO_democratic_DEF:0 "The Protectorate of Laos"
+ 
+ FRA_VIN_democratic:0 "Protectorate of Annam"
+ FRA_VIN_democratic_DEF:0 "The Protectorate of Annam"
+ 
+ FRA_CAM_democratic:0 "Protectorate of Annam"
+ FRA_CAM_democratic_DEF:0 "The Protectorate of Annam"
+ 
+ FRA_TKI_democratic:0 "Protectorate of Tonkin"
+ FRA_TKI_democratic_DEF:0 "The Protectorate of Tonkin"

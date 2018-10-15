@@ -96,6 +96,10 @@ ROJ = "countries/South Japan.txt"
 PRJ = "countries/North Japan.txt"
 DPK = "countries/North Korea.txt"
 ROK = "countries/South Korea.txt"
+TKI = "countries/Tonkin.txt"
+SRW = "countries/Sarawak.txt"
+BEI = "countries/Brunei.txt"
+BEO = "countries/Borneo.txt"
 
 ##Middle-East##
 HTY = "countries/Hatay.txt"

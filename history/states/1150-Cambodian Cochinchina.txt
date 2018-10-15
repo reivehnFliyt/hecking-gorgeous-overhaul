@@ -3,7 +3,7 @@ state={
 	name="STATE_1150"
 
 	history = {
-		owner = FRA
+		owner = CAM
 		add_core_of = CAM
 	}
 

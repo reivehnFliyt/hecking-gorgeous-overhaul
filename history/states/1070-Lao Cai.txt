@@ -8,7 +8,8 @@ state={
 
 	history={
 		add_core_of = VIN
-		owner = FRA
+		add_core_of = TKI
+		owner = TKI
 		buildings = {
 			infrastructure = 2
 
