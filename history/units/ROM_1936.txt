@@ -475,7 +475,7 @@ air_wings = {
 			name="Constantin"
 			surname="Cantacuzino"
 			callsign="Bâzu"
-			portrait = ROM_ace_Constantin_Cantacuzino
+			portrait =1 #GFX_ROM_ace_Constantin_Cantacuzino (TODO - Add Portrait)
 		}
 	}
 	79 = {
@@ -489,7 +489,7 @@ air_wings = {
 			name="Ioan"
 			surname="Dicezare"
 			callsign="Arici"
-			portrait = ROM_ace_Ioan_Dicezare
+			portrait =1 #GFX_ROM_ace_Ioan_Dicezare (TODO - Add Portrait)
 		}
 	}
 	1217 = {
@@ -503,7 +503,7 @@ air_wings = {
 			name="Alexandru"
 			surname="Serbanescu"
 			callsign="Alecu"
-			portrait = ROM_ace_Alexandru_Serbanescu
+			portrait =1 #GFX_ROM_ace_Alexandru_Serbanescu (TODO - Add Portrait)
 		}
 	}
 }
