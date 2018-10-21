@@ -19,7 +19,7 @@ FRA_a_king_for_france = {
             retire_country_leader = yes
             create_country_leader = {
             name = "Prince Louis Napoleon"
-            picture = "GFX/leaders/FRA/Prince_Louis_Napoleon"
+            picture = "GFX/leaders/FRA/Prince_Louis_Napoleon.dds"
             ideology = despotism
 			}
 			hidden_effect = {
