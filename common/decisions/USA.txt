@@ -409,5 +409,9 @@ USA_The_British_Empire = {
 		
 		available = {
 			NOT = {
-				at war
+				has_war = yes
+				}
+		}
+	}
+}
 		

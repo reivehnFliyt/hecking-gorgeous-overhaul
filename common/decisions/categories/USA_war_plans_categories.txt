@@ -5,13 +5,10 @@ USA_The_British_Empire = {
 		}
 		
 		visible = {
-			world_tension = 50
+			threat > 49
+			date > 1938.1.1
 		}
-		
-		date = 1938.1.1
-		
 		}
-}
 USA_The_Japanese_Threat = {
 
 		allowed = {
@@ -19,13 +16,10 @@ USA_The_Japanese_Threat = {
 		}
 		
 		visible = {
-			world_tension = 65
+			threat > 64
+			date > 1938.1.1
+		}	
 		}
-		
-		date = 1938.1.1
-		
-		}
-}
 USA_European_Fascists = {
 
 		allowed = {
@@ -33,13 +27,10 @@ USA_European_Fascists = {
 		}
 		
 		visible = {
-			world_tension = 70
+			threat > 70
+			date > 1938.1.1
+		}	
 		}
-		
-		date = 1938.1.1
-		
-		}
-}
 USA_The_Threat_Below = {
 
 		allowed = {
@@ -47,13 +38,11 @@ USA_The_Threat_Below = {
 		}
 		
 		visible = {
-			world_tension = 70
-		}
+			threat > 70
+			date > 1938.1.1
+		}		
 		
-		date = 1938.1.1
-		
 		}
-}
 USA_The_French_Empire = {
 
 		allowed = {
@@ -61,13 +50,11 @@ USA_The_French_Empire = {
 		}
 		
 		visible = {
-			world_tension = 70
+			threat > 70
+			date > 1938.1.1
 		}
-		
-		date = 1938.1.1
-		
+	
 		}
-}
 USA_General_War_Plans = {
 
 		allowed = {
@@ -75,10 +62,8 @@ USA_General_War_Plans = {
 		}
 		
 		visible = {
-			world_tension = 20
+			threat > 20
+			date > 1938.1.1
 		}
 		
-		date = 1938.1.1
-		
 		}
-}

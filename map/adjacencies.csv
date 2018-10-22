@@ -142,8 +142,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13363;13369;sea;7452;-1;-1;-1;-1;;Aegean
 13363;895;sea;7452;-1;-1;-1;-1;;Aegean
 9930;13686;sea;7452;-1;-1;-1;-1;;Aegean
-3401;13649;sea;7452;-1;-1;-1;-1;;Aegean
-13723;13649;sea;7452;-1;-1;-1;-1;;Aegean
+3401;13649;sea;6801;-1;-1;-1;-1;;Aegean
+13723;13649;sea;6801;-1;-1;-1;-1;;Aegean
 11064;13224;sea;3195;-1;-1;-1;-1;;Orkney Island
 13287;13288;sea;2871;-1;-1;-1;-1;;Channel Islands
 13302;7463;sea;5960;-1;-1;-1;-1;;Rupat-Sumatra
