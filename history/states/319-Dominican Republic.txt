@@ -1,0 +1,38 @@
+
+state={
+	id=319
+	name="STATE_319"
+	resources={
+		chromium=1.000
+	}
+
+	history={
+		owner = DOM
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 1
+			7660 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = DOM
+		victory_points = {
+			7660 5 
+		}
+		victory_points = {
+			4598 1 
+		}
+
+	}
+
+	provinces={
+		4598 7632 7660 10484 13801 13807 13814 13815 13819 13820 13822 13824 13825 13826 13827 13828 13830 13832 13833 13834 13835 13836 13839 13840 13841 13842 13844 13850 13851 13852 13853 13854
+	}
+	manpower=1256000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

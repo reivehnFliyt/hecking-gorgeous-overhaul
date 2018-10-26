@@ -1,0 +1,29 @@
+
+state={
+	id=689
+	name="STATE_689"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 4
+			12304 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = JAM
+		victory_points = {
+			12304 5 
+		}
+
+	}
+
+	provinces={
+		12304 13802 13803 13804 13805 13806 13808 13809 13810 13811 13813 13816 13817 13821 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

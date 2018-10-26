@@ -12,31 +12,20 @@ state={
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 1
-			7564 = {
-				naval_base = 2
-				coastal_bunker = 1
-
-			}
-			7566 = {
-				naval_base = 1
-
-			}
+			
+			
 
 		}
-		victory_points = {
-			7564 5 
-		}
-		victory_points = {
-			7566 1 
-		}
+		
+		
 		add_core_of = AST
 
 	}
 
 	provinces={
-		1472 1501 1557 1644 2166 2187 4481 4502 4505 4517 4520 4560 4632 4648 5198 7506 7522 7525 7538 7566 7610 7651 7666 8230 10336 10338 10350 10365 10378 10460 10475 10487 10936 12308 12354 12367 12382 12411 12424 12949 
+		10936 12949 5198 10336 1472 1557 4481 4502 4517 4560 4632 7522 7610 7651 7666 8230 10460 10475 10487 12308 12411 12424 
 	}
-	manpower=916800
+	manpower=714600
 	buildings_max_level_factor=1.000
 	state_category=town
 }
