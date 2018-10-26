@@ -13,6 +13,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
 3260;3325;;2408;-1;-1;-1;-1;;Sjaelland-Fyn
 3260;3374;;2408;-1;-1;2973;1625;;Sjaelland-SdFyn
+6350;3379;sea;8340;-1;-1;-1;-1;;Ireland to Britain
 3277;3325;;2408;-1;-1;-1;-1;;Fyn-Jylland
 11251;3325;;2408;2956;1628;2960;1629;;Fyn-SdrJylland
 83;185;sea;1885;-1;-1;-1;-1;;Estonia-Ösel
@@ -135,6 +136,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
 13208;10791;sea;2691;-1;-1;-1;-1;;Bahrain-Saudi
+13208;8051;sea;2691;-1;-1;-1;-1;;Bahrain-Qatar
 7683;13225;sea;8642;-1;-1;-1;-1;;Anticosti Island
 7810;12698;sea;2935;-1;-1;-1;-1;;Newfundland
 13718;8435;sea;7452;-1;-1;-1;-1;;Aegean
@@ -206,8 +208,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3208;12600;impassable;-1;-1;-1;-1;-1;;Quebec
 3208;4666;impassable;-1;-1;-1;-1;-1;;Quebec
 3208;13196;impassable;-1;-1;-1;-1;-1;;Quebec
-10482;7630;impassable;-1;-1;-1;-1;-1;;Darien Gap
-10482;4969;impassable;-1;-1;-1;-1;-1;;Darien Gap
+10482;13597;impassable;-1;-1;-1;-1;-1;;Darien Gap
 11101;3192;impassable;-1;-1;-1;-1;-1;;Norway
 11101;65;impassable;-1;-1;-1;-1;-1;;Norway
 11198;65;impassable;-1;-1;-1;-1;-1;;Norway
@@ -230,5 +231,4 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4877;1347;impassable;-1;-1;-1;-1;-1;;Canada
 7761;1347;impassable;-1;-1;-1;-1;-1;;Canada
 1411;1347;impassable;-1;-1;-1;-1;-1;;Canada
-8103;5060;impassable;-1;-1;-1;-1;-1;;Darfur
 -1;-1;;-1;-1;-1;-1;-1;-1

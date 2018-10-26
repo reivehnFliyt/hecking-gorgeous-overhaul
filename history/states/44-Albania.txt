@@ -16,11 +16,7 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 2
-			air_base = 3
-			11767 = {
-				naval_base = 4
-
-			}
+			air_base = 1
 		}
 		add_core_of = ALB
 		add_claim_by = ITA
