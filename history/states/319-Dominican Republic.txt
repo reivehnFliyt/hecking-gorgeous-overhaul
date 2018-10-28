@@ -13,7 +13,7 @@ state={
 			arms_factory = 1
 			industrial_complex = 3
 			air_base = 1
-			7660 = {
+			13826 = {
 				naval_base = 2
 
 			}
@@ -21,16 +21,16 @@ state={
 		}
 		add_core_of = DOM
 		victory_points = {
-			7660 5 
+			13826 5 
 		}
 		victory_points = {
-			4598 1 
+			13801 1 
 		}
 
 	}
 
 	provinces={
-	13826
+	13826 13801 13842
 	}
 	manpower=1256000
 	buildings_max_level_factor=1.000
