@@ -17,7 +17,7 @@ state={
 		add_core_of = DLM	}
 	
 	provinces={
-		6889 13272 
+		3868 6889 13272 
 	}
 	manpower=90577
 	buildings_max_level_factor=1.000
