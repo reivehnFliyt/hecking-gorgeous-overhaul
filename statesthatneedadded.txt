@@ -1,0 +1,152 @@
+11762 and 9875 in Albania 44
+3896 and 9780 in Albania 44
+13291 in Albania 44
+13371 in Dimitroverad 1238
+13268 in Mitrovica 1233
+13726 in Bielsko-Biala 1738
+13470 in Vinnytsia 198
+3703 in Linz 1110
+13720 in Limburg 783
+6168 61 151 11060 6208 6170 in Norrbotten 946
+9147 201 in Norrbotten 946
+6079 3082 in Trom 940
+940 11090 11157 in Trom 940
+22 in Finnmark 44
+12869 in Iceland 100
+12674 in Iceland 100
+4861 in Iceland 100
+12505 in Newfoundland 331
+4198 in Kyushu 528
+10011 in Kyushu 528 
+13286 in Gyeonsang 977
+9952 in Hokuriku 534
+13037 in Kuril Islands 555
+1515 in Kuril Islands 555
+13303 in Zhejiang 596
+10184 in Mindanao 627
+12113 in Sumatra 672
+4211 in Bangka Island 1046
+12234 and 12219 in Lesser Sunda Islands 667
+4306 in Java 335
+1570 in Northern Territory 520
+1903 in Equatorial Guinea 297
+7884 in Alaska 463
+13080 in Alaska 463
+7115 and 1123 in Okinawa 526
+13304 in Shanghai 613
+13287 in Channel Islands 984
+3686 in Crimea 137
+12320 in Armenia 230
+10321 in Andaman Islands 733
+4310 in Perak 1930
+7542 in West Papua 669
+2072 in Amhara 1547
+Move 13756 (Arabian Road 80 (2221)) to Bahrain Coast 1450
+Move 13763 and 13762 (Arabian Road 85 (2222)) to Dammam 896
+Move 13727 (Arabian Road 40 (2218)) to Medina 2214
+Move 13730 (Arabian Road 50 (2217)) to Medina 2214
+Move 13743 (Arabian Road 60 (2216)) to Medina 2214
+7091 and 10073 (Alexandria 447) and 10005 (Cairo 446) 
+573 in Sachsen 65
+4401 in Saigon 1067
+149 in Leningrad 195
+9197 9164 3072 in Volkhov 244
+71 6154 9212 6225 9242 8 11191 6086 in Novgorod 263
+248 and 11234 in Pskov 209
+387 and 9386 in Nevel 210
+7661 in Azerbaijan 229
+9902 in Sozopol 826
+
+Not as urgent:
+
+10373 10334 4615 in North Island 284
+7742 10710 4748 in North Island 284
+10609 1786 1746 4718 12664 in North Island 284
+12362 in North Island 284
+1814 in North Island 284
+7826 1801 4804 7692 in North Island 284 
+12632 in South Island 723
+2197 in South Island 723
+5195 in South Island 723
+8212 12966 in South Island 723
+8232 12980 12974 in South Island 723
+8241 and 12988 in South Island 723
+2211 and 2203 in South Island 723
+12159 in Fiji 636
+1237 in New Caledonia 635
+12120 in New Caledonia 635
+4247 in New Caledonia 635
+4231 in New Caledonia 635
+10248 in Papua 523
+10319 in Solomon Islands 634
+12265 in Solomon Islands 634
+4252 in Solomon Islands 634
+1085 in Solomon Islands 634
+1042 in Solomon Islands 634
+
+Eventually these but not now:
+4288 and 10272 in Central Islands 624
+7307 in Central Islands 624
+7385 in Cebu 628
+12118 and 12153 in Cebu 628
+1368 7423 1368 in Cebu 628
+7417 7360 7389 4399 1421 in Mindanao 627
+12457 in West Papua 669
+7587 in Ambon 2167
+10342 in The Moluccas 668
+1437 in Ternate 2168
+10219 in Lesser Sunda Islands 667
+4273 in Lesser Sunda Islands 667
+7293 in Lesser Sunda Islands 667
+10191 and 12162 in Lesser Sunda Islands 667
+9859 in Tohoku 533
+13023 in Saipan 646
+13024 in Saipan 646
+13027 in Caroline Islands 684
+13028 in Caroline Islands 684
+13029 in Caroline Islands 684
+13030 in Caroline Islands 684
+13031 in Caroline Islands 684
+13032 in Caroline Islands 684
+13033 in Caroline Islands 684
+13034 in Caroline Islands 684
+13036 in Caroline Islands 684
+13035 in Caroline Islands 684
+13046 in Marshall Islands 633
+13045 in Marshall Islands 633
+13041 in Marshall Islands 633
+13044 in Marshall Islands 633
+13039 in Marshall Islands 633
+13043 in Marshall Islands 633
+13042 in Marshall Islands 633
+13040 in Marshall Islands 633
+13022 in Gilbert Islands 639
+13021 in Gilbert Islands 639
+4387 in Gilbert Islands 639
+13020 in Gilbert Islands 639
+13054 in Ellice Islands 643
+13055 in Ellice Islands 643
+13056 in Ellice Islands 643
+10188 in Tahiti 641
+13048 in Line Islands 727
+13049 in Line Islands 727
+8188 5185 11015 in Madagascar 543
+5128 in Madagascar 543
+10993 and 8246 in Madagascar 543
+8180 12956 2200 in Madagascar 543
+191 in Haut-Katanga 1505
+12925 in Kinshasa 1499
+13230 and 13231 in Oyem 877
+5046 in South Cameroon 1608
+1909 in Guinea 866
+12747 in Guinea-Bissau 296
+12022 and 5004 in Libyan Desert 273
+13370 in Murvica 1232
+3868 in Dubrovnik 1311
+11064 in Caithness 1901
+3305 in Sjaelland 37
+1785 in Labrador 332
+7003 in Dodecanese 164
+
+
+
