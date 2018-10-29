@@ -247,3 +247,9 @@
  
  RUPBA_neutrality:0 "United Kingdom of Portugal, Brazil and the Algarves"
  RUPBA_neutrality_DEF:0 "Portugese"
+ 
+ BOH_neutrality:0 "Bohemia"
+ BOH_neutrality_DEF:0 "Bohemian"
+ 
+ EGL_neutrality:0 "England"
+ EGL_neutrality_DEF:0 "English"
