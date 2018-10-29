@@ -1,63 +1,39 @@
-11762 and 9875 in Albania 44
-3896 and 9780 in Albania 44
-13291 in Albania 44
-13371 in Dimitroverad 1238
-13268 in Mitrovica 1233
-13726 in Bielsko-Biala 1738
-13470 in Vinnytsia 198
-3703 in Linz 1110
-7273 in Zammu and Kashmir 1006
-13720 in Limburg 783
-6635 and 11570 in Torino 844
-6168 61 151 11060 6208 6170 in Norrbotten 946
-9147 201 in Norrbotten 946
-6079 3082 in Trom 940
-940 11090 11157 in Trom 940
-22 in Finnmark 44
-12869 in Iceland 100
-12674 in Iceland 100
-4861 in Iceland 100
-12505 in Newfoundland 331
+In Progress:
+
+
+
+
+Next Update:
 4198 in Kyushu 528
 10011 in Kyushu 528 
 13286 in Gyeonsang 977
+11064 in Caithness 1901
+4401 in Saigon 1067
+12505 in Newfoundland 331
+4211 in Bangka Island 1046
+149 in Leningrad 195
+7587 in Ambon 2167
+10342 in The Moluccas 668
 9952 in Hokuriku 534
 13037 in Kuril Islands 555
 1515 in Kuril Islands 555
-13303 in Zhejiang 596
 10184 in Mindanao 627
-12113 in Sumatra 672
-4211 in Bangka Island 1046
 12234 and 12219 in Lesser Sunda Islands 667
 4306 in Java 335
 1570 in Northern Territory 520
-1903 in Equatorial Guinea 297
 7884 in Alaska 463
 13080 in Alaska 463
 7115 and 1123 in Okinawa 526
-13304 in Shanghai 613
 13287 in Channel Islands 984
-3686 in Crimea 137
-12320 in Armenia 230
 10321 in Andaman Islands 733
 4310 in Perak 1930
 7542 in West Papua 669
-2072 in Amhara 1547
-Move 13756 (Arabian Road 80 (2221)) to Bahrain Coast 1450
-Move 13763 and 13762 (Arabian Road 85 (2222)) to Dammam 896
-Move 13727 (Arabian Road 40 (2218)) to Medina 2214
-Move 13730 (Arabian Road 50 (2217)) to Medina 2214
-Move 13743 (Arabian Road 60 (2216)) to Medina 2214
-7091 and 10073 (Alexandria 447) and 10005 (Cairo 446) 
-573 in Sachsen 65
-4401 in Saigon 1067
-149 in Leningrad 195
+
+Eventually:
 9197 9164 3072 in Volkhov 244
 71 6154 9212 6225 9242 8 11191 6086 in Novgorod 263
 248 and 11234 in Pskov 209
 387 and 9386 in Nevel 210
-7661 in Azerbaijan 229
-9902 in Sozopol 826
 
 Not as urgent:
 
@@ -75,10 +51,6 @@ Not as urgent:
 8241 and 12988 in South Island 723
 2211 and 2203 in South Island 723
 12159 in Fiji 636
-1237 in New Caledonia 635
-12120 in New Caledonia 635
-4247 in New Caledonia 635
-4231 in New Caledonia 635
 10248 in Papua 523
 10319 in Solomon Islands 634
 12265 in Solomon Islands 634
@@ -87,6 +59,7 @@ Not as urgent:
 1042 in Solomon Islands 634
 
 Eventually these but not now:
+
 4288 and 10272 in Central Islands 624
 7307 in Central Islands 624
 7385 in Cebu 628
@@ -94,8 +67,6 @@ Eventually these but not now:
 1368 7423 1368 in Cebu 628
 7417 7360 7389 4399 1421 in Mindanao 627
 12457 in West Papua 669
-7587 in Ambon 2167
-10342 in The Moluccas 668
 1437 in Ternate 2168
 10219 in Lesser Sunda Islands 667
 4273 in Lesser Sunda Islands 667
@@ -136,19 +107,59 @@ Eventually these but not now:
 5128 in Madagascar 543
 10993 and 8246 in Madagascar 543
 8180 12956 2200 in Madagascar 543
-191 in Haut-Katanga 1505
-12925 in Kinshasa 1499
-13230 and 13231 in Oyem 877
-5046 in South Cameroon 1608
-1909 in Guinea 866
-12747 in Guinea-Bissau 296
-12022 and 5004 in Libyan Desert 273
-13370 in Murvica 1232
-3868 in Dubrovnik 1311
-11064 in Caithness 1901
-3305 in Sjaelland 37
-1785 in Labrador 332
 7003 in Dodecanese 164
+
+Done: 
+11762 and 9875 in Albania 44
+3896 and 9780 in Albania 44
+13291 in Albania 44
+13371 in Dimitroverad 1238
+13268 in Mitrovica 1233	
+13726 in Bielsko-Biala 1738
+13470 in Vinnytsia 198
+3703 in Linz 1110
+7273 in Zammu and Kashmir 1006
+13720 in Limburg 783
+6635 and 11570 in Torino 844
+6079 3082 in Trom 940
+44 11090 11157 in Trom 940
+22 in Finnmark 144
+12869 in Iceland 100
+12674 in Iceland 100	
+4861 in Iceland 100
+1237 in New Caledonia 635
+12120 in New Caledonia 635
+4247 in New Caledonia 635
+4231 in New Caledonia 635
+13304 in Shanghai 613
+13303 in Zhejiang 596
+Move 13756 (Arabian Road 80 (2221)) to Bahrain Coast 1450
+Move 13763 and 13762 (Arabian Road 85 (2222)) to Dammam 896
+Move 13727 (Arabian Road 40 (2218)) to Medina 2214
+Move 13730 (Arabian Road 50 (2217)) to Medina 2214
+Move 13743 (Arabian Road 60 (2216)) to Medina 2214 
+573 in Sachsen 65
+3686 in Crimea 137
+12320 in Armenia 230
+3868 in Dubrovnik 1311
+1903 in Equatorial Guinea 297
+9902 in Sozopol 826
+12022 and 5004 in Libyan Desert 273
+13230 and 13231 in Oyem 877
+12747 in Guinea-Bissau 296
+1909 in Guinea 866
+4458 in Azerbaijan 229
+12113 in Sumatra 672
+2072 in Amhara 1547
+191 in Haut-Katanga 1505
+3305 in Sjaelland 37
+13370 in Murvica 1232
+12925 in Kinshasa 1499
+1785 in Labrador 332
+5036 in South Cameroon 1608
+7091 and 10073 (Alexandria 447) and 10005 (Cairo 446)
+
+
 
 
 
