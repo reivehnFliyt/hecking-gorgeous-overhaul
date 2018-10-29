@@ -575,3 +575,8 @@ PI_color_white = {
     color = rgb { 255 255 255 }
     color_ui = rgb { 213 000 93 }
 }
+
+BRI_SAF = {
+	color = rgb {152 130 191 }
+	color_ui = rgb { 152 130 191 }
+}

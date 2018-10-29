@@ -93,8 +93,8 @@ ALB = {
 	color_ui = rgb { 194 59 133 }
 }
 NOR = {
-	color = rgb { 111 71 71 }
-	color_ui = rgb { 144 92 92 }
+	color = rgb { 101 165 162 }
+	color_ui = rgb { 101 165 162 }
 }
 DEN = {
 	color = rgb { 153 116 93 }
@@ -150,8 +150,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
+	color = rgb { 244 212 53 } 
+	color_ui = rgb { 244 212 53 }
 }
 CHL = {
 	color = rgb { 155 101 107 }
@@ -170,8 +170,8 @@ ECU = {
 	color_ui = rgb { 255 190 127 }
 }
 ELS = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 244 218 166 }
+	color_ui = rgb { 244 218 166 }
 }
 ETH = {
 	color = rgb { 152 130 191 }
@@ -194,8 +194,8 @@ JAP = {
 	color_ui = hsv { 0.05 0.25 1.2 }
 }
 LIB = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 128 252 240 }
+	color_ui = rgb { 128 252 240 }
 }
 MEX = {
 	color = rgb { 104 152 83 }
@@ -214,8 +214,8 @@ NZL = {
 	color_ui = rgb { 198 169 248 }
 }
 PAN = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 65 167 250 }
+	color_ui = rgb { 65 167 250 }
 }
 PER = {
 	color = rgb { 71 113 97 }
@@ -230,8 +230,8 @@ PRU = {
 	color_ui = rgb { 255 246 255 }
 }
 SAF = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 209 150 33 } #152 130 191
+	color_ui = rgb { 209 150 33 }
 }
 SAU = {
 	color = rgb { 47 109 63 }
@@ -295,8 +295,8 @@ HAI = {
 	color_ui = rgb { 174 113 113 }
 }
 YEM = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+	color = rgb { 233 155 81 }
+	color_ui = rgb { 233 155 81 }
 }
 OMA = {
 	color = rgb { 155 101 107 }
@@ -377,8 +377,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }	
+	color = rgb { 72 132 150 }
+	color_ui = rgb { 72 132 150 }	
 }
 
 AZR = {
@@ -460,8 +460,8 @@ BOT = {
 	color_ui = rgb { 11 132 112 }
 }
 PAK = {
-	color = rgb { 21 38 66 }
-	color_ui = rgb { 21 38 66 }
+	color = rgb { 120 237 149 }
+	color_ui = rgb { 120 237 149 }
 }
 WGR = {
     color = rgb { 195 236 230 } # The colors are set to be more are less what we are used to
@@ -752,8 +752,8 @@ LOM = {
       color_ui = rgb { 238 232 170 }
 }
 PIE = {
-       color = rgb { 70 130 180 }
-       color_ui = rgb { 70 130 180 }
+       color = rgb {  89 247 191 }
+       color_ui = rgb {  89 247 191 }
 }	   
 TUS = {
        color = rgb { 119 136 153 }
