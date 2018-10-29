@@ -1,0 +1,2708 @@
+
+guiTypes = {
+	
+	#кнопка наверху юзербара
+	containerWindowType = {
+		name = "pi_color_container"
+		position = { x= -259 y = 39 }
+		Orientation = upper_right
+		
+		buttonType = {
+			name = "paint_icon"
+			spriteType = "GFX_toolbar"
+			position = { x = -160 y = -38 }
+			pdx_tooltip = "COLOR_TOOLTIP"
+			Orientation = "upper_right"	
+			shortcut = "shift+p"
+			clipping = no
+		}
+	}
+	
+	
+	#раскрываемое окно кнопки
+	containerWindowType = {
+		name = "pi_color_open_container"
+		position = { x = 480 y = 100 }
+		size = { width = 450 height = 550 } #317*429 1108*720
+		margin = { top = 10 left = 10 bottom = 30 right = 10 }
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		clipping = yes
+		verticalScrollbar = "right_vertical_slider"
+		horizontalScrollbar = "bottom_horizontal_slider"
+		
+		#background = {
+		#	name = "Background"
+		#	quadTextureSprite = "GFX_army_insignia_selection_bg"
+		#}
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_bg"
+		}
+
+		instantTextboxType = {
+			name = "pi_color_headline"
+			position = { x = 4 y = 2 }
+			font = "hoi_36header"
+			text = "color_change_options"
+			maxWidth = 500
+			maxHeight = 20
+			format = left
+		}
+		instantTextboxType = {
+			name = "pi_color_vanil"
+			position = { x = 5 y = 30 }
+			font = "hoi_30header"
+			text = "pi_color_vanil"
+			maxWidth = 500
+			maxHeight = 20
+			format = left
+		}
+		
+		
+		#Flags
+		buttonType = {
+			name = "GER"
+			position = { x = 5 y = 60 }
+			spriteType = "GFX_GER_pi"
+			pdx_tooltip = "GER_TOOLTIP"
+		}
+		buttonType = {
+			name = "ENG"
+			position = { x = 5 y = 90 }
+			spriteType = "GFX_ENG_pi"
+			pdx_tooltip = "ENG_TOOLTIP"
+		}
+		buttonType = {
+			name = "SOV"
+			position = { x = 5 y = 120 }
+			spriteType = "GFX_SOV_pi"
+			pdx_tooltip = "SOV_TOOLTIP"
+		}
+		buttonType = {
+			name = "SWE"
+			position = { x = 5 y = 150 }
+			spriteType = "GFX_SWE_pi"
+			pdx_tooltip = "SWE_TOOLTIP"
+		}
+		buttonType = {
+			name = "FRA"
+			position = { x = 5 y = 180 }
+			spriteType = "GFX_FRA_pi"
+			pdx_tooltip = "FRA_TOOLTIP"
+		}
+		buttonType = {
+			name = "LUX"
+			position = { x = 5 y = 210 }
+			spriteType = "GFX_LUX_pi"
+			pdx_tooltip = "LUX_TOOLTIP"
+		}
+		buttonType = {
+			name = "BEL"
+			position = { x = 5 y = 240 }
+			spriteType = "GFX_BEL_pi"
+			pdx_tooltip = "BEL_TOOLTIP"
+		}
+		buttonType = {
+			name = "HOL"
+			position = { x = 5 y = 270 }
+			spriteType = "GFX_HOL_pi"
+			pdx_tooltip = "HOL_TOOLTIP"
+		}
+		buttonType = {
+			name = "CZE"
+			position = { x = 5 y = 300 }
+			spriteType = "GFX_CZE_pi"
+			pdx_tooltip = "CZE_TOOLTIP"
+		}
+		buttonType = {
+			name = "POL"
+			position = { x = 5 y = 330 }
+			spriteType = "GFX_POL_pi"
+			pdx_tooltip = "POL_TOOLTIP"
+		}
+		buttonType = {
+			name = "AUS"
+			position = { x = 5 y = 360 }
+			spriteType = "GFX_AUS_pi"
+			pdx_tooltip = "AUS_TOOLTIP"
+		}
+		buttonType = {
+			name = "LIT"
+			position = { x = 5 y = 390 }
+			spriteType = "GFX_LIT_pi"
+			pdx_tooltip = "LIT_TOOLTIP"
+		}
+		buttonType = {
+			name = "EST"
+			position = { x = 5 y = 420 }
+			spriteType = "GFX_EST_pi"
+			pdx_tooltip = "EST_TOOLTIP"
+		}
+		buttonType = {
+			name = "LAT"
+			position = { x = 5 y = 450 }
+			spriteType = "GFX_LAT_pi"
+			pdx_tooltip = "LAT_TOOLTIP"
+		}
+		buttonType = {
+			name = "SPR"
+			position = { x = 5 y = 480 }
+			spriteType = "GFX_SPR_pi"
+			pdx_tooltip = "SPR_TOOLTIP"
+		}
+		buttonType = {
+			name = "ITA"
+			position = { x = 5 y = 510 }
+			spriteType = "GFX_ITA_pi"
+			pdx_tooltip = "ITA_TOOLTIP"
+		}
+		buttonType = {
+			name = "ROM"
+			position = { x = 5 y = 540 }
+			spriteType = "GFX_ROM_pi"
+			pdx_tooltip = "ROM_TOOLTIP"
+		}
+		buttonType = {
+			name = "YUG"
+			position = { x = 5 y = 570 }
+			spriteType = "GFX_YUG_pi"
+			pdx_tooltip = "YUG_TOOLTIP"
+		}
+		buttonType = {
+			name = "SWI"
+			position = { x = 5 y = 600 }
+			spriteType = "GFX_SWI_pi"
+			pdx_tooltip = "SWI_TOOLTIP"
+		}
+		
+		
+		#2ой ряд
+		buttonType = {
+			name = "GRE"
+			position = { x = 51 y = 60 }
+			spriteType = "GFX_GRE_pi"
+			pdx_tooltip = "GRE_TOOLTIP"
+		}
+		buttonType = {
+			name = "ALB"
+			position = { x = 51 y = 90 }
+			spriteType = "GFX_ALB_pi"
+			pdx_tooltip = "ALB_TOOLTIP"
+		}
+		buttonType = {
+			name = "NOR"
+			position = { x = 51 y = 120 }
+			spriteType = "GFX_NOR_pi"
+			pdx_tooltip = "NOR_TOOLTIP"
+		}
+		buttonType = {
+			name = "DEN"
+			position = { x = 51 y = 150 }
+			spriteType = "GFX_DEN_pi"
+			pdx_tooltip = "DEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "BUL"
+			position = { x = 51 y = 180 }
+			spriteType = "GFX_BUL_pi"
+			pdx_tooltip = "BUL_TOOLTIP"
+		}
+		buttonType = {
+			name = "POR"
+			position = { x = 51 y = 210 }
+			spriteType = "GFX_POR_pi"
+			pdx_tooltip = "POR_TOOLTIP"
+		}
+		buttonType = {
+			name = "FIN"
+			position = { x = 51 y = 240 }
+			spriteType = "GFX_FIN_pi"
+			pdx_tooltip = "FIN_TOOLTIP"
+		}
+		buttonType = {
+			name = "IRE"
+			position = { x = 51 y = 270 }
+			spriteType = "GFX_IRE_pi"
+			pdx_tooltip = "IRE_TOOLTIP"
+		}
+		buttonType = {
+			name = "HUN"
+			position = { x = 51 y = 300 }
+			spriteType = "GFX_HUN_pi"
+			pdx_tooltip = "HUN_TOOLTIP"
+		}
+		buttonType = {
+			name = "AFG"
+			position = { x = 51 y = 330 }
+			spriteType = "GFX_AFG_pi"
+			pdx_tooltip = "AFG_TOOLTIP"
+		}
+		buttonType = {
+			name = "ARG"
+			position = { x = 51 y = 360 }
+			spriteType = "GFX_ARG_pi"
+			pdx_tooltip = "ARG_TOOLTIP"
+		}
+		buttonType = {
+			name = "AST"
+			position = { x = 51 y = 390 }
+			spriteType = "GFX_AST_pi"
+			pdx_tooltip = "AST_TOOLTIP"
+		}
+		buttonType = {
+			name = "BHU"
+			position = { x = 51 y = 420 }
+			spriteType = "GFX_BHU_pi"
+			pdx_tooltip = "BHU_TOOLTIP"
+		}
+		buttonType = {
+			name = "BOL"
+			position = { x = 51 y = 450 }
+			spriteType = "GFX_BOL_pi"
+			pdx_tooltip = "BOL_TOOLTIP"
+		}
+		buttonType = {
+			name = "BRA"
+			position = { x = 51 y = 480 }
+			spriteType = "GFX_BRA_pi"
+			pdx_tooltip = "BRA_TOOLTIP"
+		}
+		buttonType = {
+			name = "CAN"
+			position = { x = 51 y = 510 }
+			spriteType = "GFX_CAN_pi"
+			pdx_tooltip = "CAN_TOOLTIP"
+		}
+		buttonType = {
+			name = "CHI"
+			position = { x = 51 y = 540 }
+			spriteType = "GFX_CHI_pi"
+			pdx_tooltip = "CHI_TOOLTIP"
+		}
+		buttonType = {
+			name = "CHL"
+			position = { x = 51 y = 570 }
+			spriteType = "GFX_CHL_pi"
+			pdx_tooltip = "CHL_TOOLTIP"
+		}
+		buttonType = {
+			name = "COL"
+			position = { x = 51 y = 600 }
+			spriteType = "GFX_COL_pi"
+			pdx_tooltip = "COL_TOOLTIP"
+		}
+
+		
+		#3ий ряд
+		buttonType = {
+			name = "ECU"
+			position = { x = 97 y = 60 }
+			spriteType = "GFX_ECU_pi"
+			pdx_tooltip = "ECU_TOOLTIP"
+		}
+		buttonType = {
+			name = "ETH"
+			position = { x = 97 y = 90 }
+			spriteType = "GFX_ETH_pi"
+			pdx_tooltip = "ETH_TOOLTIP"
+		}
+		buttonType = {
+			name = "GUA"
+			position = { x = 97 y = 120 }
+			spriteType = "GFX_GUA_pi"
+			pdx_tooltip = "GUA_TOOLTIP"
+		}
+		buttonType = {
+			name = "HON"
+			position = { x = 97 y = 150 }
+			spriteType = "GFX_HON_pi"
+			pdx_tooltip = "HON_TOOLTIP"
+		}
+		buttonType = {
+			name = "IRQ"
+			position = { x = 97 y = 180 }
+			spriteType = "GFX_IRQ_pi"
+			pdx_tooltip = "IRQ_TOOLTIP"
+		}
+		buttonType = {
+			name = "JAP"
+			position = { x = 97 y = 210 }
+			spriteType = "GFX_JAP_pi"
+			pdx_tooltip = "JAP_TOOLTIP"
+		}
+		buttonType = {
+			name = "MEX"
+			position = { x = 97 y = 240 }
+			spriteType = "GFX_MEX_pi"
+			pdx_tooltip = "MEX_TOOLTIP"
+		}
+		buttonType = {
+			name = "NIC"
+			position = { x = 97 y = 270 }
+			spriteType = "GFX_NIC_pi"
+			pdx_tooltip = "NIC_TOOLTIP"
+		}
+		buttonType = {
+			name = "PER"
+			position = { x = 97 y = 300 }
+			spriteType = "GFX_PER_pi"
+			pdx_tooltip = "PER_TOOLTIP"
+		}
+		buttonType = {
+			name = "PRU"
+			position = { x = 97 y = 330 }
+			spriteType = "GFX_PRU_pi"
+			pdx_tooltip = "PRU_TOOLTIP"
+		}
+		buttonType = {
+			name = "SIK"
+			position = { x = 97 y = 360 }
+			spriteType = "GFX_SIK_pi"
+			pdx_tooltip = "SIK_TOOLTIP"
+		}
+		buttonType = {
+			name = "TIB"
+			position = { x = 97 y = 390 }
+			spriteType = "GFX_TIB_pi"
+			pdx_tooltip = "TIB_TOOLTIP"
+		}
+		buttonType = {
+			name = "YUN"
+			position = { x = 97 y = 420 }
+			spriteType = "GFX_YUN_pi"
+			pdx_tooltip = "YUN_TOOLTIP"
+		}
+		buttonType = {
+			name = "USA"
+			position = { x = 97 y = 450 }
+			spriteType = "GFX_USA_pi"
+			pdx_tooltip = "USA_TOOLTIP"
+		}
+		buttonType = {
+			name = "MON"
+			position = { x = 97 y = 480 }
+			spriteType = "GFX_MON_pi"
+			pdx_tooltip = "MON_TOOLTIP"
+		}
+		buttonType = {
+			name = "MEN"
+			position = { x = 97 y = 510 }
+			spriteType = "GFX_MEN_pi"
+			pdx_tooltip = "MEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "CUB"
+			position = { x = 97 y = 540 }
+			spriteType = "GFX_CUB_pi"
+			pdx_tooltip = "CUB_TOOLTIP"
+		}
+		buttonType = {
+			name = "HAI"
+			position = { x = 97 y = 570 }
+			spriteType = "GFX_HAI_pi"
+			pdx_tooltip = "HAI_TOOLTIP"
+		}
+		buttonType = {
+			name = "SLO"
+			position = { x = 97 y = 600 }
+			spriteType = "GFX_SLO_pi"
+			pdx_tooltip = "SLO_TOOLTIP"
+		}
+
+		
+		#4ый ряд
+		buttonType = {
+			name = "CRO"
+			position = { x = 143 y = 60 }
+			spriteType = "GFX_CRO_pi"
+			pdx_tooltip = "CRO_TOOLTIP"
+		}
+		buttonType = {
+			name = "PRC"
+			position = { x = 143 y = 90 }
+			spriteType = "GFX_PRC_pi"
+			pdx_tooltip = "PRC_TOOLTIP"
+		}
+		buttonType = {
+			name = "SHX"
+			position = { x = 143 y = 120 }
+			spriteType = "GFX_SHX_pi"
+			pdx_tooltip = "SHX_TOOLTIP"
+		}
+		buttonType = {
+			name = "XSM"
+			position = { x = 143 y = 150 }
+			spriteType = "GFX_XSM_pi"
+			pdx_tooltip = "XSM_TOOLTIP"
+		}
+		buttonType = {
+			name = "LBA"
+			position = { x = 143 y = 180 }
+			spriteType = "GFX_LBA_pi"
+			pdx_tooltip = "LBA_TOOLTIP"
+		}
+		buttonType = {
+			name = "EGY"
+			position = { x = 143 y = 210 }
+			spriteType = "GFX_EGY_pi"
+			pdx_tooltip = "EGY_TOOLTIP"
+		}
+		buttonType = {
+			name = "PAL"
+			position = { x = 143 y = 240 }
+			spriteType = "GFX_PAL_pi"
+			pdx_tooltip = "PAL_TOOLTIP"
+		}
+		buttonType = {
+			name = "LEB"
+			position = { x = 143 y = 270 }
+			spriteType = "GFX_LEB_pi"
+			pdx_tooltip = "LEB_TOOLTIP"
+		}
+		buttonType = {
+			name = "JOR"
+			position = { x = 143 y = 300 }
+			spriteType = "GFX_JOR_pi"
+			pdx_tooltip = "JOR_TOOLTIP"
+		}
+		buttonType = {
+			name = "SYR"
+			position = { x = 143 y = 330 }
+			spriteType = "GFX_SYR_pi"
+			pdx_tooltip = "SYR_TOOLTIP"
+		}
+		buttonType = {
+			name = "SER"
+			position = { x = 143 y = 360 }
+			spriteType = "GFX_SER_pi"
+			pdx_tooltip = "SER_TOOLTIP"
+		}
+		buttonType = {
+			name = "ICE"
+			position = { x = 143 y = 390 }
+			spriteType = "GFX_ICE_pi"
+			pdx_tooltip = "ICE_TOOLTIP"
+		}
+		buttonType = {
+			name = "UKR"
+			position = { x = 143 y = 420 }
+			spriteType = "GFX_UKR_pi"
+			pdx_tooltip = "UKR_TOOLTIP"
+		}
+		buttonType = {
+			name = "AZR"
+			position = { x = 143 y = 450 }
+			spriteType = "GFX_AZR_pi"
+			pdx_tooltip = "AZR_TOOLTIP"
+		}
+		buttonType = {
+			name = "GEO"
+			position = { x = 143 y = 480 }
+			spriteType = "GFX_GEO_pi"
+			pdx_tooltip = "GEO_TOOLTIP"
+		}
+		buttonType = {
+			name = "LAO"
+			position = { x = 143 y = 510 }
+			spriteType = "GFX_LAO_pi"
+			pdx_tooltip = "LAO_TOOLTIP"
+		}
+		buttonType = {
+			name = "INS"
+			position = { x = 143 y = 540 }
+			spriteType = "GFX_INS_pi"
+			pdx_tooltip = "INS_TOOLTIP"
+		}
+		buttonType = {
+			name = "VIN"
+			position = { x = 143 y = 570 }
+			spriteType = "GFX_VIN_pi"
+			pdx_tooltip = "VIN_TOOLTIP"
+		}
+		buttonType = {
+			name = "CAM"
+			position = { x = 143 y = 600 }
+			spriteType = "GFX_CAM_pi"
+			pdx_tooltip = "CAM_TOOLTIP"
+		}
+
+		
+		#5ый ряд
+		buttonType = {
+			name = "MNT"
+			position = { x = 189 y = 60 }
+			spriteType = "GFX_MNT_pi"
+			pdx_tooltip = "MNT_TOOLTIP"
+		}
+		buttonType = {
+			name = "BLR"
+			position = { x = 189 y = 90 }
+			spriteType = "GFX_BLR_pi"
+			pdx_tooltip = "BLR_TOOLTIP"
+		}
+		buttonType = {
+			name = "MAN"
+			position = { x = 189 y = 120 }
+			spriteType = "GFX_MAN_pi"
+			pdx_tooltip = "MAN_TOOLTIP"
+		}
+		buttonType = {
+			name = "ANG"
+			position = { x = 189 y = 150 }
+			spriteType = "GFX_ANG_pi"
+			pdx_tooltip = "ANG_TOOLTIP"
+		}
+		buttonType = {
+			name = "COG"
+			position = { x = 189 y = 180 }
+			spriteType = "GFX_COG_pi"
+			pdx_tooltip = "COG_TOOLTIP"
+		}
+		buttonType = {
+			name = "MZB"
+			position = { x = 189 y = 210 }
+			spriteType = "GFX_MZB_pi"
+			pdx_tooltip = "MZB_TOOLTIP"
+		}
+		buttonType = {
+			name = "KEN"
+			position = { x = 189 y = 240 }
+			spriteType = "GFX_KEN_pi"
+			pdx_tooltip = "KEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "ZIM"
+			position = { x = 189 y = 270 }
+			spriteType = "GFX_ZIM_pi"
+			pdx_tooltip = "ZIM_TOOLTIP"
+		}
+		buttonType = {
+			name = "BOT"
+			position = { x = 189 y = 300 }
+			spriteType = "GFX_BOT_pi"
+			pdx_tooltip = "BOT_TOOLTIP"
+		}
+		buttonType = {
+			name = "PAK"
+			position = { x = 189 y = 330 }
+			spriteType = "GFX_PAK_pi"
+			pdx_tooltip = "PAK_TOOLTIP"
+		}
+		buttonType = {
+			name = "WGR"
+			position = { x = 189 y = 360 }
+			spriteType = "GFX_WGR_pi"
+			pdx_tooltip = "WGR_TOOLTIP"
+		}
+		buttonType = {
+			name = "DDR"
+			position = { x = 189 y = 390 }
+			spriteType = "GFX_DDR_pi"
+			pdx_tooltip = "DDR_TOOLTIP"
+		}
+		buttonType = {
+			name = "KOR"
+			position = { x = 189 y = 420 }
+			spriteType = "GFX_KOR_pi"
+			pdx_tooltip = "KOR_TOOLTIP"
+		}
+		buttonType = {
+			name = "TUR"
+			position = { x = 189 y = 450 }
+			spriteType = "GFX_TUR_pi"
+			pdx_tooltip = "TUR_TOOLTIP"
+		}
+		buttonType = {
+			name = "COS"
+			position = { x = 189 y = 480 }
+			spriteType = "GFX_COS_pi"
+			pdx_tooltip = "COS_TOOLTIP"
+		}
+		buttonType = {
+			name = "RAJ"
+			position = { x = 189 y = 510 }
+			spriteType = "GFX_RAJ_pi"
+			pdx_tooltip = "RAJ_TOOLTIP"
+		}
+		buttonType = {
+			name = "MAL"
+			position = { x = 189 y = 540 }
+			spriteType = "GFX_MAL_pi"
+			pdx_tooltip = "MAL_TOOLTIP"
+		}
+		
+		
+		
+		#flags2
+		
+		buttonType = {
+			name = "ARA_UNIFIED"
+			position = { x = 235 y = 60 }
+			spriteType = "GFX_ara_unified"
+			pdx_tooltip = "ARA_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "BAL_UNIFIED"
+			position = { x = 235 y = 90 }
+			spriteType = "GFX_bal_unified"
+			pdx_tooltip = "BAL_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "BYZ_UNIFIED"
+			position = { x = 235 y = 120 }
+			spriteType = "GFX_byz_unified"
+			pdx_tooltip = "BYZ_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "EUR_UNIFIED"
+			position = { x = 235 y = 150 }
+			spriteType = "GFX_eur_unified"
+			pdx_tooltip = "EUR_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "GCO_UNIFIED"
+			position = { x = 235 y = 180 }
+			spriteType = "GFX_gco_unified"
+			pdx_tooltip = "GCO_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "HRE_UNIFIED"
+			position = { x = 235 y = 210 }
+			spriteType = "GFX_hre_unified"
+			pdx_tooltip = "HRE_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "JAP_SHOWA_RESTORATION"
+			position = { x = 235 y = 240 }
+			spriteType = "GFX_JAP_showa_restoration"
+			pdx_tooltip = "JAP_SHOWA_RESTORATION_TOOLTIP"
+		}
+		buttonType = {
+			name = "MAJ_UNIFIED"
+			position = { x = 235 y = 270 }
+			spriteType = "GFX_maj_unified"
+			pdx_tooltip = "MAJ_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "MAN_RESTORED"
+			position = { x = 235 y = 300 }
+			spriteType = "GFX_man_restored"
+			pdx_tooltip = "MAN_RESTORED_TOOLTIP"
+		}
+		buttonType = {
+			name = "MUT_UNIFIED"
+			position = { x = 235 y = 330 }
+			spriteType = "GFX_mut_unified"
+			pdx_tooltip = "MUT_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "NDC_UNIFIED"
+			position = { x = 235 y = 360 }
+			spriteType = "GFX_ndc_unified"
+			pdx_tooltip = "NDC_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "OTT_UNIFIED"
+			position = { x = 235 y = 390 }
+			spriteType = "GFX_ott_unified"
+			pdx_tooltip = "OTT_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "PER_UNIFIED"
+			position = { x = 235 y = 420 }
+			spriteType = "GFX_per_unified"
+			pdx_tooltip = "PER_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "PLC_UNIFIED"
+			position = { x = 235 y = 450 }
+			spriteType = "GFX_plc_unified"
+			pdx_tooltip = "PLC_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "RAT_UNIFIED"
+			position = { x = 235 y = 480 }
+			spriteType = "GFX_rat_unified"
+			pdx_tooltip = "RAT_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "SCA_UNIFIED"
+			position = { x = 235 y = 510 }
+			spriteType = "GFX_sca_unified"
+			pdx_tooltip = "SCA_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "SPQR_UNIFIED"
+			position = { x = 235 y = 540 }
+			spriteType = "GFX_spqr_unified"
+			pdx_tooltip = "SPQR_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "USC_UNIFIED"
+			position = { x = 235 y = 570 }
+			spriteType = "GFX_usc_unified"
+			pdx_tooltip = "USC_UNIFIED_TOOLTIP"
+		}
+		
+		
+		
+		
+		
+		
+		#Кастомные цвета
+		
+		instantTextboxType = {
+			name = "pi_color_custom"
+			position = { x = 400 y = 30 }
+			font = "hoi_30header"
+			text = "pi_color_custom"
+			maxWidth = 500
+			maxHeight = 20
+			format = left
+		}
+		
+		buttonType = {
+			name = "darkred"
+			position = { x = 400 y = 60 }
+			spriteType = "GFX_darkred"
+			pdx_tooltip = "DARKRED_TOOLTIP"
+		}
+		buttonType = {
+			name = "red"
+			position = { x = 400 y = 90 }	
+			spriteType = "GFX_red"
+			pdx_tooltip = "RED_TOOLTIP"
+		}
+		buttonType = {
+			name = "tomato"
+			position = { x = 400 y = 120 }
+			spriteType = "GFX_tomato"
+			pdx_tooltip = "TOMATO_TOOLTIP"
+		}
+		buttonType = {
+			name = "orangered"
+			position = { x = 400 y = 150 }
+			spriteType = "GFX_orangered"
+			pdx_tooltip = "ORANGERED_TOOLTIP"
+		}
+		buttonType = {
+			name = "chocolate"
+			position = { x = 400 y = 180 }
+			spriteType = "GFX_chocolate"
+			pdx_tooltip = "CHOCOLATE_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkorange"
+			position = { x = 400 y = 210 }
+			spriteType = "GFX_darkorange"
+			pdx_tooltip = "DARKORANGE_TOOLTIP"
+		}
+		buttonType = {
+			name = "orange"
+			position = { x = 400 y = 240 }
+			spriteType = "GFX_orange"
+			pdx_tooltip = "ORANGE_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkgoldenrod"
+			position = { x = 400 y = 270 }
+			spriteType = "GFX_darkgoldenrod"
+			pdx_tooltip = "DARKGOLDENROD_TOOLTIP"
+		}
+		buttonType = {
+			name = "goldenrod"
+			position = { x = 400 y = 300 }
+			spriteType = "GFX_goldenrod"
+			pdx_tooltip = "GOLDENROD_TOOLTIP"
+		}
+		buttonType = {
+			name = "gold"
+			position = { x = 400 y = 330 }
+			spriteType = "GFX_gold"
+			pdx_tooltip = "GOLD_TOOLTIP"
+		}
+		buttonType = {
+			name = "olive"
+			position = { x = 400 y = 360 }
+			spriteType = "GFX_olive"
+			pdx_tooltip = "OLIVE_TOOLTIP"
+		}
+		buttonType = {
+			name = "yellow"
+			position = { x = 400 y = 390 }
+			spriteType = "GFX_yellow"
+			pdx_tooltip = "YELLOW_TOOLTIP"
+		}
+		buttonType = {
+			name = "yellowgreen"
+			position = { x = 400 y = 420 }
+			spriteType = "GFX_yellowgreen"
+			pdx_tooltip = "YELLOWGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "greenyellow"
+			position = { x = 400 y = 450 }
+			spriteType = "GFX_greenyellow"
+			pdx_tooltip = "GREENYELLOW_TOOLTIP"
+		}
+		buttonType = {
+			name = "green"
+			position = { x = 400 y = 480 }
+			spriteType = "GFX_green"
+			pdx_tooltip = "GREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "lime"
+			position = { x = 400 y = 510 }
+			spriteType = "GFX_lime"
+			pdx_tooltip = "LIME_TOOLTIP"
+		}
+		buttonType = {
+			name = "limegreen"
+			position = { x = 400 y = 540 }
+			spriteType = "GFX_limegreen"
+			pdx_tooltip = "LIMEGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "springgreen"
+			position = { x = 400 y = 570 }
+			spriteType = "GFX_springgreen"
+			pdx_tooltip = "SPRINGGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "turquoise"
+			position = { x = 400 y = 600 }
+			spriteType = "GFX_turquoise"
+			pdx_tooltip = "TURQUOISE_TOOLTIP"
+		}
+		
+		
+		#2ой ряд
+		buttonType = {
+			name = "lightseagreen"
+			position = { x = 446 y = 60 }
+			spriteType = "GFX_lightseagreen"
+			pdx_tooltip = "LIGHTSEAGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkcyan"
+			position = { x = 446 y = 90 }
+			spriteType = "GFX_darkcyan"
+			pdx_tooltip = "DARKCYAN_TOOLTIP"
+		}
+		buttonType = {
+			name = "aqua"
+			position = { x = 446 y = 120 }
+			spriteType = "GFX_aqua"
+			pdx_tooltip = "AQUA_TOOLTIP"
+		}
+		buttonType = {
+			name = "deepskyblue"
+			position = { x = 446 y = 150 }
+			spriteType = "GFX_deepskyblue"
+			pdx_tooltip = "DEEPSKYBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "dodgerblue"
+			position = { x = 446 y = 180 }
+			spriteType = "GFX_dodgerblue"
+			pdx_tooltip = "DODGERBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "royalblue"
+			position = { x = 446 y = 210 }
+			spriteType = "GFX_royalblue"
+			pdx_tooltip = "ROYALBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "navy"
+			position = { x = 446 y = 240 }
+			spriteType = "GFX_navy"
+			pdx_tooltip = "NAVY_TOOLTIP"
+		}
+		buttonType = {
+			name = "blue"
+			position = { x = 446 y = 270 }
+			spriteType = "GFX_blue"
+			pdx_tooltip = "BLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "blueviolet"
+			position = { x = 446 y = 300 }
+			spriteType = "GFX_blueviolet"
+			pdx_tooltip = "BLUEVIOLET_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkviolet"
+			position = { x = 446 y = 330 }
+			spriteType = "GFX_darkviolet"
+			pdx_tooltip = "DARKVIOLET_TOOLTIP"
+		}
+		buttonType = {
+			name = "purple"
+			position = { x = 446 y = 360 }
+			spriteType = "GFX_purple"
+			pdx_tooltip = "PURPLE_TOOLTIP"
+		}
+		buttonType = {
+			name = "magenta"
+			position = { x = 446 y = 390 }
+			spriteType = "GFX_magenta"
+			pdx_tooltip = "MAGENTA_TOOLTIP"
+		}
+		buttonType = {
+			name = "deeppink"
+			position = { x = 446 y = 420 }
+			spriteType = "GFX_deeppink"
+			pdx_tooltip = "DEEPPINK_TOOLTIP"
+		}
+		buttonType = {
+			name = "hotpink"
+			position = { x = 446 y = 450 }
+			spriteType = "GFX_hotpink"
+			pdx_tooltip = "HOTPINK_TOOLTIP"
+		}
+		buttonType = {
+			name = "crimson"
+			position = { x = 446 y = 480 }
+			spriteType = "GFX_crimson"
+			pdx_tooltip = "CRIMSON_TOOLTIP"
+		}
+		buttonType = {
+			name = "brown"
+			position = { x = 446 y = 510 }
+			spriteType = "GFX_brown"
+			pdx_tooltip = "BROWN_TOOLTIP"
+		}
+		buttonType = {
+			name = "indianred"
+			position = { x = 446 y = 540 }
+			spriteType = "GFX_indianred"
+			pdx_tooltip = "INDIANRED_TOOLTIP"
+		}
+		buttonType = {
+			name = "rosybrown"
+			position = { x = 446 y = 570 }
+			spriteType = "GFX_rosybrown"
+			pdx_tooltip = "ROSYBROWN_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightcoral"
+			position = { x = 446 y = 600 }
+			spriteType = "GFX_lightcoral"
+			pdx_tooltip = "LIGHTCORAL_TOOLTIP"
+		}
+		
+		
+		#3ий ряд
+		buttonType = {
+			name = "mistyrose"
+			position = { x = 492 y = 60 }
+			spriteType = "GFX_mistyrose"
+			pdx_tooltip = "MISTYROSE_TOOLTIP"
+		}
+		buttonType = {
+			name = "darksalmon"
+			position = { x = 492 y = 90 }
+			spriteType = "GFX_darksalmon"
+			pdx_tooltip = "DARKSALMON_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightsalmon"
+			position = { x = 492 y = 120 }
+			spriteType = "GFX_lightsalmon"
+			pdx_tooltip = "LIGHTSALMON_TOOLTIP"
+		}
+		buttonType = {
+			name = "sienna"
+			position = { x = 492 y = 150 }
+			spriteType = "GFX_sienna"
+			pdx_tooltip = "SIENNA_TOOLTIP"
+		}
+		buttonType = {
+			name = "peachpuff"
+			position = { x = 492 y = 180 }
+			spriteType = "GFX_peachpuff"
+			pdx_tooltip = "PEACHPUFF_TOOLTIP"
+		}
+		buttonType = {
+			name = "peru"
+			position = { x = 492 y = 210 }
+			spriteType = "GFX_peru"
+			pdx_tooltip = "PERU_TOOLTIP"
+		}
+		buttonType = {
+			name = "burlywood"
+			position = { x = 492 y = 240 }
+			spriteType = "GFX_burlywood"
+			pdx_tooltip = "BURLYWOOD_TOOLTIP"
+		}
+		buttonType = {
+			name = "tan"
+			position = { x = 492 y = 270 }
+			spriteType = "GFX_tan"
+			pdx_tooltip = "TAN_TOOLTIP"
+		}
+		buttonType = {
+			name = "wheat"
+			position = { x = 492 y = 300 }
+			spriteType = "GFX_wheat"
+			pdx_tooltip = "WHEAT_TOOLTIP"
+		}
+		buttonType = {
+			name = "khaki"
+			position = { x = 492 y = 330 }
+			spriteType = "GFX_khaki"
+			pdx_tooltip = "KHAKI_TOOLTIP"
+		}
+		buttonType = {
+			name = "palegoldenrod"
+			position = { x = 492 y = 360 }
+			spriteType = "GFX_palegoldenrod"
+			pdx_tooltip = "PALEGOLDENROD_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkkhaki"
+			position = { x = 492 y = 390 }
+			spriteType = "GFX_darkkhaki"
+			pdx_tooltip = "DARKKHAKI_TOOLTIP"
+		}
+		buttonType = {
+			name = "olivedrab"
+			position = { x = 492 y = 420 }
+			spriteType = "GFX_olivedrab"
+			pdx_tooltip = "OLIVEDRAB_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkolivegreen"
+			position = { x = 492 y = 450 }
+			spriteType = "GFX_darkolivegreen"
+			pdx_tooltip = "DARKOLIVEGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkseagreen"
+			position = { x = 492 y = 480 }
+			spriteType = "GFX_darkseagreen"
+			pdx_tooltip = "DARKSEAGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkgreen"
+			position = { x = 492 y = 510 }
+			spriteType = "GFX_darkgreen"
+			pdx_tooltip = "DARKGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "forestgreen"
+			position = { x = 492 y = 540 }
+			spriteType = "GFX_forestgreen"
+			pdx_tooltip = "FORESTGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightgreen"
+			position = { x = 492 y = 570 }
+			spriteType = "GFX_lightgreen"
+			pdx_tooltip = "LIGHTGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "seagreen"
+			position = { x = 492 y = 600 }
+			spriteType = "GFX_seagreen"
+			pdx_tooltip = "SEAGREEN_TOOLTIP"
+		}
+		
+		
+		#4ый ряд
+		buttonType = {
+			name = "mediumseagreen"
+			position = { x = 538 y = 60 }
+			spriteType = "GFX_mediumseagreen"
+			pdx_tooltip = "MEDIUMSEAGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "mediumaquamarine"
+			position = { x = 538 y = 90 }
+			spriteType = "GFX_mediumaquamarine"
+			pdx_tooltip = "MEDIUMAQUAMARINE_TOOLTIP"
+		}
+		buttonType = {
+			name = "aquamarine"
+			position = { x = 538 y = 120 }
+			spriteType = "GFX_aquamarine"
+			pdx_tooltip = "AQUAMARINE_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkslategray"
+			position = { x = 538 y = 150 }
+			spriteType = "GFX_darkslategray"
+			pdx_tooltip = "DARKSLATEGRAY_TOOLTIP"
+		}
+		buttonType = {
+			name = "paleturquoise"
+			position = { x = 538 y = 180 }
+			spriteType = "GFX_paleturquoise"
+			pdx_tooltip = "PALETURQUOISE_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightcyan"
+			position = { x = 538 y = 210 }
+			spriteType = "GFX_lightcyan"
+			pdx_tooltip = "LIGHTCYAN_TOOLTIP"
+		}
+		buttonType = {
+			name = "cadetblue"
+			position = { x = 538 y = 240 }
+			spriteType = "GFX_cadetblue"
+			pdx_tooltip = "CADETBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "skyblue"
+			position = { x = 538 y = 270 }
+			spriteType = "GFX_skyblue"
+			pdx_tooltip = "SKYBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "steelblue"
+			position = { x = 538 y = 300 }
+			spriteType = "GFX_steelblue"
+			pdx_tooltip = "STEELBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "slategray"
+			position = { x = 538 y = 330 }
+			spriteType = "GFX_slategray"
+			pdx_tooltip = "SLATEGRAY_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightslategray"
+			position = { x = 538 y = 360 }
+			spriteType = "GFX_lightslategray"
+			pdx_tooltip = "LIGHTSLATEGRAY_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightsteelblue"
+			position = { x = 538 y = 390 }
+			spriteType = "GFX_lightsteelblue"
+			pdx_tooltip = "LIGHTSTEELBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "cornflowerblue"
+			position = { x = 538 y = 420 }
+			spriteType = "GFX_cornflowerblue"
+			pdx_tooltip = "CORNFLOWERBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "slateblue"
+			position = { x = 538 y = 450 }
+			spriteType = "GFX_slateblue"
+			pdx_tooltip = "SLATEBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkslateblue"
+			position = { x = 538 y = 480 }
+			spriteType = "GFX_darkslateblue"
+			pdx_tooltip = "DARKSLATEBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "mediumslateblue"
+			position = { x = 538 y = 510 }
+			spriteType = "GFX_mediumslateblue"
+			pdx_tooltip = "MEDIUMSLATEBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "mediumpurple"
+			position = { x = 538 y = 540 }
+			spriteType = "GFX_mediumpurple"
+			pdx_tooltip = "MEDIUMPURPLE_TOOLTIP"
+		}
+		buttonType = {
+			name = "indigo"
+			position = { x = 538 y = 570 }
+			spriteType = "GFX_indigo"
+			pdx_tooltip = "INDIGO_TOOLTIP"
+		}
+		buttonType = {
+			name = "mediumorchid"
+			position = { x = 538 y = 600 }
+			spriteType = "GFX_mediumorchid"
+			pdx_tooltip = "MEDIUMORCHID_TOOLTIP"
+		}
+		
+		
+		#5ый ряд
+		buttonType = {
+			name = "plum"
+			position = { x = 584 y = 60 }
+			spriteType = "GFX_plum"
+			pdx_tooltip = "PLUM_TOOLTIP"
+		}
+		buttonType = {
+			name = "violet"
+			position = { x = 584 y = 90 }
+			spriteType = "GFX_violet"
+			pdx_tooltip = "VIOLET_TOOLTIP"
+		}
+		buttonType = {
+			name = "thistle"
+			position = { x = 584 y = 120 }
+			spriteType = "GFX_thistle"
+			pdx_tooltip = "THISTLE_TOOLTIP"
+		}
+		buttonType = {
+			name = "orchid"
+			position = { x = 584 y = 150 }
+			spriteType = "GFX_orchid"
+			pdx_tooltip = "ORCHID_TOOLTIP"
+		}
+		buttonType = {
+			name = "palevioletred"
+			position = { x = 584 y = 180 }
+			spriteType = "GFX_palevioletred"
+			pdx_tooltip = "PALEVIOLETRED_TOOLTIP"
+		}
+		buttonType = {
+			name = "pink"
+			position = { x = 584 y = 210 }
+			spriteType = "GFX_pink"
+			pdx_tooltip = "PINK_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightpink"
+			position = { x = 584 y = 240 }
+			spriteType = "GFX_lightpink"
+			pdx_tooltip = "LIGHTPINK_TOOLTIP"
+		}
+		buttonType = {
+			name = "black"
+			position = { x = 584 y = 270 }
+			spriteType = "GFX_black"
+			pdx_tooltip = "BLACK_TOOLTIP"
+		}
+		buttonType = {
+			name = "dimgray"
+			position = { x = 584 y = 300 }
+			spriteType = "GFX_dimgray"
+			pdx_tooltip = "DIMGRAY_TOOLTIP"
+		}
+		buttonType = {
+			name = "gray"
+			position = { x = 584 y = 330 }
+			spriteType = "GFX_gray"
+			pdx_tooltip = "GRAY_TOOLTIP"
+		}
+		buttonType = {
+			name = "garkgray"
+			position = { x = 584 y = 360 }
+			spriteType = "GFX_garkgray"
+			pdx_tooltip = "GARKGRAY_TOOLTIP"
+		}
+		buttonType = {
+			name = "silver"
+			position = { x = 584 y = 390 }
+			spriteType = "GFX_silver"
+			pdx_tooltip = "SILVER_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightgrey"
+			position = { x = 584 y = 420 }
+			spriteType = "GFX_lightgrey"
+			pdx_tooltip = "LIGHTGREY_TOOLTIP"
+		}
+		buttonType = {
+			name = "white"
+			position = { x = 584 y = 450 }
+			spriteType = "GFX_white"
+			pdx_tooltip = "WHITE_TOOLTIP"
+		}
+		
+		
+		
+		#прогруз окна
+		buttonType = {
+			name = "zzzz"
+			position = { x = 650 y = 650 }	
+			spriteType = "GFX_zzzz"
+		}
+		
+		#reset
+		iconType = {
+			name = "color_back999"
+			position = { x = 50 y = 650 }
+			spriteType = "GFX_occupation_policy_button"
+		}
+		buttonType = {
+			name = "reset"
+			position = { x = 57 y = 656 }	
+			spriteType = "GFX_hold"
+			pdx_tooltip = "RESET_TOOLTIP"
+		}
+		
+		#вкл. покрас ИИ
+		buttonType = {
+			name = "PI_enemy_button_switch" 
+			position = { x = 5 y = 650 }	
+			spriteType = "GFX_occupation_policy_button"
+			Orientation = "UPPER_LEFT"
+			clicksound = click_ok
+			pdx_tooltip = "ENEMY_SWITCH_TOOLTIP"
+		}
+		instantTextboxType = {
+			name = "PI_enemy_button_switch_title"
+			position = { x = 18 y = 663 }
+			font = "hoi_18mbs"
+			text = "[PI_enemy_button_tt]"
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+		
+		####test###
+		#buttonType = {
+		#	name = "port1"
+		#	position = { x = 700 y = 60 }
+		#	#size = { width = 100 height = 100 }
+		#	spriteType = "GFX_DrManhattan"
+		#	pdx_tooltip = "PORT1_TOOLTIP"
+		#	scale = 0.5
+		#}
+
+		
+		#закрытие окна
+		buttonType = {
+			name = "PI_exitbutton" 
+			position = { x = 385 y = 3 }	
+			spriteType = "GFX_closebutton"
+			Orientation = "UPPER_LEFT"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	}
+	
+	
+	
+	
+	
+	#Окно чужих стран
+	containerWindowType = {
+		name = "pi_color_enemy_country_container"
+		position = { x = 950 y = 200 }
+		size = { width = 450 height = 550 } #317*429 1108*720
+		margin = { top = 10 left = 10 bottom = 30 right = 10 }
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		clipping = yes
+		verticalScrollbar = "right_vertical_slider"
+		horizontalScrollbar = "bottom_horizontal_slider"
+		
+		#background = {
+		#	name = "Background"
+		#	quadTextureSprite = "GFX_army_insignia_selection_bg"
+		#}
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_tiled_bg"
+		}
+
+		instantTextboxType = {
+			name = "pi_color_headline"
+			position = { x = 4 y = 2 }
+			font = "hoi_36header"
+			text = "enemy_color_change_options"
+			maxWidth = 500
+			maxHeight = 20
+			format = left
+		}
+		instantTextboxType = {
+			name = "pi_color_vanil"
+			position = { x = 5 y = 30 }
+			font = "hoi_30header"
+			text = "pi_color_vanil"
+			maxWidth = 500
+			maxHeight = 20
+			format = left
+		}
+		
+		
+		#Flags
+		buttonType = {
+			name = "GER"
+			position = { x = 5 y = 60 }
+			spriteType = "GFX_GER_pi"
+			pdx_tooltip = "GER_TOOLTIP"
+		}
+		buttonType = {
+			name = "ENG"
+			position = { x = 5 y = 90 }
+			spriteType = "GFX_ENG_pi"
+			pdx_tooltip = "ENG_TOOLTIP"
+		}
+		buttonType = {
+			name = "SOV"
+			position = { x = 5 y = 120 }
+			spriteType = "GFX_SOV_pi"
+			pdx_tooltip = "SOV_TOOLTIP"
+		}
+		buttonType = {
+			name = "SWE"
+			position = { x = 5 y = 150 }
+			spriteType = "GFX_SWE_pi"
+			pdx_tooltip = "SWE_TOOLTIP"
+		}
+		buttonType = {
+			name = "FRA"
+			position = { x = 5 y = 180 }
+			spriteType = "GFX_FRA_pi"
+			pdx_tooltip = "FRA_TOOLTIP"
+		}
+		buttonType = {
+			name = "LUX"
+			position = { x = 5 y = 210 }
+			spriteType = "GFX_LUX_pi"
+			pdx_tooltip = "LUX_TOOLTIP"
+		}
+		buttonType = {
+			name = "BEL"
+			position = { x = 5 y = 240 }
+			spriteType = "GFX_BEL_pi"
+			pdx_tooltip = "BEL_TOOLTIP"
+		}
+		buttonType = {
+			name = "HOL"
+			position = { x = 5 y = 270 }
+			spriteType = "GFX_HOL_pi"
+			pdx_tooltip = "HOL_TOOLTIP"
+		}
+		buttonType = {
+			name = "CZE"
+			position = { x = 5 y = 300 }
+			spriteType = "GFX_CZE_pi"
+			pdx_tooltip = "CZE_TOOLTIP"
+		}
+		buttonType = {
+			name = "POL"
+			position = { x = 5 y = 330 }
+			spriteType = "GFX_POL_pi"
+			pdx_tooltip = "POL_TOOLTIP"
+		}
+		buttonType = {
+			name = "AUS"
+			position = { x = 5 y = 360 }
+			spriteType = "GFX_AUS_pi"
+			pdx_tooltip = "AUS_TOOLTIP"
+		}
+		buttonType = {
+			name = "LIT"
+			position = { x = 5 y = 390 }
+			spriteType = "GFX_LIT_pi"
+			pdx_tooltip = "LIT_TOOLTIP"
+		}
+		buttonType = {
+			name = "EST"
+			position = { x = 5 y = 420 }
+			spriteType = "GFX_EST_pi"
+			pdx_tooltip = "EST_TOOLTIP"
+		}
+		buttonType = {
+			name = "LAT"
+			position = { x = 5 y = 450 }
+			spriteType = "GFX_LAT_pi"
+			pdx_tooltip = "LAT_TOOLTIP"
+		}
+		buttonType = {
+			name = "SPR"
+			position = { x = 5 y = 480 }
+			spriteType = "GFX_SPR_pi"
+			pdx_tooltip = "SPR_TOOLTIP"
+		}
+		buttonType = {
+			name = "ITA"
+			position = { x = 5 y = 510 }
+			spriteType = "GFX_ITA_pi"
+			pdx_tooltip = "ITA_TOOLTIP"
+		}
+		buttonType = {
+			name = "ROM"
+			position = { x = 5 y = 540 }
+			spriteType = "GFX_ROM_pi"
+			pdx_tooltip = "ROM_TOOLTIP"
+		}
+		buttonType = {
+			name = "YUG"
+			position = { x = 5 y = 570 }
+			spriteType = "GFX_YUG_pi"
+			pdx_tooltip = "YUG_TOOLTIP"
+		}
+		buttonType = {
+			name = "SWI"
+			position = { x = 5 y = 600 }
+			spriteType = "GFX_SWI_pi"
+			pdx_tooltip = "SWI_TOOLTIP"
+		}
+		
+		
+		#2ой ряд
+		buttonType = {
+			name = "GRE"
+			position = { x = 51 y = 60 }
+			spriteType = "GFX_GRE_pi"
+			pdx_tooltip = "GRE_TOOLTIP"
+		}
+		buttonType = {
+			name = "ALB"
+			position = { x = 51 y = 90 }
+			spriteType = "GFX_ALB_pi"
+			pdx_tooltip = "ALB_TOOLTIP"
+		}
+		buttonType = {
+			name = "NOR"
+			position = { x = 51 y = 120 }
+			spriteType = "GFX_NOR_pi"
+			pdx_tooltip = "NOR_TOOLTIP"
+		}
+		buttonType = {
+			name = "DEN"
+			position = { x = 51 y = 150 }
+			spriteType = "GFX_DEN_pi"
+			pdx_tooltip = "DEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "BUL"
+			position = { x = 51 y = 180 }
+			spriteType = "GFX_BUL_pi"
+			pdx_tooltip = "BUL_TOOLTIP"
+		}
+		buttonType = {
+			name = "POR"
+			position = { x = 51 y = 210 }
+			spriteType = "GFX_POR_pi"
+			pdx_tooltip = "POR_TOOLTIP"
+		}
+		buttonType = {
+			name = "FIN"
+			position = { x = 51 y = 240 }
+			spriteType = "GFX_FIN_pi"
+			pdx_tooltip = "FIN_TOOLTIP"
+		}
+		buttonType = {
+			name = "IRE"
+			position = { x = 51 y = 270 }
+			spriteType = "GFX_IRE_pi"
+			pdx_tooltip = "IRE_TOOLTIP"
+		}
+		buttonType = {
+			name = "HUN"
+			position = { x = 51 y = 300 }
+			spriteType = "GFX_HUN_pi"
+			pdx_tooltip = "HUN_TOOLTIP"
+		}
+		buttonType = {
+			name = "AFG"
+			position = { x = 51 y = 330 }
+			spriteType = "GFX_AFG_pi"
+			pdx_tooltip = "AFG_TOOLTIP"
+		}
+		buttonType = {
+			name = "ARG"
+			position = { x = 51 y = 360 }
+			spriteType = "GFX_ARG_pi"
+			pdx_tooltip = "ARG_TOOLTIP"
+		}
+		buttonType = {
+			name = "AST"
+			position = { x = 51 y = 390 }
+			spriteType = "GFX_AST_pi"
+			pdx_tooltip = "AST_TOOLTIP"
+		}
+		buttonType = {
+			name = "BHU"
+			position = { x = 51 y = 420 }
+			spriteType = "GFX_BHU_pi"
+			pdx_tooltip = "BHU_TOOLTIP"
+		}
+		buttonType = {
+			name = "BOL"
+			position = { x = 51 y = 450 }
+			spriteType = "GFX_BOL_pi"
+			pdx_tooltip = "BOL_TOOLTIP"
+		}
+		buttonType = {
+			name = "BRA"
+			position = { x = 51 y = 480 }
+			spriteType = "GFX_BRA_pi"
+			pdx_tooltip = "BRA_TOOLTIP"
+		}
+		buttonType = {
+			name = "CAN"
+			position = { x = 51 y = 510 }
+			spriteType = "GFX_CAN_pi"
+			pdx_tooltip = "CAN_TOOLTIP"
+		}
+		buttonType = {
+			name = "CHI"
+			position = { x = 51 y = 540 }
+			spriteType = "GFX_CHI_pi"
+			pdx_tooltip = "CHI_TOOLTIP"
+		}
+		buttonType = {
+			name = "CHL"
+			position = { x = 51 y = 570 }
+			spriteType = "GFX_CHL_pi"
+			pdx_tooltip = "CHL_TOOLTIP"
+		}
+		buttonType = {
+			name = "COL"
+			position = { x = 51 y = 600 }
+			spriteType = "GFX_COL_pi"
+			pdx_tooltip = "COL_TOOLTIP"
+		}
+
+		
+		#3 ряд
+		buttonType = {
+			name = "ECU"
+			position = { x = 97 y = 60 }
+			spriteType = "GFX_ECU_pi"
+			pdx_tooltip = "ECU_TOOLTIP"
+		}
+		buttonType = {
+			name = "ETH"
+			position = { x = 97 y = 90 }
+			spriteType = "GFX_ETH_pi"
+			pdx_tooltip = "ETH_TOOLTIP"
+		}
+		buttonType = {
+			name = "GUA"
+			position = { x = 97 y = 120 }
+			spriteType = "GFX_GUA_pi"
+			pdx_tooltip = "GUA_TOOLTIP"
+		}
+		buttonType = {
+			name = "HON"
+			position = { x = 97 y = 150 }
+			spriteType = "GFX_HON_pi"
+			pdx_tooltip = "HON_TOOLTIP"
+		}
+		buttonType = {
+			name = "IRQ"
+			position = { x = 97 y = 180 }
+			spriteType = "GFX_IRQ_pi"
+			pdx_tooltip = "IRQ_TOOLTIP"
+		}
+		buttonType = {
+			name = "JAP"
+			position = { x = 97 y = 210 }
+			spriteType = "GFX_JAP_pi"
+			pdx_tooltip = "JAP_TOOLTIP"
+		}
+		buttonType = {
+			name = "MEX"
+			position = { x = 97 y = 240 }
+			spriteType = "GFX_MEX_pi"
+			pdx_tooltip = "MEX_TOOLTIP"
+		}
+		buttonType = {
+			name = "NIC"
+			position = { x = 97 y = 270 }
+			spriteType = "GFX_NIC_pi"
+			pdx_tooltip = "NIC_TOOLTIP"
+		}
+		buttonType = {
+			name = "PER"
+			position = { x = 97 y = 300 }
+			spriteType = "GFX_PER_pi"
+			pdx_tooltip = "PER_TOOLTIP"
+		}
+		buttonType = {
+			name = "PRU"
+			position = { x = 97 y = 330 }
+			spriteType = "GFX_PRU_pi"
+			pdx_tooltip = "PRU_TOOLTIP"
+		}
+		buttonType = {
+			name = "SIK"
+			position = { x = 97 y = 360 }
+			spriteType = "GFX_SIK_pi"
+			pdx_tooltip = "SIK_TOOLTIP"
+		}
+		buttonType = {
+			name = "TIB"
+			position = { x = 97 y = 390 }
+			spriteType = "GFX_TIB_pi"
+			pdx_tooltip = "TIB_TOOLTIP"
+		}
+		buttonType = {
+			name = "YUN"
+			position = { x = 97 y = 420 }
+			spriteType = "GFX_YUN_pi"
+			pdx_tooltip = "YUN_TOOLTIP"
+		}
+		buttonType = {
+			name = "USA"
+			position = { x = 97 y = 450 }
+			spriteType = "GFX_USA_pi"
+			pdx_tooltip = "USA_TOOLTIP"
+		}
+		buttonType = {
+			name = "MON"
+			position = { x = 97 y = 480 }
+			spriteType = "GFX_MON_pi"
+			pdx_tooltip = "MON_TOOLTIP"
+		}
+		buttonType = {
+			name = "MEN"
+			position = { x = 97 y = 510 }
+			spriteType = "GFX_MEN_pi"
+			pdx_tooltip = "MEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "CUB"
+			position = { x = 97 y = 540 }
+			spriteType = "GFX_CUB_pi"
+			pdx_tooltip = "CUB_TOOLTIP"
+		}
+		buttonType = {
+			name = "HAI"
+			position = { x = 97 y = 570 }
+			spriteType = "GFX_HAI_pi"
+			pdx_tooltip = "HAI_TOOLTIP"
+		}
+		buttonType = {
+			name = "SLO"
+			position = { x = 97 y = 600 }
+			spriteType = "GFX_SLO_pi"
+			pdx_tooltip = "SLO_TOOLTIP"
+		}
+
+		
+		#4 ряд
+		buttonType = {
+			name = "CRO"
+			position = { x = 143 y = 60 }
+			spriteType = "GFX_CRO_pi"
+			pdx_tooltip = "CRO_TOOLTIP"
+		}
+		buttonType = {
+			name = "PRC"
+			position = { x = 143 y = 90 }
+			spriteType = "GFX_PRC_pi"
+			pdx_tooltip = "PRC_TOOLTIP"
+		}
+		buttonType = {
+			name = "SHX"
+			position = { x = 143 y = 120 }
+			spriteType = "GFX_SHX_pi"
+			pdx_tooltip = "SHX_TOOLTIP"
+		}
+		buttonType = {
+			name = "XSM"
+			position = { x = 143 y = 150 }
+			spriteType = "GFX_XSM_pi"
+			pdx_tooltip = "XSM_TOOLTIP"
+		}
+		buttonType = {
+			name = "LBA"
+			position = { x = 143 y = 180 }
+			spriteType = "GFX_LBA_pi"
+			pdx_tooltip = "LBA_TOOLTIP"
+		}
+		buttonType = {
+			name = "EGY"
+			position = { x = 143 y = 210 }
+			spriteType = "GFX_EGY_pi"
+			pdx_tooltip = "EGY_TOOLTIP"
+		}
+		buttonType = {
+			name = "PAL"
+			position = { x = 143 y = 240 }
+			spriteType = "GFX_PAL_pi"
+			pdx_tooltip = "PAL_TOOLTIP"
+		}
+		buttonType = {
+			name = "LEB"
+			position = { x = 143 y = 270 }
+			spriteType = "GFX_LEB_pi"
+			pdx_tooltip = "LEB_TOOLTIP"
+		}
+		buttonType = {
+			name = "JOR"
+			position = { x = 143 y = 300 }
+			spriteType = "GFX_JOR_pi"
+			pdx_tooltip = "JOR_TOOLTIP"
+		}
+		buttonType = {
+			name = "SYR"
+			position = { x = 143 y = 330 }
+			spriteType = "GFX_SYR_pi"
+			pdx_tooltip = "SYR_TOOLTIP"
+		}
+		buttonType = {
+			name = "SER"
+			position = { x = 143 y = 360 }
+			spriteType = "GFX_SER_pi"
+			pdx_tooltip = "SER_TOOLTIP"
+		}
+		buttonType = {
+			name = "ICE"
+			position = { x = 143 y = 390 }
+			spriteType = "GFX_ICE_pi"
+			pdx_tooltip = "ICE_TOOLTIP"
+		}
+		buttonType = {
+			name = "UKR"
+			position = { x = 143 y = 420 }
+			spriteType = "GFX_UKR_pi"
+			pdx_tooltip = "UKR_TOOLTIP"
+		}
+		buttonType = {
+			name = "AZR"
+			position = { x = 143 y = 450 }
+			spriteType = "GFX_AZR_pi"
+			pdx_tooltip = "AZR_TOOLTIP"
+		}
+		buttonType = {
+			name = "GEO"
+			position = { x = 143 y = 480 }
+			spriteType = "GFX_GEO_pi"
+			pdx_tooltip = "GEO_TOOLTIP"
+		}
+		buttonType = {
+			name = "LAO"
+			position = { x = 143 y = 510 }
+			spriteType = "GFX_LAO_pi"
+			pdx_tooltip = "LAO_TOOLTIP"
+		}
+		buttonType = {
+			name = "INS"
+			position = { x = 143 y = 540 }
+			spriteType = "GFX_INS_pi"
+			pdx_tooltip = "INS_TOOLTIP"
+		}
+		buttonType = {
+			name = "VIN"
+			position = { x = 143 y = 570 }
+			spriteType = "GFX_VIN_pi"
+			pdx_tooltip = "VIN_TOOLTIP"
+		}
+		buttonType = {
+			name = "CAM"
+			position = { x = 143 y = 600 }
+			spriteType = "GFX_CAM_pi"
+			pdx_tooltip = "CAM_TOOLTIP"
+		}
+
+		
+		#5 ряд
+		buttonType = {
+			name = "MNT"
+			position = { x = 189 y = 60 }
+			spriteType = "GFX_MNT_pi"
+			pdx_tooltip = "MNT_TOOLTIP"
+		}
+		buttonType = {
+			name = "BLR"
+			position = { x = 189 y = 90 }
+			spriteType = "GFX_BLR_pi"
+			pdx_tooltip = "BLR_TOOLTIP"
+		}
+		buttonType = {
+			name = "MAN"
+			position = { x = 189 y = 120 }
+			spriteType = "GFX_MAN_pi"
+			pdx_tooltip = "MAN_TOOLTIP"
+		}
+		buttonType = {
+			name = "ANG"
+			position = { x = 189 y = 150 }
+			spriteType = "GFX_ANG_pi"
+			pdx_tooltip = "ANG_TOOLTIP"
+		}
+		buttonType = {
+			name = "COG"
+			position = { x = 189 y = 180 }
+			spriteType = "GFX_COG_pi"
+			pdx_tooltip = "COG_TOOLTIP"
+		}
+		buttonType = {
+			name = "MZB"
+			position = { x = 189 y = 210 }
+			spriteType = "GFX_MZB_pi"
+			pdx_tooltip = "MZB_TOOLTIP"
+		}
+		buttonType = {
+			name = "KEN"
+			position = { x = 189 y = 240 }
+			spriteType = "GFX_KEN_pi"
+			pdx_tooltip = "KEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "ZIM"
+			position = { x = 189 y = 270 }
+			spriteType = "GFX_ZIM_pi"
+			pdx_tooltip = "ZIM_TOOLTIP"
+		}
+		buttonType = {
+			name = "BOT"
+			position = { x = 189 y = 300 }
+			spriteType = "GFX_BOT_pi"
+			pdx_tooltip = "BOT_TOOLTIP"
+		}
+		buttonType = {
+			name = "PAK"
+			position = { x = 189 y = 330 }
+			spriteType = "GFX_PAK_pi"
+			pdx_tooltip = "PAK_TOOLTIP"
+		}
+		buttonType = {
+			name = "WGR"
+			position = { x = 189 y = 360 }
+			spriteType = "GFX_WGR_pi"
+			pdx_tooltip = "WGR_TOOLTIP"
+		}
+		buttonType = {
+			name = "DDR"
+			position = { x = 189 y = 390 }
+			spriteType = "GFX_DDR_pi"
+			pdx_tooltip = "DDR_TOOLTIP"
+		}
+		buttonType = {
+			name = "KOR"
+			position = { x = 189 y = 420 }
+			spriteType = "GFX_KOR_pi"
+			pdx_tooltip = "KOR_TOOLTIP"
+		}
+		buttonType = {
+			name = "TUR"
+			position = { x = 189 y = 450 }
+			spriteType = "GFX_TUR_pi"
+			pdx_tooltip = "TUR_TOOLTIP"
+		}
+		buttonType = {
+			name = "COS"
+			position = { x = 189 y = 480 }
+			spriteType = "GFX_COS_pi"
+			pdx_tooltip = "COS_TOOLTIP"
+		}
+		buttonType = {
+			name = "RAJ"
+			position = { x = 189 y = 510 }
+			spriteType = "GFX_RAJ_pi"
+			pdx_tooltip = "RAJ_TOOLTIP"
+		}
+		buttonType = {
+			name = "MAL"
+			position = { x = 189 y = 540 }
+			spriteType = "GFX_MAL_pi"
+			pdx_tooltip = "MAL_TOOLTIP"
+		}
+		
+		
+		
+		
+		
+		#flags2
+		
+		buttonType = {
+			name = "ARA_UNIFIED"
+			position = { x = 235 y = 60 }
+			spriteType = "GFX_ara_unified"
+			pdx_tooltip = "ARA_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "BAL_UNIFIED"
+			position = { x = 235 y = 90 }
+			spriteType = "GFX_bal_unified"
+			pdx_tooltip = "BAL_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "BYZ_UNIFIED"
+			position = { x = 235 y = 120 }
+			spriteType = "GFX_byz_unified"
+			pdx_tooltip = "BYZ_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "EUR_UNIFIED"
+			position = { x = 235 y = 150 }
+			spriteType = "GFX_eur_unified"
+			pdx_tooltip = "EUR_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "GCO_UNIFIED"
+			position = { x = 235 y = 180 }
+			spriteType = "GFX_gco_unified"
+			pdx_tooltip = "GCO_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "HRE_UNIFIED"
+			position = { x = 235 y = 210 }
+			spriteType = "GFX_hre_unified"
+			pdx_tooltip = "HRE_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "JAP_SHOWA_RESTORATION"
+			position = { x = 235 y = 240 }
+			spriteType = "GFX_JAP_showa_restoration"
+			pdx_tooltip = "JAP_SHOWA_RESTORATION_TOOLTIP"
+		}
+		buttonType = {
+			name = "MAJ_UNIFIED"
+			position = { x = 235 y = 270 }
+			spriteType = "GFX_maj_unified"
+			pdx_tooltip = "MAJ_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "MAN_RESTORED"
+			position = { x = 235 y = 300 }
+			spriteType = "GFX_man_restored"
+			pdx_tooltip = "MAN_RESTORED_TOOLTIP"
+		}
+		buttonType = {
+			name = "MUT_UNIFIED"
+			position = { x = 235 y = 330 }
+			spriteType = "GFX_mut_unified"
+			pdx_tooltip = "MUT_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "NDC_UNIFIED"
+			position = { x = 235 y = 360 }
+			spriteType = "GFX_ndc_unified"
+			pdx_tooltip = "NDC_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "OTT_UNIFIED"
+			position = { x = 235 y = 390 }
+			spriteType = "GFX_ott_unified"
+			pdx_tooltip = "OTT_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "PER_UNIFIED"
+			position = { x = 235 y = 420 }
+			spriteType = "GFX_per_unified"
+			pdx_tooltip = "PER_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "PLC_UNIFIED"
+			position = { x = 235 y = 450 }
+			spriteType = "GFX_plc_unified"
+			pdx_tooltip = "PLC_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "RAT_UNIFIED"
+			position = { x = 235 y = 480 }
+			spriteType = "GFX_rat_unified"
+			pdx_tooltip = "RAT_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "SCA_UNIFIED"
+			position = { x = 235 y = 510 }
+			spriteType = "GFX_sca_unified"
+			pdx_tooltip = "SCA_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "SPQR_UNIFIED"
+			position = { x = 235 y = 540 }
+			spriteType = "GFX_spqr_unified"
+			pdx_tooltip = "SPQR_UNIFIED_TOOLTIP"
+		}
+		buttonType = {
+			name = "USC_UNIFIED"
+			position = { x = 235 y = 570 }
+			spriteType = "GFX_usc_unified"
+			pdx_tooltip = "USC_UNIFIED_TOOLTIP"
+		}
+		
+		
+		
+		
+		#Кастомные цвета
+		
+		instantTextboxType = {
+			name = "pi_color_custom"
+			position = { x = 400 y = 30 }
+			font = "hoi_30header"
+			text = "pi_color_custom"
+			maxWidth = 500
+			maxHeight = 20
+			format = left
+		}
+		
+		buttonType = {
+			name = "darkred"
+			position = { x = 400 y = 60 }
+			spriteType = "GFX_darkred"
+			pdx_tooltip = "DARKRED_TOOLTIP"
+		}
+		buttonType = {
+			name = "red"
+			position = { x = 400 y = 90 }	
+			spriteType = "GFX_red"
+			pdx_tooltip = "RED_TOOLTIP"
+		}
+		buttonType = {
+			name = "tomato"
+			position = { x = 400 y = 120 }
+			spriteType = "GFX_tomato"
+			pdx_tooltip = "TOMATO_TOOLTIP"
+		}
+		buttonType = {
+			name = "orangered"
+			position = { x = 400 y = 150 }
+			spriteType = "GFX_orangered"
+			pdx_tooltip = "ORANGERED_TOOLTIP"
+		}
+		buttonType = {
+			name = "chocolate"
+			position = { x = 400 y = 180 }
+			spriteType = "GFX_chocolate"
+			pdx_tooltip = "CHOCOLATE_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkorange"
+			position = { x = 400 y = 210 }
+			spriteType = "GFX_darkorange"
+			pdx_tooltip = "DARKORANGE_TOOLTIP"
+		}
+		buttonType = {
+			name = "orange"
+			position = { x = 400 y = 240 }
+			spriteType = "GFX_orange"
+			pdx_tooltip = "ORANGE_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkgoldenrod"
+			position = { x = 400 y = 270 }
+			spriteType = "GFX_darkgoldenrod"
+			pdx_tooltip = "DARKGOLDENROD_TOOLTIP"
+		}
+		buttonType = {
+			name = "goldenrod"
+			position = { x = 400 y = 300 }
+			spriteType = "GFX_goldenrod"
+			pdx_tooltip = "GOLDENROD_TOOLTIP"
+		}
+		buttonType = {
+			name = "gold"
+			position = { x = 400 y = 330 }
+			spriteType = "GFX_gold"
+			pdx_tooltip = "GOLD_TOOLTIP"
+		}
+		buttonType = {
+			name = "olive"
+			position = { x = 400 y = 360 }
+			spriteType = "GFX_olive"
+			pdx_tooltip = "OLIVE_TOOLTIP"
+		}
+		buttonType = {
+			name = "yellow"
+			position = { x = 400 y = 390 }
+			spriteType = "GFX_yellow"
+			pdx_tooltip = "YELLOW_TOOLTIP"
+		}
+		buttonType = {
+			name = "yellowgreen"
+			position = { x = 400 y = 420 }
+			spriteType = "GFX_yellowgreen"
+			pdx_tooltip = "YELLOWGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "greenyellow"
+			position = { x = 400 y = 450 }
+			spriteType = "GFX_greenyellow"
+			pdx_tooltip = "GREENYELLOW_TOOLTIP"
+		}
+		buttonType = {
+			name = "green"
+			position = { x = 400 y = 480 }
+			spriteType = "GFX_green"
+			pdx_tooltip = "GREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "lime"
+			position = { x = 400 y = 510 }
+			spriteType = "GFX_lime"
+			pdx_tooltip = "LIME_TOOLTIP"
+		}
+		buttonType = {
+			name = "limegreen"
+			position = { x = 400 y = 540 }
+			spriteType = "GFX_limegreen"
+			pdx_tooltip = "LIMEGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "springgreen"
+			position = { x = 400 y = 570 }
+			spriteType = "GFX_springgreen"
+			pdx_tooltip = "SPRINGGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "turquoise"
+			position = { x = 400 y = 600 }
+			spriteType = "GFX_turquoise"
+			pdx_tooltip = "TURQUOISE_TOOLTIP"
+		}
+		
+		
+		#2ой ряд
+		buttonType = {
+			name = "lightseagreen"
+			position = { x = 446 y = 60 }
+			spriteType = "GFX_lightseagreen"
+			pdx_tooltip = "LIGHTSEAGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkcyan"
+			position = { x = 446 y = 90 }
+			spriteType = "GFX_darkcyan"
+			pdx_tooltip = "DARKCYAN_TOOLTIP"
+		}
+		buttonType = {
+			name = "aqua"
+			position = { x = 446 y = 120 }
+			spriteType = "GFX_aqua"
+			pdx_tooltip = "AQUA_TOOLTIP"
+		}
+		buttonType = {
+			name = "deepskyblue"
+			position = { x = 446 y = 150 }
+			spriteType = "GFX_deepskyblue"
+			pdx_tooltip = "DEEPSKYBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "dodgerblue"
+			position = { x = 446 y = 180 }
+			spriteType = "GFX_dodgerblue"
+			pdx_tooltip = "DODGERBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "royalblue"
+			position = { x = 446 y = 210 }
+			spriteType = "GFX_royalblue"
+			pdx_tooltip = "ROYALBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "navy"
+			position = { x = 446 y = 240 }
+			spriteType = "GFX_navy"
+			pdx_tooltip = "NAVY_TOOLTIP"
+		}
+		buttonType = {
+			name = "blue"
+			position = { x = 446 y = 270 }
+			spriteType = "GFX_blue"
+			pdx_tooltip = "BLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "blueviolet"
+			position = { x = 446 y = 300 }
+			spriteType = "GFX_blueviolet"
+			pdx_tooltip = "BLUEVIOLET_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkviolet"
+			position = { x = 446 y = 330 }
+			spriteType = "GFX_darkviolet"
+			pdx_tooltip = "DARKVIOLET_TOOLTIP"
+		}
+		buttonType = {
+			name = "purple"
+			position = { x = 446 y = 360 }
+			spriteType = "GFX_purple"
+			pdx_tooltip = "PURPLE_TOOLTIP"
+		}
+		buttonType = {
+			name = "magenta"
+			position = { x = 446 y = 390 }
+			spriteType = "GFX_magenta"
+			pdx_tooltip = "MAGENTA_TOOLTIP"
+		}
+		buttonType = {
+			name = "deeppink"
+			position = { x = 446 y = 420 }
+			spriteType = "GFX_deeppink"
+			pdx_tooltip = "DEEPPINK_TOOLTIP"
+		}
+		buttonType = {
+			name = "hotpink"
+			position = { x = 446 y = 450 }
+			spriteType = "GFX_hotpink"
+			pdx_tooltip = "HOTPINK_TOOLTIP"
+		}
+		buttonType = {
+			name = "crimson"
+			position = { x = 446 y = 480 }
+			spriteType = "GFX_crimson"
+			pdx_tooltip = "CRIMSON_TOOLTIP"
+		}
+		buttonType = {
+			name = "brown"
+			position = { x = 446 y = 510 }
+			spriteType = "GFX_brown"
+			pdx_tooltip = "BROWN_TOOLTIP"
+		}
+		buttonType = {
+			name = "indianred"
+			position = { x = 446 y = 540 }
+			spriteType = "GFX_indianred"
+			pdx_tooltip = "INDIANRED_TOOLTIP"
+		}
+		buttonType = {
+			name = "rosybrown"
+			position = { x = 446 y = 570 }
+			spriteType = "GFX_rosybrown"
+			pdx_tooltip = "ROSYBROWN_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightcoral"
+			position = { x = 446 y = 600 }
+			spriteType = "GFX_lightcoral"
+			pdx_tooltip = "LIGHTCORAL_TOOLTIP"
+		}
+		
+		
+		#3ий ряд
+		buttonType = {
+			name = "mistyrose"
+			position = { x = 492 y = 60 }
+			spriteType = "GFX_mistyrose"
+			pdx_tooltip = "MISTYROSE_TOOLTIP"
+		}
+		buttonType = {
+			name = "darksalmon"
+			position = { x = 492 y = 90 }
+			spriteType = "GFX_darksalmon"
+			pdx_tooltip = "DARKSALMON_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightsalmon"
+			position = { x = 492 y = 120 }
+			spriteType = "GFX_lightsalmon"
+			pdx_tooltip = "LIGHTSALMON_TOOLTIP"
+		}
+		buttonType = {
+			name = "sienna"
+			position = { x = 492 y = 150 }
+			spriteType = "GFX_sienna"
+			pdx_tooltip = "SIENNA_TOOLTIP"
+		}
+		buttonType = {
+			name = "peachpuff"
+			position = { x = 492 y = 180 }
+			spriteType = "GFX_peachpuff"
+			pdx_tooltip = "PEACHPUFF_TOOLTIP"
+		}
+		buttonType = {
+			name = "peru"
+			position = { x = 492 y = 210 }
+			spriteType = "GFX_peru"
+			pdx_tooltip = "PERU_TOOLTIP"
+		}
+		buttonType = {
+			name = "burlywood"
+			position = { x = 492 y = 240 }
+			spriteType = "GFX_burlywood"
+			pdx_tooltip = "BURLYWOOD_TOOLTIP"
+		}
+		buttonType = {
+			name = "tan"
+			position = { x = 492 y = 270 }
+			spriteType = "GFX_tan"
+			pdx_tooltip = "TAN_TOOLTIP"
+		}
+		buttonType = {
+			name = "wheat"
+			position = { x = 492 y = 300 }
+			spriteType = "GFX_wheat"
+			pdx_tooltip = "WHEAT_TOOLTIP"
+		}
+		buttonType = {
+			name = "khaki"
+			position = { x = 492 y = 330 }
+			spriteType = "GFX_khaki"
+			pdx_tooltip = "KHAKI_TOOLTIP"
+		}
+		buttonType = {
+			name = "palegoldenrod"
+			position = { x = 492 y = 360 }
+			spriteType = "GFX_palegoldenrod"
+			pdx_tooltip = "PALEGOLDENROD_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkkhaki"
+			position = { x = 492 y = 390 }
+			spriteType = "GFX_darkkhaki"
+			pdx_tooltip = "DARKKHAKI_TOOLTIP"
+		}
+		buttonType = {
+			name = "olivedrab"
+			position = { x = 492 y = 420 }
+			spriteType = "GFX_olivedrab"
+			pdx_tooltip = "OLIVEDRAB_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkolivegreen"
+			position = { x = 492 y = 450 }
+			spriteType = "GFX_darkolivegreen"
+			pdx_tooltip = "DARKOLIVEGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkseagreen"
+			position = { x = 492 y = 480 }
+			spriteType = "GFX_darkseagreen"
+			pdx_tooltip = "DARKSEAGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkgreen"
+			position = { x = 492 y = 510 }
+			spriteType = "GFX_darkgreen"
+			pdx_tooltip = "DARKGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "forestgreen"
+			position = { x = 492 y = 540 }
+			spriteType = "GFX_forestgreen"
+			pdx_tooltip = "FORESTGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightgreen"
+			position = { x = 492 y = 570 }
+			spriteType = "GFX_lightgreen"
+			pdx_tooltip = "LIGHTGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "seagreen"
+			position = { x = 492 y = 600 }
+			spriteType = "GFX_seagreen"
+			pdx_tooltip = "SEAGREEN_TOOLTIP"
+		}
+		
+		
+		#4ый ряд
+		buttonType = {
+			name = "mediumseagreen"
+			position = { x = 538 y = 60 }
+			spriteType = "GFX_mediumseagreen"
+			pdx_tooltip = "MEDIUMSEAGREEN_TOOLTIP"
+		}
+		buttonType = {
+			name = "mediumaquamarine"
+			position = { x = 538 y = 90 }
+			spriteType = "GFX_mediumaquamarine"
+			pdx_tooltip = "MEDIUMAQUAMARINE_TOOLTIP"
+		}
+		buttonType = {
+			name = "aquamarine"
+			position = { x = 538 y = 120 }
+			spriteType = "GFX_aquamarine"
+			pdx_tooltip = "AQUAMARINE_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkslategray"
+			position = { x = 538 y = 150 }
+			spriteType = "GFX_darkslategray"
+			pdx_tooltip = "DARKSLATEGRAY_TOOLTIP"
+		}
+		buttonType = {
+			name = "paleturquoise"
+			position = { x = 538 y = 180 }
+			spriteType = "GFX_paleturquoise"
+			pdx_tooltip = "PALETURQUOISE_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightcyan"
+			position = { x = 538 y = 210 }
+			spriteType = "GFX_lightcyan"
+			pdx_tooltip = "LIGHTCYAN_TOOLTIP"
+		}
+		buttonType = {
+			name = "cadetblue"
+			position = { x = 538 y = 240 }
+			spriteType = "GFX_cadetblue"
+			pdx_tooltip = "CADETBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "skyblue"
+			position = { x = 538 y = 270 }
+			spriteType = "GFX_skyblue"
+			pdx_tooltip = "SKYBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "steelblue"
+			position = { x = 538 y = 300 }
+			spriteType = "GFX_steelblue"
+			pdx_tooltip = "STEELBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "slategray"
+			position = { x = 538 y = 330 }
+			spriteType = "GFX_slategray"
+			pdx_tooltip = "SLATEGRAY_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightslategray"
+			position = { x = 538 y = 360 }
+			spriteType = "GFX_lightslategray"
+			pdx_tooltip = "LIGHTSLATEGRAY_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightsteelblue"
+			position = { x = 538 y = 390 }
+			spriteType = "GFX_lightsteelblue"
+			pdx_tooltip = "LIGHTSTEELBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "cornflowerblue"
+			position = { x = 538 y = 420 }
+			spriteType = "GFX_cornflowerblue"
+			pdx_tooltip = "CORNFLOWERBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "slateblue"
+			position = { x = 538 y = 450 }
+			spriteType = "GFX_slateblue"
+			pdx_tooltip = "SLATEBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "darkslateblue"
+			position = { x = 538 y = 480 }
+			spriteType = "GFX_darkslateblue"
+			pdx_tooltip = "DARKSLATEBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "mediumslateblue"
+			position = { x = 538 y = 510 }
+			spriteType = "GFX_mediumslateblue"
+			pdx_tooltip = "MEDIUMSLATEBLUE_TOOLTIP"
+		}
+		buttonType = {
+			name = "mediumpurple"
+			position = { x = 538 y = 540 }
+			spriteType = "GFX_mediumpurple"
+			pdx_tooltip = "MEDIUMPURPLE_TOOLTIP"
+		}
+		buttonType = {
+			name = "indigo"
+			position = { x = 538 y = 570 }
+			spriteType = "GFX_indigo"
+			pdx_tooltip = "INDIGO_TOOLTIP"
+		}
+		buttonType = {
+			name = "mediumorchid"
+			position = { x = 538 y = 600 }
+			spriteType = "GFX_mediumorchid"
+			pdx_tooltip = "MEDIUMORCHID_TOOLTIP"
+		}
+		
+		
+		#5ый ряд
+		buttonType = {
+			name = "plum"
+			position = { x = 584 y = 60 }
+			spriteType = "GFX_plum"
+			pdx_tooltip = "PLUM_TOOLTIP"
+		}
+		buttonType = {
+			name = "violet"
+			position = { x = 584 y = 90 }
+			spriteType = "GFX_violet"
+			pdx_tooltip = "VIOLET_TOOLTIP"
+		}
+		buttonType = {
+			name = "thistle"
+			position = { x = 584 y = 120 }
+			spriteType = "GFX_thistle"
+			pdx_tooltip = "THISTLE_TOOLTIP"
+		}
+		buttonType = {
+			name = "orchid"
+			position = { x = 584 y = 150 }
+			spriteType = "GFX_orchid"
+			pdx_tooltip = "ORCHID_TOOLTIP"
+		}
+		buttonType = {
+			name = "palevioletred"
+			position = { x = 584 y = 180 }
+			spriteType = "GFX_palevioletred"
+			pdx_tooltip = "PALEVIOLETRED_TOOLTIP"
+		}
+		buttonType = {
+			name = "pink"
+			position = { x = 584 y = 210 }
+			spriteType = "GFX_pink"
+			pdx_tooltip = "PINK_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightpink"
+			position = { x = 584 y = 240 }
+			spriteType = "GFX_lightpink"
+			pdx_tooltip = "LIGHTPINK_TOOLTIP"
+		}
+		buttonType = {
+			name = "black"
+			position = { x = 584 y = 270 }
+			spriteType = "GFX_black"
+			pdx_tooltip = "BLACK_TOOLTIP"
+		}
+		buttonType = {
+			name = "dimgray"
+			position = { x = 584 y = 300 }
+			spriteType = "GFX_dimgray"
+			pdx_tooltip = "DIMGRAY_TOOLTIP"
+		}
+		buttonType = {
+			name = "gray"
+			position = { x = 584 y = 330 }
+			spriteType = "GFX_gray"
+			pdx_tooltip = "GRAY_TOOLTIP"
+		}
+		buttonType = {
+			name = "garkgray"
+			position = { x = 584 y = 360 }
+			spriteType = "GFX_garkgray"
+			pdx_tooltip = "GARKGRAY_TOOLTIP"
+		}
+		buttonType = {
+			name = "silver"
+			position = { x = 584 y = 390 }
+			spriteType = "GFX_silver"
+			pdx_tooltip = "SILVER_TOOLTIP"
+		}
+		buttonType = {
+			name = "lightgrey"
+			position = { x = 584 y = 420 }
+			spriteType = "GFX_lightgrey"
+			pdx_tooltip = "LIGHTGREY_TOOLTIP"
+		}
+		buttonType = {
+			name = "white"
+			position = { x = 584 y = 450 }
+			spriteType = "GFX_white"
+			pdx_tooltip = "WHITE_TOOLTIP"
+		}
+		
+		
+		
+		#прогруз окна
+		buttonType = {
+			name = "zzzz"
+			position = { x = 650 y = 650 }	
+			spriteType = "GFX_zzzz"
+		}
+		
+		#reset
+		iconType = {
+			name = "color_back999"
+			position = { x = 5 y = 650 }
+			spriteType = "GFX_occupation_policy_button"
+		}
+		buttonType = {
+			name = "reset"
+			position = { x = 12 y = 656 }	
+			spriteType = "GFX_hold"
+			pdx_tooltip = "RESET_TOOLTIP"
+		}
+	}
+}
