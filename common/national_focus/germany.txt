@@ -2764,6 +2764,8 @@ focus_tree = {
 			1416 = { set_demilitarized_zone = no }
 			1359 = { set_demilitarized_zone = no }
 			1396 = { set_demilitarized_zone = no }
+			2282 = { set_demilitarized_zone = no }
+			2301 = { set_demilitarized_zone = no }
 
 			custom_effect_tooltip = GER_rhineland_ultimatum
 			add_political_power = 120
