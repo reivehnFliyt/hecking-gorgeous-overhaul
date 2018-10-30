@@ -163,16 +163,19 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13816;13821;sea;2887;-1;-1;-1;-1;Nevis-St Kitts
 13804;13808;sea;2887;-1;-1;-1;-1;Antigua-Barbuda
 13806;153;sea;2571;-1;-1;-1;-1;Curacao-Aruba
-13817;13806;sea;2371;-1;-1;-1;-1;Curacao-Bonaire
+13817;13806;sea;2571;-1;-1;-1;-1;Curacao-Bonaire
 10912;13823;sea;2397;-1;-1;-1;-1;Margarita-Venezuela
-13805;7968;sea;2110;-1;-1;-1;-1;Tortuga-Venezuela
+13829;4641;sea;5658;-1;-1;-1;-1;Haiti
 13809;13279;sea;5507;-1;-1;-1;-1;Virgin Islands
 4155;13809;sea;5507;-1;-1;-1;-1;Virgin Islands
 4155;13279;sea;5507;-1;-1;-1;-1;Virgin Islands
 13825;4965;sea;5840;-1;-1;-1;-1;Cozumel-Yucatan
+12446;4576;sea;4465;-1;-1;-1;-1;Sakhalin
+1399;4728;sea;5488;-1;-1;-1;-1;Kurils
 13679;4598;sea;5814;-1;-1;-1;-1;Turneffe-Belize
 13841;11859;sea;2875;-1;-1;-1;-1;Californian Islands
-873;1903;sea;3818;-1;-1;-1;-1;Nigeria-Fernando Po
+13488;4985;sea;2276;-1;-1;-1;-1;Djibouti-Yemen
+13234;1903;sea;3818;-1;-1;-1;-1;Nigeria-Fernando Po
 13635;2196;sea;5394;-1;-1;-1;-1;Zanzibar-Tanzania
 10201;4416;sea;7479;-1;-1;-1;-1;Ceylon-Raj
 11251;13822;sea;2408;-1;-1;-1;-1;Danish Islands
@@ -192,7 +195,15 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13814;12003;sea;9013;-1;-1;-1;-1;Malta
 13834;11957;sea;5631;-1;-1;-1;-1;Djerba
 1570;12499;sea;5340;-1;-1;-1;-1;Australia
-
+11833;13866;sea;5579;-1;-1;-1;-1;Elba!!!!
+13866;9851;sea;5579;-1;-1;-1;-1;we've got elba!!!
+13824;11564;sea;5786;-1;-1;-1;-1;Yugoslavia
+13835;13824;sea;5786;-1;-1;-1;-1;Yugoslavia
+13830;13825;sea;5786;-1;-1;-1;-1;Yugoslavia
+13827;591;sea;5786;-1;-1;-1;-1;Yugoslavia
+13815;13373;sea;5812;-1;-1;-1;-1;Yugoslavia
+13370;13372;sea;5838;-1;-1;-1;-1;Yugoslavia
+8038;13071;sea;2246;-1;-1;-1;-1;Canaries
 10825;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
 10825;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
