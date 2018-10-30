@@ -12,6 +12,20 @@
  CRN_neutrality_ADJ:0 "Cornish"
  CRN_communism_ADJ:0 "Cornish"
  
+ ELB_fascism:0 "Elba"
+ ELB_fascism_DEF:0 "The Fascist State of Elba"
+ ELB_democratic:0 "Elba"
+ ELB_democratic_DEF:0 "The Republic of Elba"
+ ELB_communism:0 "Elba"
+ ELB_communism_DEF:0 "The Commune of Elba"
+ ELB_neutrality:0 "Principality of Elba"
+ ELB_neutrality_DEF:0 "The Principality of Elba"
+ ELB_fascism_ADJ:0 "Elban"
+ ELB_democratic_ADJ:0 "Elban"
+ ELB_communism_ADJ:0 "Elban"
+ ELB_neutrality_ADJ:0 "Elban"
+ 
+ 
  ALG_fascism:0 "Kingdom of Algeria"
  ALG_fascism_DEF:0 "The Kingdom of Algeria"
  ALG_democratic:0 "Algeria"

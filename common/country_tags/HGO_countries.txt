@@ -179,6 +179,7 @@ PCR = "countries/Pechora.txt"
 
 ##Others##
 SZK = "countries/Szeklerland.txt"
+ELB = "countries/Elba.txt"
 
 ##City States##
 FRN = "countries/Frankfurt.txt"
