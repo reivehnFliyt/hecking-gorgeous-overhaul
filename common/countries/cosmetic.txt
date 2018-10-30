@@ -210,6 +210,7 @@ EGL = {
 BOH = {
 	color = rgb { 170 125 30 }
 	color_ui= rgb { 170 125 30 }
+<<<<<<< HEAD
 }
 
 #paint_it
@@ -580,3 +581,6 @@ BRI_SAF = {
 	color = rgb {152 130 191 }
 	color_ui = rgb { 152 130 191 }
 }
+=======
+}
+>>>>>>> parent of bf1f50d... paint it integration
