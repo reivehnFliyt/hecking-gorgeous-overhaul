@@ -93,7 +93,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13042;13043;sea;2414;-1;-1;-1;-1;;Carolines 2
 10276;7669;sea;5263;-1;-1;-1;-1;;Tiwi-Darwin
 12910;7567;sea;5771;-1;-1;-1;-1;;Adelaide-Kangaroo Island
-4526;153;sea;2571;-1;-1;-1;-1;;Curacao-Zulia
+13810;153;sea;2571;-1;-1;-1;-1;;Curacao-Paraguana
 10767;3284;sea;2597;-1;-1;-1;-1;;Miranda-Trinidad
 13012;3284;sea;2597;-1;-1;-1;-1;;Tobago-Trinidad
 11106;379;sea;5533;-1;-1;-1;-1;;Grenada-St Vincent
@@ -103,7 +103,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 177;7123;sea;5533;-1;-1;-1;-1;;Martinique-Dominica
 7123;9377;sea;5533;-1;-1;-1;-1;;Dominica-Guadeloupe
 9377;4450;sea;2887;-1;-1;-1;-1;;Guadeloupe-Montserrat
-4450;13084;sea;2887;-1;-1;-1;-1;;Montserrat-Anguilla
+13821;13811;sea;2887;-1;-1;-1;-1;;Montserrat-Anguilla
 13084;4155;sea;5507;-1;-1;-1;-1;;Anguilla-Virgin Islands
 1440;4155;sea;5507;-1;-1;-1;-1;;Puerto Rico-Virgin Islands
 10203;9805;sea;5864;-1;-1;-1;-1;;Corfu-Epirus
@@ -154,6 +154,45 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13300;13301;sea;5960;-1;-1;-1;-1;;Bengkails-Rangsang
 13298;1345;sea;5615;-1;-1;-1;-1;;Lingga Islands
 9793;7114;sea;8845;-1;-1;-1;-1;;Spanish Island
+11106;13012;sea;2597;-1;-1;-1;-1;Grenada-Tobago
+13802;7123;sea;5533;-1;-1;-1;-1;Marie-Galante-Dominica
+13802;9377;sea;5533;-1;-1;-1;-1;Marie-Galante-Guadeloupe
+13808;4450;sea;2887;-1;-1;-1;-1;Montserrat-Antigua
+4450;13816;sea;2887;-1;-1;-1;-1;Montserrat-Nevis
+9377;13808;sea;2887;-1;-1;-1;-1;Guadeloupe-Antigua
+13816;13821;sea;2887;-1;-1;-1;-1;Nevis-St Kitts
+13804;13808;sea;2887;-1;-1;-1;-1;Antigua-Barbuda
+13806;153;sea;2571;-1;-1;-1;-1;Curacao-Aruba
+13817;13806;sea;2371;-1;-1;-1;-1;Curacao-Bonaire
+10912;13823;sea;2397;-1;-1;-1;-1;Margarita-Venezuela
+13805;7968;sea;2110;-1;-1;-1;-1;Tortuga-Venezuela
+13809;13279;sea;5507;-1;-1;-1;-1;Virgin Islands
+4155;13809;sea;5507;-1;-1;-1;-1;Virgin Islands
+4155;13279;sea;5507;-1;-1;-1;-1;Virgin Islands
+13825;4965;sea;5840;-1;-1;-1;-1;Cozumel-Yucatan
+13679;4598;sea;5814;-1;-1;-1;-1;Turneffe-Belize
+13841;11859;sea;2875;-1;-1;-1;-1;Californian Islands
+873;1903;sea;3818;-1;-1;-1;-1;Nigeria-Fernando Po
+13635;2196;sea;5394;-1;-1;-1;-1;Zanzibar-Tanzania
+10201;4416;sea;7479;-1;-1;-1;-1;Ceylon-Raj
+11251;13822;sea;2408;-1;-1;-1;-1;Danish Islands
+13822;13316;sea;2408;-1;-1;-1;-1;Danish Islands Again
+13315;6364;sea;2408;-1;-1;-1;-1;Danish Islands
+13315;3325;sea;2408;-1;-1;-1;-1;Danish Islands
+3374;13316;sea;2408;-1;-1;-1;-1;Danish Islands
+13316;3305;sea;2408;-1;-1;-1;-1;Denmark
+3305;6393;sea;2408;-1;-1;-1;-1;Denmark
+13852;11331;sea;2408;-1;-1;-1;-1;Germany but for Denmark
+13852;3305;sea;2408;-1;-1;-1;-1;Denmark
+13852;13316;sea;2408;-1;-1;-1;-1;Denmark
+13822;317;sea;2408;-1;-1;-1;-1;Denmark
+13314;394;sea;2431;-1;-1;-1;-1;Denmark
+13844;9388;sea;2358;-1;-1;-1;-1;Rugen
+11278;9228;sea;1211;-1;-1;-1;-1;Aland-Sweden
+13814;12003;sea;9013;-1;-1;-1;-1;Malta
+13834;11957;sea;5631;-1;-1;-1;-1;Djerba
+1570;12499;sea;5340;-1;-1;-1;-1;Australia
+
 10825;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
 10825;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
