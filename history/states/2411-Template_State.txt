@@ -1,0 +1,16 @@
+state={
+	id=2411
+	name="STATE_2411"
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		13893
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

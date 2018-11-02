@@ -1,0 +1,16 @@
+state={
+	id=2417
+	name="STATE_2417"
+	history={
+		owner = CUB
+		buildings = {
+			infrastructure = 4
+			
+		}
+	}
+	provinces={
+		13899
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}
