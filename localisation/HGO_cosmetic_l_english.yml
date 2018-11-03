@@ -10,6 +10,11 @@
  ROM_unified_communism:0 "Great People's Republic of Romania"
  ROM_unified_communism_DEF:0 "Greater Romania"
  
+ DLM_ITA_subject:0 "Provinciae Adriaticae"
+ DLM_ITA_subject_DEF:0 "Provinciae Adriaticae"
+ DLM_ITA_subject_ADJ:0 "Adriatian"
+ 
+ ######Burma using UK instead of ENG, Is this intentional?######
  BUR_subject:0 "$OVERLORDADJ$ Burma"
  BUR_UK_subject:0 "$OVERLORDADJ$ Burma"
  BUR_UK_democratic:0 "British Burma"
